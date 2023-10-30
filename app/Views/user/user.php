@@ -27,7 +27,7 @@
                 echo session()->getFlashdata('pesan');
                 echo '</h5></div>';
             } ?>
-            <table class="table table-bordered table-responsive">
+            <table id="example1" class="table table-bordered table-responsive">
                 <thead>
                     <tr class="text-center">
                         <th width="100px">No</th>
@@ -73,7 +73,7 @@
                                     <span class="badge bg-disabled">Role Not Found</span>
                                 <?php } ?>
                             </td>
-                            <td><?= $value['tgl_lahir'] ?></td>
+                            <td><?= date('d-m-Y', strtotime($value['tgl_lahir'])); ?></td>
                             <td><?= $value['telp'] ?></td>
                             <td><?php
                                 if ($value['jenkel'] == '1') { ?>

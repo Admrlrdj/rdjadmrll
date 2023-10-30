@@ -45,9 +45,13 @@ $routes->get('/profile', 'Profile::index');
 $routes->post('/update-profile/(:num)', 'Profile::UpdateData/$1');
 
 // * User
-$routes->get('/user', 'User::Index');
+$routes->get('/user', 'User::index');
 $routes->post('/add-user', 'User::InsertData');
 $routes->post('/edit-user/(:num)', 'User::UpdateData/$1');
+$routes->get('/delete-user/(:num)', 'User::DeleteData/$1');
+
+//* World Cup 2022
+$routes->get('/wc22', 'WorldCup2022::index');
 
 /*
  * --------------------------------------------------------------------

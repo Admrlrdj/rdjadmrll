@@ -42,31 +42,7 @@
     <script src="<?= base_url('AdminLTE') ?>/plugins/datatables-buttons/js/buttons.html5.min.js"></script>
     <script src="<?= base_url('AdminLTE') ?>/plugins/datatables-buttons/js/buttons.print.min.js"></script>
     <script src="<?= base_url('AdminLTE') ?>/plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
-    <script>
-        $(function() {
-            $("#example1").DataTable({
-                "responsive": true,
-                "lengthChange": true,
-                "autoWidth": false,
-                "paging": true,
-                "searching": true,
-                "ordering": true,
-                "info": false,
-            }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
-        });
-    </script>
-    <script>
-        function closeAlert() {
-            $('.alert').fadeOut('slow');
-        }
-
-        function setupAlertTimer() {
-            setTimeout(closeAlert, 2000);
-        }
-        $(document).ready(function() {
-            setupAlertTimer();
-        });
-    </script>
+    <script src="<?= base_url('assets') ?>/js/script.js"></script>
 </head>
 
 <body class="hold-transition sidebar-mini layout-fixed">
@@ -78,6 +54,9 @@
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+                </li>
+                <li class="nav-item">
+                    <label id="jam" class="nav-link"></label>
                 </li>
             </ul>
 
@@ -140,6 +119,15 @@
                                 </a>
                             </li>
                         <?php } ?>
+                        <br>
+                        <li class="nav-item">
+                            <a href="<?= base_url('/wc22') ?>" class="nav-link <?= $menu == 'wc22' ? 'active' : '' ?>">
+                                <i class="nav-icon fas fa-trophy"></i>
+                                <p>
+                                    World Cup 2022
+                                </p>
+                            </a>
+                        </li>
                     </ul>
                 </nav>
             </div>

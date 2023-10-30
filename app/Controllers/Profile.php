@@ -37,16 +37,6 @@ class Profile extends BaseController
         ];
 
         $this->ModelUser->UpdateData($data);
-        $update = $this->ModelUser->AllData();
-        // session()->destroy();
-        // session()->set('id_user', $update['id_user']);
-        // session()->set('nama', $update['nama']);
-        // session()->set('username', $update['username']);
-        // session()->set('password', $update['password']);
-        // session()->set('role', $update['role']);
-        // session()->set('tgl_lahir', $update['tgl_lahir']);
-        // session()->set('telp', $update['telp']);
-        // session()->set('jenkel', $update['jenkel']);
         session()->setFlashdata('pesan', 'Data Berhasil Diubah!!');
         return redirect()->to('/profile');
     }

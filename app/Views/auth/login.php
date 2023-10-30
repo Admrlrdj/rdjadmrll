@@ -111,23 +111,7 @@
     <script src="<?= base_url('AdminLTE') ?>/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- AdminLTE App -->
     <script src="<?= base_url('AdminLTE') ?>/dist/js/adminlte.min.js"></script>
-
-    <script>
-        // Fungsi untuk menutup alert secara otomatis
-        function closeAlert() {
-            $('.alert').fadeOut('slow'); // Menggunakan jQuery untuk fade out alert
-        }
-
-        // Fungsi untuk memanggil closeAlert() setelah beberapa detik (misal: 5 detik)
-        function setupAlertTimer() {
-            setTimeout(closeAlert, 3000); // 5000 milidetik (5 detik)
-        }
-
-        // Panggil fungsi setupAlertTimer() saat dokumen siap (selesai di-load)
-        $(document).ready(function() {
-            setupAlertTimer();
-        });
-    </script>
+    <script src="<?= base_url('assets') ?>/js/auth.js"></script>
 </body>
 
 </html>

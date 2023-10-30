@@ -55,7 +55,7 @@
                     </a>
                 </li>
                 <li class="list-group-item">
-                    <b>Tanggal Lahir</b> <a class="float-right"><?= session()->get('tgl_lahir'); ?></a>
+                    <b>Tanggal Lahir</b> <a class="float-right"><?= date('d-m-Y', strtotime(session()->get('tgl_lahir'))); ?></a>
                 </li>
                 <li class="list-group-item">
                     <b>Jenis Kelamin</b> <a class="float-right"><?php
@@ -82,7 +82,7 @@
 
 <!-- /edit-modal -->
 <?php foreach ($profile as $key => $value) { ?>
-    <div class="modal fade" id="edit-profile<?= session()->get('id_user') ?>">
+    <div class="modal fade" id="edit-profile<?= $value['id_user'] ?>">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -123,6 +123,11 @@
                                 <option value="2" <?= session()->get('role') == '2' ? 'Selected' : '' ?> disabled>Admin</option>
                                 <option value="3" <?= session()->get('role') == '3' ? 'Selected' : '' ?>>Petugas</option>
                                 <option value="4" <?= session()->get('role') == '4' ? 'Selected' : '' ?>>Warga</option>
+                            <?php } elseif (session()->get('role') == '4') { ?>
+                                <option value="1" <?= session()->get('role') == '1' ? 'Selected' : '' ?> disabled>Owner</option>
+                                <option value="2" <?= session()->get('role') == '2' ? 'Selected' : '' ?> disabled>Admin</option>
+                                <option value="3" <?= session()->get('role') == '3' ? 'Selected' : '' ?> disabled>Petugas</option>
+                                <option value="4" <?= session()->get('role') == '4' ? 'Selected' : '' ?>>Warga</option>
                             <?php } ?>
                         </select>
                     </div>
@@ -156,12 +161,11 @@
 <?php } ?>
 
 <script>
-    // Function to toggle password visibility and icon
     function togglePasswordVisibility() {
         const passwordField = document.getElementById('password');
         const showPasswordBtn = document.getElementById('showPasswordBtn');
 
-        if (passwordField.innerHTML === '********') { // Adjust '******' to match your initial password masking
+        if (passwordField.innerHTML === '********') {
             passwordField.innerHTML = '<?= $value['password'] ?>';
             showPasswordBtn.innerHTML = '<i class="fas fa-eye"></i>';
         } else {
@@ -170,6 +174,5 @@
         }
     }
 
-    // Add an event listener to the "Show Password" button
     document.getElementById('showPasswordBtn').addEventListener('click', togglePasswordVisibility);
 </script>
