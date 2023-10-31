@@ -15,8 +15,12 @@ class User extends BaseController
     {
         $data = [
             'judul' => 'User',
+            'subjudul1' => 'User',
+            'subjudul2' => 'User',
             'title' => 'User',
             'menu' => 'user',
+            'submenu1' => 'user',
+            'submenu2' => 'user',
             'page' => 'user/user',
             'profile' => $this->ModelUser->AllData(),
             'user' => $this->ModelUser->AllData(),

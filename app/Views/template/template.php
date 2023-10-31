@@ -112,7 +112,7 @@
                         <?php if (session()->get('role') != '4') { ?>
                             <li class="nav-item">
                                 <a href="<?= base_url('/user') ?>" class="nav-link <?= $menu == 'user' ? 'active' : '' ?>">
-                                    <i class="nav-icon fas fa-solid fa-user"></i>
+                                    <i class="nav-icon fas fa-user"></i>
                                     <p>
                                         User
                                     </p>
@@ -120,13 +120,63 @@
                             </li>
                         <?php } ?>
                         <br>
-                        <li class="nav-item">
-                            <a href="<?= base_url('/wc22') ?>" class="nav-link <?= $menu == 'wc22' ? 'active' : '' ?>">
-                                <i class="nav-icon fas fa-trophy"></i>
+                        <li class="nav-item <?= $menu == 'data' ? 'menu-open' : '' ?>">
+                            <a href="#" class="nav-link <?= $menu == 'data' ? 'active' : '' ?>">
+                                <i class="nav-icon fas fa-solid fa-database"></i>
                                 <p>
-                                    World Cup 2022
+                                    Database
+                                    <i class="right fas fa-angle-left"></i>
                                 </p>
                             </a>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="<?= base_url('/country') ?>" class="nav-link <?= $submenu1 == 'country' ? 'active' : '' ?>">
+                                        <i class="nav-icon fas fa-flag"></i>
+                                        <p>Country</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="<?= base_url('/confederation') ?>" class="nav-link <?= $submenu1 == 'confederation' ? 'active' : '' ?>">
+                                        <i class="nav-icon fas fa-globe"></i>
+                                        <p>Confederation</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="<?= base_url('/group') ?>" class="nav-link <?= $submenu1 == 'group' ? 'active' : '' ?>">
+                                        <i class="nav-icon fas fa-users"></i>
+                                        <p>Group</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <br>
+                        <li class="nav-item <?= $menu == 'football' ? 'menu-open' : '' ?>">
+                            <a href="#" class="nav-link <?= $menu == 'football' ? 'active' : '' ?>">
+                                <i class="nav-icon fas fa-regular fa-futbol"></i>
+                                <p>
+                                    Football
+                                    <i class="right fas fa-angle-left"></i>
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item <?= $submenu1 == 'fifa' ? 'menu-open' : '' ?>">
+                                    <a href="#" class="nav-link <?= $submenu1 == 'fifa' ? 'active' : '' ?>">
+                                        <i class="nav-icon fas fa-circle"></i>
+                                        <p>
+                                            FIFA
+                                            <i class="right fas fa-angle-left"></i>
+                                        </p>
+                                    </a>
+                                    <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a href="<?= base_url('/wc22') ?>" class="nav-link <?= $submenu2 == 'wc22' ? 'active' : '' ?>">
+                                                <i class="nav-icon fas fa-trophy"></i>
+                                                <p>World Cup 2022</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
                 </nav>
@@ -140,7 +190,7 @@
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0"><?= $judul ?></h1>
+                            <h1 class="m-0"><?= $subjudul2 ?></h1>
                         </div><!-- /.col -->
                     </div><!-- /.row -->
                 </div><!-- /.container-fluid -->
@@ -162,6 +212,10 @@
             </div>
             <!-- /.content -->
         </div>
+
+        <a id="back-to-top" href="#" class="btn btn-primary back-to-top" role="button" aria-label="Scroll to top">
+            <i class="fas fa-chevron-up"></i>
+        </a>
         <!-- /.content-wrapper -->
 
         <footer class="main-footer">

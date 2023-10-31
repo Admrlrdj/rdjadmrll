@@ -15,8 +15,12 @@ class Profile extends BaseController
     {
         $data = [
             'judul' => 'Profile',
+            'subjudul1' => 'Profile',
+            'subjudul2' => 'Profile',
             'title' => 'Profile',
             'menu' => 'profile',
+            'submenu1' => 'profile',
+            'submenu2' => 'profile',
             'page' => 'profile/profile',
             'profile' => $this->ModelUser->AllData(),
         ];

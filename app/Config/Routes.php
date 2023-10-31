@@ -50,6 +50,24 @@ $routes->post('/add-user', 'User::InsertData');
 $routes->post('/edit-user/(:num)', 'User::UpdateData/$1');
 $routes->get('/delete-user/(:num)', 'User::DeleteData/$1');
 
+// * Country
+$routes->get('/country', 'Country::index');
+$routes->post('/add-country', 'Country::InsertData');
+$routes->post('/edit-country/(:num)', 'Country::UpdateData/$1');
+$routes->get('/delete-country/(:num)', 'Country::DeleteData/$1');
+
+// * Confederation
+$routes->get('/confederation', 'Confederation::index');
+$routes->post('/add-confederation', 'Confederation::InsertData');
+$routes->post('/edit-confederation/(:num)', 'Confederation::UpdateData/$1');
+$routes->get('/delete-confederation/(:num)', 'Confederation::DeleteData/$1');
+
+// * Group
+$routes->get('/group', 'Group::index');
+$routes->post('/add-group', 'Group::InsertData');
+$routes->post('/edit-group/(:num)', 'Group::UpdateData/$1');
+$routes->get('/delete-group/(:num)', 'Group::DeleteData/$1');
+
 //* World Cup 2022
 $routes->get('/wc22', 'WorldCup2022::index');
 

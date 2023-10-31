@@ -9,19 +9,23 @@ class WorldCup2022 extends BaseController
 {
     public function __construct()
     {
-        $this->ModelWC22 = new ModelWC22;
         $this->ModelUser = new ModelUser;
+        $this->ModelWC22 = new ModelWC22;
     }
 
     public function index()
     {
         $data = [
-            'judul' => 'World Cup 2022',
-            'title' => 'World Cup 2022',
-            'menu' => 'wc22',
-            'page' => 'football/wc22',
+            'judul' => 'Football',
+            'subjudul1' => 'FIFA',
+            'subjudul2' => 'FIFA World Cup 2022',
+            'title' => 'FIFA World Cup 2022',
+            'menu' => 'football',
+            'submenu1' => 'fifa',
+            'submenu2' => 'wc22',
+            'page' => 'football/fifa/wc22',
             'profile' => $this->ModelUser->AllData(),
-            'wc22' => $this->ModelWC22->AllData(),
+            // 'wc22' => $this->ModelWC22->AllData(),
 
         ];
         return view('template/template', $data);
