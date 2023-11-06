@@ -1,0 +1,1932 @@
+WARNING - 2023-11-06 04:06:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$ModelAuth is deprecated in APPPATH\Controllers\Auth.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 04:06:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 04:06:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$ModelAuth is deprecated in APPPATH\Controllers\Auth.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 04:06:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 04:06:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Profile::$ModelUser is deprecated in APPPATH\Controllers\Profile.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Profile->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 04:06:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 04:06:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 04:06:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 04:06:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 04:06:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 04:06:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 04:06:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 04:07:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 04:07:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 04:07:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 04:07:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 04:07:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 04:07:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 04:07:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 04:07:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 04:07:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 04:07:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 04:07:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 04:07:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 04:07:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 04:07:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 04:07:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 04:07:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 04:07:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 04:07:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 04:37:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 04:37:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 04:37:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 04:37:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 04:37:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 04:37:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 04:37:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 04:37:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 04:37:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 04:37:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 04:37:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 04:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 04:38:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 04:38:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 04:38:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 04:38:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 04:38:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 04:38:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 04:38:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 04:38:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 04:38:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 04:38:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 04:38:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 04:38:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 04:39:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 04:39:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 04:39:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 04:39:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 04:39:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 04:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 04:39:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 04:39:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 04:39:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 04:39:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 04:39:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 04:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 04:41:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Club::$ModelUser is deprecated in APPPATH\Controllers\Club.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Club->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 04:41:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Club::$ModelCountry is deprecated in APPPATH\Controllers\Club.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Club->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 04:41:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Club::$ModelClub is deprecated in APPPATH\Controllers\Club.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Club->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 04:41:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Club::$ModelConfederation is deprecated in APPPATH\Controllers\Club.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Club->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 04:41:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 04:41:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Country::$ModelUser is deprecated in APPPATH\Controllers\Country.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Country->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 04:41:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Country::$ModelCountry is deprecated in APPPATH\Controllers\Country.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Country->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 04:41:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Country::$ModelConfederation is deprecated in APPPATH\Controllers\Country.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Country->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 04:41:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 04:41:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Confederation::$ModelUser is deprecated in APPPATH\Controllers\Confederation.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Confederation->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 04:41:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Confederation::$ModelConfederation is deprecated in APPPATH\Controllers\Confederation.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Confederation->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 04:41:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 06:05:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$ModelAuth is deprecated in APPPATH\Controllers\Auth.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 06:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 06:05:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$ModelAuth is deprecated in APPPATH\Controllers\Auth.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 06:05:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 06:05:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Profile::$ModelUser is deprecated in APPPATH\Controllers\Profile.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Profile->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 06:05:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 06:06:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:06:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:06:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:06:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:06:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 06:06:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 06:10:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:10:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:10:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:10:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:10:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 06:10:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 06:14:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:14:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:14:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:14:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:14:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 06:14:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 06:14:27 --> Array to string conversion
+in APPPATH\Views\football\fifa\wc22.php on line 120.
+ 1 APPPATH\Views\football\fifa\wc22.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\football\\fifa\\wc22.php', 120)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\football\\fifa\\wc22.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('football/fifa/wc22', [], true)
+ 5 APPPATH\Views\template\template.php(246): view('football/fifa/wc22')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\template\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('template/template', [], true)
+ 9 APPPATH\Controllers\WorldCup2022.php(40): view('template/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\WorldCup2022->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorldCup2022))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:15:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:15:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:15:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:15:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:15:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 06:15:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 06:15:29 --> Array to string conversion
+in APPPATH\Views\football\fifa\wc22.php on line 121.
+ 1 APPPATH\Views\football\fifa\wc22.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\football\\fifa\\wc22.php', 121)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\football\\fifa\\wc22.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('football/fifa/wc22', [], true)
+ 5 APPPATH\Views\template\template.php(246): view('football/fifa/wc22')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\template\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('template/template', [], true)
+ 9 APPPATH\Controllers\WorldCup2022.php(40): view('template/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\WorldCup2022->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorldCup2022))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:15:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:15:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:15:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:15:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:15:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 06:15:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 06:15:30 --> Array to string conversion
+in APPPATH\Views\football\fifa\wc22.php on line 121.
+ 1 APPPATH\Views\football\fifa\wc22.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\football\\fifa\\wc22.php', 121)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\football\\fifa\\wc22.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('football/fifa/wc22', [], true)
+ 5 APPPATH\Views\template\template.php(246): view('football/fifa/wc22')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\template\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('template/template', [], true)
+ 9 APPPATH\Controllers\WorldCup2022.php(40): view('template/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\WorldCup2022->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorldCup2022))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:15:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:15:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:15:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:15:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:15:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 06:15:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 06:15:31 --> Array to string conversion
+in APPPATH\Views\football\fifa\wc22.php on line 121.
+ 1 APPPATH\Views\football\fifa\wc22.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\football\\fifa\\wc22.php', 121)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\football\\fifa\\wc22.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('football/fifa/wc22', [], true)
+ 5 APPPATH\Views\template\template.php(246): view('football/fifa/wc22')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\template\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('template/template', [], true)
+ 9 APPPATH\Controllers\WorldCup2022.php(40): view('template/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\WorldCup2022->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorldCup2022))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:15:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:15:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:15:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:15:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:15:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 06:15:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 06:16:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:16:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:16:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:16:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:16:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 06:16:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 06:16:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:16:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:16:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:16:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:16:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 06:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 06:24:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:24:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:24:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:24:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:24:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 06:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 06:25:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:25:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:25:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:25:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:25:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 06:25:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 06:26:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:26:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:26:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:26:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:26:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 06:26:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 06:26:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:26:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:26:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:26:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:26:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 06:26:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 06:26:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:26:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:26:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:26:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:26:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 06:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 06:33:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:33:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:33:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:33:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:33:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 06:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 06:34:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\ChampionsLeague2324::$ModelUser is deprecated in APPPATH\Controllers\ChampionsLeague2324.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ChampionsLeague2324->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:34:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\ChampionsLeague2324::$ModelCL2324 is deprecated in APPPATH\Controllers\ChampionsLeague2324.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ChampionsLeague2324->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:34:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\ChampionsLeague2324::$ModelCountry is deprecated in APPPATH\Controllers\ChampionsLeague2324.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ChampionsLeague2324->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:34:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\ChampionsLeague2324::$ModelConfederation is deprecated in APPPATH\Controllers\ChampionsLeague2324.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ChampionsLeague2324->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:34:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\ChampionsLeague2324::$ModelGroup is deprecated in APPPATH\Controllers\ChampionsLeague2324.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ChampionsLeague2324->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:34:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\ChampionsLeague2324::$ModelWC22 is deprecated in APPPATH\Controllers\ChampionsLeague2324.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ChampionsLeague2324->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 06:34:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 06:34:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:34:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:34:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:34:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:34:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 06:34:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 06:35:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:35:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:35:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:35:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:35:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 06:35:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 06:37:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:37:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:37:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:37:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:37:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 06:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 06:39:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:39:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:39:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:39:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:39:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 06:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 06:39:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:39:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:39:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:39:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:39:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 06:39:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 06:39:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:39:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:39:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:39:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:39:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 06:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 06:57:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:57:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:57:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:57:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 06:57:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 06:57:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 07:03:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:03:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:03:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:03:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:03:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:03:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:03:02 --> Cannot access offset of type string on string
+in APPPATH\Views\football\fifa\wc22.php on line 248.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('football/fifa/wc22', [], true)
+ 4 APPPATH\Views\template\template.php(246): view('football/fifa/wc22')
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\template\\template.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('template/template', [], true)
+ 8 APPPATH\Controllers\WorldCup2022.php(40): view('template/template', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\WorldCup2022->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorldCup2022))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:04:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:04:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:04:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:04:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:04:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:04:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:04:41 --> Cannot access offset of type string on string
+in APPPATH\Views\football\fifa\wc22.php on line 249.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('football/fifa/wc22', [], true)
+ 4 APPPATH\Views\template\template.php(246): view('football/fifa/wc22')
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\template\\template.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('template/template', [], true)
+ 8 APPPATH\Controllers\WorldCup2022.php(40): view('template/template', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\WorldCup2022->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorldCup2022))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:04:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:04:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:04:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:04:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:04:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:04:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:04:41 --> Cannot access offset of type string on string
+in APPPATH\Views\football\fifa\wc22.php on line 249.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('football/fifa/wc22', [], true)
+ 4 APPPATH\Views\template\template.php(246): view('football/fifa/wc22')
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\template\\template.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('template/template', [], true)
+ 8 APPPATH\Controllers\WorldCup2022.php(40): view('template/template', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\WorldCup2022->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorldCup2022))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:04:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:04:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:04:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:04:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:04:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:04:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:04:42 --> Cannot access offset of type string on string
+in APPPATH\Views\football\fifa\wc22.php on line 249.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('football/fifa/wc22', [], true)
+ 4 APPPATH\Views\template\template.php(246): view('football/fifa/wc22')
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\template\\template.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('template/template', [], true)
+ 8 APPPATH\Controllers\WorldCup2022.php(40): view('template/template', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\WorldCup2022->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorldCup2022))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:04:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:04:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:04:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:04:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:04:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:04:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:04:42 --> Cannot access offset of type string on string
+in APPPATH\Views\football\fifa\wc22.php on line 249.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('football/fifa/wc22', [], true)
+ 4 APPPATH\Views\template\template.php(246): view('football/fifa/wc22')
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\template\\template.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('template/template', [], true)
+ 8 APPPATH\Controllers\WorldCup2022.php(40): view('template/template', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\WorldCup2022->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorldCup2022))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:04:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:04:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:04:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:04:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:04:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:04:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:04:42 --> Cannot access offset of type string on string
+in APPPATH\Views\football\fifa\wc22.php on line 249.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('football/fifa/wc22', [], true)
+ 4 APPPATH\Views\template\template.php(246): view('football/fifa/wc22')
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\template\\template.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('template/template', [], true)
+ 8 APPPATH\Controllers\WorldCup2022.php(40): view('template/template', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\WorldCup2022->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorldCup2022))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:04:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:04:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:04:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:04:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:04:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:04:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:04:42 --> Cannot access offset of type string on string
+in APPPATH\Views\football\fifa\wc22.php on line 249.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('football/fifa/wc22', [], true)
+ 4 APPPATH\Views\template\template.php(246): view('football/fifa/wc22')
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\template\\template.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('template/template', [], true)
+ 8 APPPATH\Controllers\WorldCup2022.php(40): view('template/template', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\WorldCup2022->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorldCup2022))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:05:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:05:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:05:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:05:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:05:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:05:53 --> Cannot access offset of type string on string
+in APPPATH\Views\football\fifa\wc22.php on line 248.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('football/fifa/wc22', [], true)
+ 4 APPPATH\Views\template\template.php(246): view('football/fifa/wc22')
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\template\\template.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('template/template', [], true)
+ 8 APPPATH\Controllers\WorldCup2022.php(40): view('template/template', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\WorldCup2022->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorldCup2022))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:06:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:06:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:06:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:06:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:06:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:06:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:06:06 --> Cannot access offset of type string on string
+in APPPATH\Views\football\fifa\wc22.php on line 248.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('football/fifa/wc22', [], true)
+ 4 APPPATH\Views\template\template.php(246): view('football/fifa/wc22')
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\template\\template.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('template/template', [], true)
+ 8 APPPATH\Controllers\WorldCup2022.php(40): view('template/template', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\WorldCup2022->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorldCup2022))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:06:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:06:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:06:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:06:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:06:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:06:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 07:29:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:29:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:29:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:29:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:29:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 07:30:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:30:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:30:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:30:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:30:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:30:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 07:30:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:30:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:30:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:30:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:30:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:30:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 07:31:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:31:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:31:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:31:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:31:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:31:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 07:31:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\ChampionsLeague2324::$ModelUser is deprecated in APPPATH\Controllers\ChampionsLeague2324.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ChampionsLeague2324->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:31:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\ChampionsLeague2324::$ModelCL2324 is deprecated in APPPATH\Controllers\ChampionsLeague2324.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ChampionsLeague2324->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:31:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\ChampionsLeague2324::$ModelCountry is deprecated in APPPATH\Controllers\ChampionsLeague2324.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ChampionsLeague2324->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:31:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\ChampionsLeague2324::$ModelConfederation is deprecated in APPPATH\Controllers\ChampionsLeague2324.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ChampionsLeague2324->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:31:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\ChampionsLeague2324::$ModelGroup is deprecated in APPPATH\Controllers\ChampionsLeague2324.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ChampionsLeague2324->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:31:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\ChampionsLeague2324::$ModelWC22 is deprecated in APPPATH\Controllers\ChampionsLeague2324.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ChampionsLeague2324->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 07:31:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:31:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:31:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:31:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:31:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:31:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 07:43:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:43:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:43:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:43:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:43:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:43:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 07:44:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:44:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:44:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:44:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:44:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:44:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 07:45:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:45:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:45:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:45:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:45:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:45:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:45:16 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH\Views\football\fifa\wc22.php on line 281.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('football/fifa/wc22', [], true)
+ 4 APPPATH\Views\template\template.php(246): view('football/fifa/wc22')
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\template\\template.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('template/template', [], true)
+ 8 APPPATH\Controllers\WorldCup2022.php(40): view('template/template', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\WorldCup2022->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorldCup2022))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:45:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:45:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:45:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:45:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:45:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:45:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 07:46:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:46:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:46:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:46:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:46:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 07:57:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:57:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:57:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:57:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:57:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:57:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 07:58:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:58:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:58:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:58:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 07:58:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:58:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 08:03:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 08:03:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 08:03:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 08:03:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 08:03:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 08:03:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 08:04:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 08:04:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 08:04:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 08:04:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 08:04:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 08:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 08:23:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 08:23:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 08:23:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 08:23:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 08:23:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 08:23:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 08:23:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 08:23:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 08:23:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 08:23:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 08:23:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 08:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 08:24:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 08:24:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 08:24:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 08:24:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 08:24:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 08:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 08:24:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 08:24:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 08:24:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 08:24:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 08:24:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 08:24:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-06 08:26:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup2022.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 08:26:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup2022.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 08:26:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 08:26:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-06 08:26:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 08:26:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
