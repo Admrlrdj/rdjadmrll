@@ -256,6 +256,8 @@
                     <!-- /.modal -->
                 <?php } ?>
             </div>
+
+
             <div class="tab-pane fade" id="custom-tabs-one-knockouts" role="tabpanel" aria-labelledby="custom-tabs-one-knockouts-tab">
                 <?php $knockouts = ['16', '8', '4', '2']; ?>
                 <?php
@@ -290,26 +292,20 @@
                 }
                 ?>
                 <div class="row">
-                    <?php for ($i = 0; $i < count($ro16Pairings); $i += 2) { ?>
-                        <div class="col-md-12">
-                            <div class="card card-primary">
-                                <div class="card-header">
-                                    <h3 class="card-title"><?php echo $ro16Pairings[$i]; ?></h3>
-                                </div>
-                                <div class="card-body">
-                                    <table class="table table-bordered">
-                                        <tbody>
-                                            <tr class="text-center">
-                                                <td><?php echo $ro16Pairings[$i + 1]; ?></td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                    <?php } ?>
+                    <div class="col-md-12">
+                        <table class="table table-bordered">
+                            <tbody>
+                                <?php for ($i = 0; $i < count($ro16Pairings); $i += 2) { ?>
+                                    <tr class="text-center">
+                                        <td><?php echo $ro16Pairings[$i + 1]; ?></td>
+                                    </tr>
+                                <?php } ?>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
+
         </div>
     </div>
 </div>
