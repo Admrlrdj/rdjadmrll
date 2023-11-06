@@ -20,7 +20,7 @@ class Group extends BaseController
             'subjudul1' => 'Football Database',
             'subjudul2' => 'Group',
             'title' => 'Group',
-            'menu' => 'menu',
+            'menu' => 'data',
             'submenu1' => 'group',
             'submenu2' => 'group',
             'page' => 'football/database/group',

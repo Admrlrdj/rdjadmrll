@@ -6,35 +6,38 @@ use App\Models\ModelConfederation;
 use App\Models\ModelCountry;
 use App\Models\ModelGroup;
 use App\Models\ModelUser;
+use App\Models\ModelCL2324;
 use App\Models\ModelWC22;
 
-class WorldCup2022 extends BaseController
+class ChampionsLeague2324 extends BaseController
 {
     public function __construct()
     {
         $this->ModelUser = new ModelUser;
-        $this->ModelWC22 = new ModelWC22;
+        $this->ModelCL2324 = new ModelCL2324;
         $this->ModelCountry = new ModelCountry;
         $this->ModelConfederation = new ModelConfederation;
         $this->ModelGroup = new ModelGroup;
+        $this->ModelWC22 = new ModelWC22;
     }
 
     public function index()
     {
         $data = [
             'judul' => 'Football',
-            'subjudul1' => 'FIFA',
-            'subjudul2' => 'FIFA World Cup 2022',
-            'title' => 'FIFA World Cup 2022',
+            'subjudul1' => 'UEFA',
+            'subjudul2' => 'UEFA Champions League 2023/2024',
+            'title' => 'UEFA Champions League 2023/2024',
             'menu' => 'football',
-            'submenu1' => 'fifa',
-            'submenu2' => 'wc22',
-            'page' => 'football/fifa/wc22',
+            'submenu1' => 'uefa',
+            'submenu2' => 'cl2324',
+            'page' => 'football/uefa/cl2324',
             'profile' => $this->ModelUser->AllData(),
-            'wc22' => $this->ModelWC22->AllData(),
+            'cl2324' => $this->ModelCL2324->AllData(),
             'country' => $this->ModelCountry->AllData(),
             'confederation' => $this->ModelConfederation->AllData(),
             'grup' => $this->ModelGroup->AllData(),
+            'wc22' => $this->ModelWC22->AllData(),
 
         ];
         return view('template/template', $data);

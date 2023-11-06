@@ -2,6 +2,7 @@
 
 namespace App\Controllers;
 
+use App\Models\ModelConfederation;
 use App\Models\ModelUser;
 use App\Models\ModelCountry;
 
@@ -11,6 +12,7 @@ class Country extends BaseController
     {
         $this->ModelUser = new ModelUser;
         $this->ModelCountry = new ModelCountry;
+        $this->ModelConfederation = new ModelConfederation;
     }
 
     public function index()
@@ -26,6 +28,7 @@ class Country extends BaseController
             'page' => 'football/database/country',
             'profile' => $this->ModelUser->AllData(),
             'country' => $this->ModelCountry->AllData(),
+            'confederation' => $this->ModelConfederation->AllData(),
 
         ];
         return view('template/template', $data);
@@ -36,6 +39,7 @@ class Country extends BaseController
         $data = [
             'name_country' => $this->request->getPost('name_country'),
             'code_country' => $this->request->getPost('code_country'),
+            'id_confederation' => $this->request->getPost('id_confederation'),
         ];
         $this->ModelCountry->InsertData($data);
         session()->setFlashdata('pesan', 'Tambah Negara Berhasil');
@@ -48,6 +52,7 @@ class Country extends BaseController
             'id_country' => $id_country,
             'name_country' => $this->request->getPost('name_country'),
             'code_country' => $this->request->getPost('code_country'),
+            'id_confederation' => $this->request->getPost('id_confederation'),
         ];
         $this->ModelCountry->UpdateData($data);
         session()->setFlashdata('pesan', 'Edit Negara Berhasil');

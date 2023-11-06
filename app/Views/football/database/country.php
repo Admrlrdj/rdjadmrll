@@ -33,6 +33,7 @@
                         <th>No</th>
                         <th>Nama Negara</th>
                         <th>Code Negara</th>
+                        <th>Konfederasi</th>
                         <th>Aksi</th>
                     </tr>
                 </thead>
@@ -43,6 +44,7 @@
                             <td><?= $no++ ?></td>
                             <td><?= $value['name_country'] ?></td>
                             <td><?= $value['code_country'] ?></td>
+                            <td><?= $value['code_confederation'] ?></td>
                             <td>
                                 <button class="btn btn-warning btn-sm btn-flat" data-toggle="modal" data-target="#edit-country<?= $value['id_country'] ?>"><i class="fas fa-pencil-alt"></i></button>
                                 <button class="btn btn-danger btn-sm btn-flat" data-toggle="modal" data-target="#delete-country<?= $value['id_country'] ?>"><i class="fas fa-trash"></i></button>
@@ -77,6 +79,15 @@
                     <label for="">Code Negara</label>
                     <input name="code_country" class="form-control" placeholder="Masukkan Code Negara" required>
                 </div>
+                <div class="form-group">
+                    <label for="">Konfederasi</label>
+                    <select name="id_confederation" class="form-control">
+                        <option value=""> ---Pilih Konfederasi--- </option>
+                        <?php foreach ($confederation as $key => $value) { ?>
+                            <option value="<?= $value['id_confederation'] ?>"><?= $value['code_confederation'] ?></option>
+                        <?php } ?>
+                    </select>
+                </div>
             </div>
             <div class="modal-footer justify-content-between">
                 <button type="button" class="btn btn-default btn-flat" data-dismiss="modal">Close</button>
@@ -110,6 +121,15 @@
                     <div class="form-group">
                         <label for="">Code Negara</label>
                         <input name="code_country" class="form-control" value="<?= $value['code_country'] ?>" placeholder="Masukkan Code Negara" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Konfederasi</label>
+                        <select name="id_confederation" class="form-control">
+                            <option value=""> ---Pilih Konfederasi--- </option>
+                            <?php foreach ($confederation as $key => $c) { ?>
+                                <option value="<?= $c['id_confederation'] ?>" <?= $value['id_confederation'] == $c['id_confederation'] ? 'Selected' : '' ?>><?= $c['code_confederation'] ?></option>
+                            <?php } ?>
+                        </select>
                     </div>
                 </div>
                 <div class="modal-footer justify-content-between">

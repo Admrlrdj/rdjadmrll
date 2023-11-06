@@ -10,6 +10,14 @@ class ModelCountry extends Model
     public function AllData()
     {
         $db = $this->db->table('country');
+        $db->select('country.id_country');
+        $db->select('country.name_country');
+        $db->select('country.code_country');
+        $db->select('country.id_confederation');
+        $db->select('confederation.id_confederation');
+        $db->select('confederation.name_confederation');
+        $db->select('confederation.code_confederation');
+        $db->join('confederation', 'confederation.id_confederation = country.id_confederation', 'left');
         return $db->get()->getResultArray();
     }
     public function InsertData($data)

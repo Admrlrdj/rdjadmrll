@@ -85,8 +85,8 @@
                                                                 <td><?= $value['points'] ?></td>
                                                                 <?php if (session()->get('role') != '4') { ?>
                                                                     <td>
-                                                                        <button class="btn btn-warning btn-sm btn-flat" data-toggle="modal" data-target="#edit-wc2<?= $value['id_wc22'] ?>"><i class="fas fa-pencil-alt"></i></button>
-                                                                        <button class="btn btn-danger btn-sm btn-flat " data-toggle="modal" data-target="#delete-wc22<?= $value['id_wc22'] ?>"><i class="fas fa-trash"></i></button>
+                                                                        <button class="btn btn-warning btn-sm btn-flat" data-toggle="modal" data-target="#edit-wc22<?= $value['id_wc22'] ?>"><i class="fas fa-pencil-alt"></i></button>
+                                                                        <button class="btn btn-danger btn-sm btn-flat" data-toggle="modal" data-target="#delete-wc22<?= $value['id_wc22'] ?>"><i class="fas fa-trash"></i></button>
                                                                     </td>
                                                                 <?php } ?>
                                                             </tr>
@@ -101,10 +101,90 @@
                         </div>
                     </div>
                     <div class="tab-pane fade show active" id="custom-tabs-one-knockout" role="tabpanel" aria-labelledby="custom-tabs-one-group-tab">
+                        <?php $groups = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']; ?>
+                        <?php if (session()->get('role') != '4') {
+                            $canAddCountry = false;
+
+                            foreach ($groups as $group) {
+                                $countInGroup = 0;
+                                foreach ($wc22 as $key => $value) {
+                                    if ($value['code_group'] === $group) {
+                                        $countInGroup++;
+                                    }
+                                }
+
+                                if ($countInGroup < 4) {
+                                    $canAddCountry = true;
+                                    break;
+                                }
+                            }
+
+                            if ($canAddCountry) { ?>
+                                <div class="card-tools">
+                                    <button class="btn btn-warning btn-sm btn-flat" data-toggle="modal" data-target="#add-country"><i class="fas fa-plus"></i></button>
+                                </div>
+                            <?php } ?>
+                        <?php } ?>
                         <div class="row">
-                            <div class="col-md-6">
-                                s
-                            </div>
+                            <?php usort($wc22, function ($a, $b) {
+                                return $b['points'] - $a['points'];
+                            }); ?>
+
+                            <?php foreach ($groups as $group) { ?>
+                                <div class="col-md-6">
+                                    <div class="card card-primary">
+                                        <div class="card-header">
+                                            <h3 class="card-title">Group <?= $group ?></h3>
+                                        </div>
+                                        <div class="card-body">
+                                            <table id="example2" class="table table-bordered table-responsive">
+                                                <thead>
+                                                    <tr class="text-center">
+                                                        <th>No</th>
+                                                        <th width="300px">Tim</th>
+                                                        <th>M</th>
+                                                        <th>M</th>
+                                                        <th>S</th>
+                                                        <th>K</th>
+                                                        <th>GM</th>
+                                                        <th>GK</th>
+                                                        <th>SG</th>
+                                                        <th>Poin</th>
+                                                        <?php if (session()->get('role') != '4') { ?>
+                                                            <th width="150px">Aksi</th>
+                                                        <?php } ?>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <?php $no = 1; ?>
+                                                    <?php foreach ($wc22 as $key => $value) { ?>
+                                                        <?php if ($value['code_group'] === $group) { ?>
+                                                            <tr class="text-center">
+                                                                <td><?= $no++ ?></td>
+                                                                <td><?= $value['name_country'] ?></td>
+                                                                <td><?= $value['play'] ?></td>
+                                                                <td><?= $value['win'] ?></td>
+                                                                <td><?= $value['draw'] ?></td>
+                                                                <td><?= $value['lose'] ?></td>
+                                                                <td><?= $value['goal_in'] ?></td>
+                                                                <td><?= $value['goal_out'] ?></td>
+                                                                <td><?= $value['goal_diff'] ?></td>
+                                                                <td><?= $value['points'] ?></td>
+                                                                <?php if (session()->get('role') != '4') { ?>
+                                                                    <td>
+                                                                        <button class="btn btn-warning btn-sm btn-flat" data-toggle="modal" data-target="#edit-wc22<?= $value['id_wc22'] ?>"><i class="fas fa-pencil-alt"></i></button>
+                                                                        <button class="btn btn-danger btn-sm btn-flat" data-toggle="modal" data-target="#delete-wc22<?= $value['id_wc22'] ?>"><i class="fas fa-trash"></i></button>
+                                                                    </td>
+                                                                <?php } ?>
+                                                            </tr>
+                                                        <?php } ?>
+                                                    <?php } ?>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            <?php } ?>
                         </div>
                     </div>
                 </div>
@@ -191,7 +271,7 @@
                             <?php } ?>
                         </select>
                     </div>
-                    <div>
+                    <div class "form-group">
                         <label for="">Grup</label>
                         <select name="id_group" class="form-control">
                             <option value=""> ---Pilih Grup--- </option>

@@ -56,6 +56,12 @@ $routes->post('/add-country', 'Country::InsertData');
 $routes->post('/edit-country/(:num)', 'Country::UpdateData/$1');
 $routes->get('/delete-country/(:num)', 'Country::DeleteData/$1');
 
+// * Club
+$routes->get('/club', 'Club::index');
+$routes->post('/add-club', 'Club::InsertData');
+$routes->post('/edit-club/(:num)', 'Club::UpdateData/$1');
+$routes->get('/delete-club/(:num)', 'Club::DeleteData/$1');
+
 // * Confederation
 $routes->get('/confederation', 'Confederation::index');
 $routes->post('/add-confederation', 'Confederation::InsertData');
@@ -70,6 +76,12 @@ $routes->get('/delete-group/(:num)', 'Group::DeleteData/$1');
 
 //* World Cup 2022
 $routes->get('/wc22', 'WorldCup2022::index');
+$routes->post('/add-wc22', 'WorldCup2022::InsertData');
+$routes->post('/edit-wc22/(:num)', 'WorldCup2022::UpdateData/$1');
+$routes->get('/delete-wc22/(:num)', 'WorldCup2022::DeleteData/$1');
+
+// * Champions League 2023/2024
+$routes->get('/cl2324', 'ChampionsLeague2324::index');
 
 /*
  * --------------------------------------------------------------------
