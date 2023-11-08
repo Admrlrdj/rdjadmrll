@@ -74,6 +74,30 @@ $routes->post('/add-group', 'Group::InsertData');
 $routes->post('/edit-group/(:num)', 'Group::UpdateData/$1');
 $routes->get('/delete-group/(:num)', 'Group::DeleteData/$1');
 
+// * RO16
+$routes->get('/knockout', 'Knockout::index');
+$routes->post('/add-ro16', 'Knockout::InsertRO16');
+$routes->post('/edit-ro16/(:num)', 'Knockout::UpdateRO16/$1');
+$routes->get('/delete-ro16/(:num)', 'Knockout::DeleteRO16/$1');
+
+// * QF
+$routes->get('/knockout', 'Knockout::index');
+$routes->post('/add-qf', 'Knockout::InsertQF');
+$routes->post('/edit-qf/(:num)', 'Knockout::UpdateQF/$1');
+$routes->get('/delete-qf/(:num)', 'Knockout::DeleteQF/$1');
+
+// * SF
+$routes->get('/knockout', 'Knockout::index');
+$routes->post('/add-sf', 'Knockout::InsertSF');
+$routes->post('/edit-sf/(:num)', 'Knockout::UpdateSF/$1');
+$routes->get('/delete-sf/(:num)', 'Knockout::DeleteSF/$1');
+
+// * Final
+$routes->get('/knockout', 'Knockout::index');
+$routes->post('/add-final', 'Knockout::InsertFinal');
+$routes->post('/edit-final/(:num)', 'Knockout::UpdateFinal/$1');
+$routes->get('/delete-final/(:num)', 'Knockout::DeleteFinal/$1');
+
 //* World Cup 2022
 $routes->get('/wc22', 'WorldCup2022::index');
 $routes->post('/add-wc22', 'WorldCup2022::InsertData');

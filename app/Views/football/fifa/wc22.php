@@ -36,6 +36,26 @@
                         </div>
                     <?php } ?>
                 <?php } ?>
+                <?php
+                // Pertama, urutkan tim berdasarkan jumlah poin (seperti yang telah Anda lakukan)
+                usort($wc22, function ($a, $b) {
+                    $pointsDiff = $b['points'] - $a['points'];
+                    if ($pointsDiff !== 0) {
+                        return $pointsDiff;
+                    }
+
+                    // Jika poin sama, urutkan berdasarkan selisih gol
+                    $goalDiffDiff = $b['goal_diff'] - $a['goal_diff'];
+
+                    // Jika selisih gol juga sama, urutkan berdasarkan gol yang dicetak (Goal For)
+                    if ($goalDiffDiff !== 0) {
+                        return $goalDiffDiff;
+                    }
+
+                    // Jika selisih gol dan gol masuk sama, urutkan berdasarkan gol masuk terbanyak
+                    return $b['goal_in'] - $a['goal_in'];
+                });
+                ?>
                 <div class="row">
                     <?php usort($wc22, function ($a, $b) {
                         return $b['points'] - $a['points'];
@@ -52,7 +72,11 @@
                                         <thead>
                                             <tr class="text-center">
                                                 <th>No</th>
-                                                <th width="300px">Tim</th>
+                                                <?php if (session()->get('role') != '4') { ?>
+                                                    <th width="300px">Tim</th>
+                                                <?php } elseif (session()->get('role') == '4') { ?>
+                                                    <th width="400px">Poin</th>
+                                                <?php } ?>
                                                 <th>M</th>
                                                 <th>M</th>
                                                 <th>S</th>
@@ -256,56 +280,6 @@
                     <!-- /.modal -->
                 <?php } ?>
             </div>
-
-
-            <div class="tab-pane fade" id="custom-tabs-one-knockouts" role="tabpanel" aria-labelledby="custom-tabs-one-knockouts-tab">
-                <?php $knockouts = ['16', '8', '4', '2']; ?>
-                <?php
-                // Define an array to store group winners and runners-up
-                $groupWinners = [];
-                $groupRunnersUp = [];
-
-                // Separate the teams into winners and runners-up based on group standings
-                foreach ($groups as $group) {
-                    $groupTeams = [];
-                    foreach ($wc22 as $key => $value) {
-                        if ($value['code_group'] === $group) {
-                            $groupTeams[] = $value;
-                        }
-                    }
-
-                    // Sort the teams in the group based on points (highest to lowest)
-                    usort($groupTeams, function ($a, $b) {
-                        return $b['points'] - $a['points'];
-                    });
-
-                    // Add the group winner and runner-up to the respective arrays
-                    $groupWinners[] = $groupTeams[0];
-                    $groupRunnersUp[] = $groupTeams[1];
-                }
-
-                // Define the RO16 pairings
-                $ro16Pairings = [];
-                for ($i = 0; $i < count($groupWinners); $i++) {
-                    $ro16Pairings[] = "RO16 " . ($i + 1);
-                    $ro16Pairings[] = $groupWinners[$i]['name_country'] . " vs " . $groupRunnersUp[$i]['name_country'];
-                }
-                ?>
-                <div class="row">
-                    <div class="col-md-12">
-                        <table class="table table-bordered">
-                            <tbody>
-                                <?php for ($i = 0; $i < count($ro16Pairings); $i += 2) { ?>
-                                    <tr class="text-center">
-                                        <td><?php echo $ro16Pairings[$i + 1]; ?></td>
-                                    </tr>
-                                <?php } ?>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-
         </div>
     </div>
 </div>

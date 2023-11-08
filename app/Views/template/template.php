@@ -154,6 +154,12 @@
                                             <p>Group</p>
                                         </a>
                                     </li>
+                                    <li class="nav-item">
+                                        <a href="<?= base_url('/knockout') ?>" class="nav-link <?= $submenu1 == 'knockout' ? 'active' : '' ?>">
+                                            <i class="nav-icon fas fa-users"></i>
+                                            <p>Knockout</p>
+                                        </a>
+                                    </li>
                                 </ul>
                             </li>
                         <?php } ?>
@@ -242,10 +248,9 @@
                 <div class="container-fluid">
                     <div class="row">
                         <?php
-                        if ($page) {
-                            echo view($page);
-                        }
-                        ?>
+                        if ($page) { ?>
+                            <?php echo view($page); ?>
+                        <?php } ?>
                     </div>
                     <!-- /.row -->
                 </div><!-- /.container-fluid -->
