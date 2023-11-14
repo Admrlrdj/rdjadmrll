@@ -5,6 +5,7 @@ namespace App\Controllers;
 use App\Models\ModelConfederation;
 use App\Models\ModelCountry;
 use App\Models\ModelGroup;
+use App\Models\ModelKnockout;
 use App\Models\ModelUser;
 use App\Models\ModelWC22;
 
@@ -17,6 +18,7 @@ class WorldCup2022 extends BaseController
         $this->ModelCountry = new ModelCountry;
         $this->ModelConfederation = new ModelConfederation;
         $this->ModelGroup = new ModelGroup;
+        $this->ModelKnockout = new ModelKnockout;
     }
 
     public function index()
@@ -35,6 +37,7 @@ class WorldCup2022 extends BaseController
             'country' => $this->ModelCountry->AllData(),
             'confederation' => $this->ModelConfederation->AllData(),
             'grup' => $this->ModelGroup->AllData(),
+            'ro16' => $this->ModelKnockout->AllRO16(),
 
         ];
         return view('template/template', $data);
@@ -71,9 +74,14 @@ class WorldCup2022 extends BaseController
             'lose' => $this->request->getPost('lose'),
             'goal_in' => $this->request->getPost('goal_in'),
             'goal_out' => $this->request->getPost('goal_out'),
-            'goal_diff' => $this->request->getPost('goal_diff'),
-            'points' => $this->request->getPost('points'),
         ];
+
+        $goalDiff = $data['goal_in'] - $data['goal_out'];
+
+        $totalPoints = ($data['win'] * 3) + ($data['draw'] * 1) + ($data['lose'] * 0);
+
+        $data['goal_diff'] = $goalDiff;
+        $data['points'] = $totalPoints;
 
         $this->ModelWC22->UpdateData($data);
         session()->setFlashdata('pesan', 'Data Berhasil Diubah!!');

@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="<?= base_url('AdminLTE') ?>/plugins/toastr/toastr.min.css">
 </head>
 
-<body class="hold-transition register-page">
+<body class="hold-transition register-page dark-mode">
     <div class="register-box">
         <div class="register-logo">
             <a href=""><b>Rdj</b>admrll</a>

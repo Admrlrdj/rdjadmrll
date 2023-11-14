@@ -19,61 +19,59 @@
         <div class="card-body">
             <div class="tab-content" id="custom-tabs-one-tabContent">
                 <div class="tab-pane fade show active" id="custom-tabs-one-ro16" role="tabpanel" aria-labelledby="custom-tabs-one-ro16-tab">
-                    <div class="col-md-12">
-                        <div class="card card-primary">
-                            <div class="card-header">
-                                <div class="card-tools">
-                                    <button type="button" class="btn btn-tool" data-toggle="modal" data-target="#add-ro16"><i class="fas fa-plus"></i> Add RO16</button>
-                                </div>
+                    <div class="card card-primary">
+                        <div class="card-header">
+                            <div class="card-tools">
+                                <button type="button" class="btn btn-tool" data-toggle="modal" data-target="#add-ro16"><i class="fas fa-plus"></i> Add RO16</button>
                             </div>
-                            <div class="card-body">
-                                <?php $errors = session()->getFlashdata('errors');
-                                if (!empty($errors)) { ?>
-                                    <div class="alert alert-danger alert-dismissible mb-4">
-                                        <ul>
-                                            <?php foreach ($errors as $key => $error) { ?>
-                                                <li><?= esc($error) ?></li>
-                                            <?php } ?>
-                                        </ul>
-                                    </div>
-                                <?php } ?>
-                                <?php if (session()->getFlashdata('gagal')) {
-                                    echo '<div class="alert alert-danger alert-dismissible"> <i class="icon fas fa-times"></i>';
-                                    echo session()->getFlashdata('gagal');
-                                    echo '</div>';
-                                } ?>
-                                <?php if (session()->getFlashdata('pesan')) {
-                                    echo '<div class="alert alert-success alert-dismissible"> <h5><i class="icon fas fa-check"></i>';
-                                    echo session()->getFlashdata('pesan');
-                                    echo '</h5></div>';
-                                } ?>
-                                <table id="example1" class="table table-bordered">
-                                    <thead>
-                                        <tr class="text-center">
-                                            <th width="100px">No</th>
-                                            <th width="800px">Kode RO16</th>
-                                            <th width="500px">Aksi</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <?php $no = 1;
-                                        foreach ($ro16 as $key => $value) { ?>
-                                            <tr class="text-center">
-                                                <td><?= $no++ ?></td>
-                                                <td><?= $value['code_ro16'] ?></td>
-                                                <td>
-                                                    <button class="btn btn-warning btn-sm btn-flat" data-toggle="modal" data-target="#edit-ro16<?= $value['id_ro16'] ?>"><i class="fas fa-pencil-alt"></i></button>
-                                                    <button class="btn btn-danger btn-sm btn-flat" data-toggle="modal" data-target="#delete-ro16<?= $value['id_ro16'] ?>"><i class="fas fa-trash"></i></button>
-                                                </td>
-                                            </tr>
-                                        <?php } ?>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <!-- /.card-body -->
                         </div>
-                        <!-- /.card -->
+                        <div class="card-body">
+                            <?php $errors = session()->getFlashdata('errors');
+                            if (!empty($errors)) { ?>
+                                <div class="alert alert-danger alert-dismissible mb-4">
+                                    <ul>
+                                        <?php foreach ($errors as $key => $error) { ?>
+                                            <li><?= esc($error) ?></li>
+                                        <?php } ?>
+                                    </ul>
+                                </div>
+                            <?php } ?>
+                            <?php if (session()->getFlashdata('gagal')) {
+                                echo '<div class="alert alert-danger alert-dismissible"> <i class="icon fas fa-times"></i>';
+                                echo session()->getFlashdata('gagal');
+                                echo '</div>';
+                            } ?>
+                            <?php if (session()->getFlashdata('pesan')) {
+                                echo '<div class="alert alert-success alert-dismissible"> <h5><i class="icon fas fa-check"></i>';
+                                echo session()->getFlashdata('pesan');
+                                echo '</h5></div>';
+                            } ?>
+                            <table id="example1" class="table table-bordered">
+                                <thead>
+                                    <tr class="text-center">
+                                        <th width="100px">No</th>
+                                        <th width="800px">Kode RO16</th>
+                                        <th width="500px">Aksi</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <?php $no = 1;
+                                    foreach ($ro16 as $key => $value) { ?>
+                                        <tr class="text-center">
+                                            <td><?= $no++ ?></td>
+                                            <td><?= $value['code_ro16'] ?></td>
+                                            <td>
+                                                <button class="btn btn-warning btn-sm btn-flat" data-toggle="modal" data-target="#edit-ro16<?= $value['id_ro16'] ?>"><i class="fas fa-pencil-alt"></i></button>
+                                                <button class="btn btn-danger btn-sm btn-flat" data-toggle="modal" data-target="#delete-ro16<?= $value['id_ro16'] ?>"><i class="fas fa-trash"></i></button>
+                                            </td>
+                                        </tr>
+                                    <?php } ?>
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- /.card-body -->
                     </div>
+                    <!-- /.card -->
 
                     <!-- /add-modal -->
                     <div class="modal fade" id="add-ro16">

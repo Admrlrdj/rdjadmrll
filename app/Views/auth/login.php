@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="<?= base_url('AdminLTE') ?>/dist/css/adminlte.min.css">
 </head>
 
-<body class="hold-transition login-page">
+<body class="hold-transition login-page dark-mode">
     <div class="login-box">
         <div class="login-logo">
             <a href=""><b>Rdj</b>admrll</a>
