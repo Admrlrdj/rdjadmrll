@@ -1,8 +1,10 @@
 <?php
 
-namespace App\Controllers;
+namespace App\Controllers\Info;
 
-use App\Models\ModelAuth;
+use App\Controllers\BaseController;
+
+use App\Models\Info\ModelAuth;
 
 class Auth extends BaseController
 {

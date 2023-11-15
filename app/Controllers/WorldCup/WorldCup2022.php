@@ -1,13 +1,14 @@
 <?php
 
-namespace App\Controllers;
+namespace App\Controllers\WorldCup;
 
-use App\Models\ModelConfederation;
-use App\Models\ModelCountry;
-use App\Models\ModelGroup;
-use App\Models\ModelKnockout;
-use App\Models\ModelUser;
-use App\Models\ModelWC22;
+use App\Controllers\BaseController;
+use App\Models\Database\ModelConfederation;
+use App\Models\Database\ModelCountry;
+use App\Models\Database\ModelGroup;
+use App\Models\Database\ModelKnockout;
+use App\Models\Info\ModelUser;
+use App\Models\WorldCup\ModelWC22;
 
 class WorldCup2022 extends BaseController
 {

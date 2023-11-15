@@ -32,41 +32,41 @@ $routes->set404Override();
 $routes->get('/', 'Home::index');
 
 // * Auth
-$routes->get('/login', 'Auth::Login');
-$routes->get('/register', 'Auth::Register');
-$routes->get('/logout', 'Auth::Logout');
+$routes->get('/login', 'Info\Auth::Login');
+$routes->get('/register', 'Info\Auth::Register');
+$routes->get('/logout', 'Info\Auth::Logout');
 
 // * Valid Auth
-$routes->post('/valid-register', 'Auth::ValidRegister');
-$routes->post('/valid-login', 'Auth::ValidLogin');
+$routes->post('/valid-register', 'Info\Auth::ValidRegister');
+$routes->post('/valid-login', 'Info\Auth::ValidLogin');
 
 // * Profile
-$routes->get('/profile', 'Profile::index');
-$routes->post('/update-profile/(:num)', 'Profile::UpdateData/$1');
+$routes->get('/profile', 'Info\Profile::index');
+$routes->post('/update-profile/(:num)', 'Info\Profile::UpdateData/$1');
 
 // * User
-$routes->get('/user', 'User::index');
-$routes->post('/add-user', 'User::InsertData');
-$routes->post('/edit-user/(:num)', 'User::UpdateData/$1');
-$routes->get('/delete-user/(:num)', 'User::DeleteData/$1');
+$routes->get('/user', 'Info\User::index');
+$routes->post('/add-user', 'Info\User::InsertData');
+$routes->post('/edit-user/(:num)', 'Info\User::UpdateData/$1');
+$routes->get('/delete-user/(:num)', 'Info\User::DeleteData/$1');
 
 // * Country
 $routes->get('/country', 'Database\Country::index');
-$routes->post('/add-country', 'Country::InsertData');
-$routes->post('/edit-country/(:num)', 'Country::UpdateData/$1');
-$routes->get('/delete-country/(:num)', 'Country::DeleteData/$1');
+$routes->post('/add-country', 'Database\Country::InsertData');
+$routes->post('/edit-country/(:num)', 'Database\Country::UpdateData/$1');
+$routes->get('/delete-country/(:num)', 'Database\Country::DeleteData/$1');
 
 // * Club
 $routes->get('/club', 'Database\Club::index');
-$routes->post('/add-club', 'Club::InsertData');
-$routes->post('/edit-club/(:num)', 'Club::UpdateData/$1');
-$routes->get('/delete-club/(:num)', 'Club::DeleteData/$1');
+$routes->post('/add-club', 'Database\Club::InsertData');
+$routes->post('/edit-club/(:num)', 'Database\Club::UpdateData/$1');
+$routes->get('/delete-club/(:num)', 'Database\Club::DeleteData/$1');
 
 // * Confederation
 $routes->get('/confederation', 'Database\Confederation::index');
-$routes->post('/add-confederation', 'Confederation::InsertData');
-$routes->post('/edit-confederation/(:num)', 'Confederation::UpdateData/$1');
-$routes->get('/delete-confederation/(:num)', 'Confederation::DeleteData/$1');
+$routes->post('/add-confederation', 'Database\Confederation::InsertData');
+$routes->post('/edit-confederation/(:num)', 'Database\Confederation::UpdateData/$1');
+$routes->get('/delete-confederation/(:num)', 'Database\Confederation::DeleteData/$1');
 
 // * Group
 $routes->get('/group', 'Database\Group::index');
@@ -76,77 +76,77 @@ $routes->get('/delete-group/(:num)', 'Group::DeleteData/$1');
 
 // * RO16
 $routes->get('/knockout', 'Database\Knockout::index');
-$routes->post('/add-ro16', 'Knockout::InsertRO16');
-$routes->post('/edit-ro16/(:num)', 'Knockout::UpdateRO16/$1');
-$routes->get('/delete-ro16/(:num)', 'Knockout::DeleteRO16/$1');
+$routes->post('/add-ro16', 'Database\Knockout::InsertRO16');
+$routes->post('/edit-ro16/(:num)', 'Database\Knockout::UpdateRO16/$1');
+$routes->get('/delete-ro16/(:num)', 'Database\Knockout::DeleteRO16/$1');
 
 // * QF
-$routes->get('/knockout', 'Knockout::index');
-$routes->post('/add-qf', 'Knockout::InsertQF');
-$routes->post('/edit-qf/(:num)', 'Knockout::UpdateQF/$1');
-$routes->get('/delete-qf/(:num)', 'Knockout::DeleteQF/$1');
+$routes->get('/knockout', 'Database\Knockout::index');
+$routes->post('/add-qf', 'Database\Knockout::InsertQF');
+$routes->post('/edit-qf/(:num)', 'Database\Knockout::UpdateQF/$1');
+$routes->get('/delete-qf/(:num)', 'Database\Knockout::DeleteQF/$1');
 
 // * SF
-$routes->get('/knockout', 'Knockout::index');
-$routes->post('/add-sf', 'Knockout::InsertSF');
-$routes->post('/edit-sf/(:num)', 'Knockout::UpdateSF/$1');
-$routes->get('/delete-sf/(:num)', 'Knockout::DeleteSF/$1');
+$routes->get('/knockout', 'Database\Knockout::index');
+$routes->post('/add-sf', 'Database\Knockout::InsertSF');
+$routes->post('/edit-sf/(:num)', 'Database\Knockout::UpdateSF/$1');
+$routes->get('/delete-sf/(:num)', 'Database\Knockout::DeleteSF/$1');
 
 // * Final
-$routes->get('/knockout', 'Knockout::index');
-$routes->post('/add-final', 'Knockout::InsertFinal');
-$routes->post('/edit-final/(:num)', 'Knockout::UpdateFinal/$1');
-$routes->get('/delete-final/(:num)', 'Knockout::DeleteFinal/$1');
+$routes->get('/knockout', 'Database\Knockout::index');
+$routes->post('/add-final', 'Database\Knockout::InsertFinal');
+$routes->post('/edit-final/(:num)', 'Database\Knockout::UpdateFinal/$1');
+$routes->get('/delete-final/(:num)', 'Database\Knockout::DeleteFinal/$1');
 
 //* Premier League 2023/2024
 $routes->get('/pl2324', 'PremierLeague\PremierLeague2324::index');
-$routes->post('/add-pl2324', 'PremierLeague2324::InsertData');
-$routes->post('/edit-pl2324/(:num)', 'PremierLeague2324::UpdateData/$1');
-$routes->get('/delete-pl2324/(:num)', 'PremierLeague2324::DeleteData/$1');
+$routes->post('/add-pl2324', 'PremierLeague\PremierLeague2324::InsertData');
+$routes->post('/edit-pl2324/(:num)', 'PremierLeague\PremierLeague2324::UpdateData/$1');
+$routes->get('/delete-pl2324/(:num)', 'PremierLeague\PremierLeague2324::DeleteData/$1');
 
 //* La Liga 2023/2024
-$routes->get('/laliga2324', 'LaLiga2324::index');
-$routes->post('/add-laliga2324', 'LaLiga2324::InsertData');
-$routes->post('/edit-laliga2324/(:num)', 'LaLiga2324::UpdateData/$1');
-$routes->get('/delete-laliga2324/(:num)', 'LaLiga2324::DeleteData/$1');
+$routes->get('/laliga2324', 'LaLiga\LaLiga2324::index');
+$routes->post('/add-laliga2324', 'LaLiga\LaLiga2324::InsertData');
+$routes->post('/edit-laliga2324/(:num)', 'LaLiga\LaLiga2324::UpdateData/$1');
+$routes->get('/delete-laliga2324/(:num)', 'LaLiga\LaLiga2324::DeleteData/$1');
 
 //* Serie A 2023/2024
-$routes->get('/seriea2324', 'SerieA2324::index');
-$routes->post('/add-seriea2324', 'SerieA2324::InsertData');
-$routes->post('/edit-seriea2324/(:num)', 'SerieA2324::UpdateData/$1');
-$routes->get('/delete-seriea2324/(:num)', 'SerieA2324::DeleteData/$1');
+$routes->get('/seriea2324', 'SerieA\SerieA2324::index');
+$routes->post('/add-seriea2324', 'SerieA\SerieA2324::InsertData');
+$routes->post('/edit-seriea2324/(:num)', 'SerieA\SerieA2324::UpdateData/$1');
+$routes->get('/delete-seriea2324/(:num)', 'SerieA\SerieA2324::DeleteData/$1');
 
 //* World Cup 2022
-$routes->get('/wc22', 'WorldCup2022::index');
-$routes->post('/add-wc22', 'WorldCup2022::InsertData');
-$routes->post('/edit-wc22/(:num)', 'WorldCup2022::UpdateData/$1');
-$routes->get('/delete-wc22/(:num)', 'WorldCup2022::DeleteData/$1');
+$routes->get('/wc22', 'WorldCup\WorldCup2022::index');
+$routes->post('/add-wc22', 'WorldCup\WorldCup2022::InsertData');
+$routes->post('/edit-wc22/(:num)', 'WorldCup\WorldCup2022::UpdateData/$1');
+$routes->get('/delete-wc22/(:num)', 'WorldCup\WorldCup2022::DeleteData/$1');
 //* World Cup 2022 (RO16)
-$routes->post('/add-wc22-ro16/(:num)', 'WorldCup2022::InsertDataRO16/$1');
-$routes->post('/edit-wc22/(:num)', 'WorldCup2022::UpdateData/$1');
-$routes->get('/delete-wc22/(:num)', 'WorldCup2022::DeleteData/$1');
+$routes->post('/add-wc22-ro16/(:num)', 'WorldCup\WorldCup2022::InsertDataRO16/$1');
+$routes->post('/edit-wc22/(:num)', 'WorldCup\WorldCup2022::UpdateData/$1');
+$routes->get('/delete-wc22/(:num)', 'WorldCup\WorldCup2022::DeleteData/$1');
 //* World Cup 2022 (QF)
-$routes->post('/add-wc22-qf/(:num)', 'WorldCup2022::InsertDataQF/$1');
-$routes->post('/edit-wc22/(:num)', 'WorldCup2022::UpdateData/$1');
-$routes->get('/delete-wc22/(:num)', 'WorldCup2022::DeleteData/$1');
+$routes->post('/add-wc22-qf/(:num)', 'WorldCup\WorldCup2022::InsertDataQF/$1');
+$routes->post('/edit-wc22/(:num)', 'WorldCup\WorldCup2022::UpdateData/$1');
+$routes->get('/delete-wc22/(:num)', 'WorldCup\WorldCup2022::DeleteData/$1');
 //* World Cup 2022 (SF)
-$routes->post('/add-wc22-sf/(:num)', 'WorldCup2022::InsertDataSF/$1');
-$routes->post('/edit-wc22/(:num)', 'WorldCup2022::UpdateData/$1');
-$routes->get('/delete-wc22/(:num)', 'WorldCup2022::DeleteData/$1');
+$routes->post('/add-wc22-sf/(:num)', 'WorldCup\WorldCup2022::InsertDataSF/$1');
+$routes->post('/edit-wc22/(:num)', 'WorldCup\WorldCup2022::UpdateData/$1');
+$routes->get('/delete-wc22/(:num)', 'WorldCup\WorldCup2022::DeleteData/$1');
 //* World Cup 2022 (Final)
-$routes->post('/add-wc22-final/(:num)', 'WorldCup2022::InsertDataFinal/$1');
-$routes->post('/edit-wc22/(:num)', 'WorldCup2022::UpdateData/$1');
-$routes->get('/delete-wc22/(:num)', 'WorldCup2022::DeleteData/$1');
+$routes->post('/add-wc22-final/(:num)', 'WorldCup\WorldCup2022::InsertDataFinal/$1');
+$routes->post('/edit-wc22/(:num)', 'WorldCup\WorldCup2022::UpdateData/$1');
+$routes->get('/delete-wc22/(:num)', 'WorldCup\WorldCup2022::DeleteData/$1');
 
 // * Champions League 2023/2024
-$routes->get('/cl2324', 'ChampionsLeague2324::index');
-$routes->post('/add-cl2324', 'ChampionsLeague2324::InsertData');
-$routes->post('/edit-cl2324/(:num)', 'ChampionsLeague2324::UpdateData/$1');
-$routes->get('/delete-cl2324/(:num)', 'ChampionsLeague2324::DeleteData/$1');
+$routes->get('/cl2324', 'ChampionsLeague\ChampionsLeague2324::index');
+$routes->post('/add-cl2324', 'ChampionsLeague\ChampionsLeague2324::InsertData');
+$routes->post('/edit-cl2324/(:num)', 'ChampionsLeague\ChampionsLeague2324::UpdateData/$1');
+$routes->get('/delete-cl2324/(:num)', 'ChampionsLeague\ChampionsLeague2324::DeleteData/$1');
 // * Champions League 2023/2024 (RO16)
-$routes->post('/add-cl2324-ro16/(:num)', 'ChampionsLeague2324::InsertDataRO16/$1');
-$routes->post('/edit-cl2324/(:num)', 'ChampionsLeague2324::UpdateData/$1');
-$routes->get('/delete-cl2324/(:num)', 'ChampionsLeague2324::DeleteData/$1');
+$routes->post('/add-cl2324-ro16/(:num)', 'ChampionsLeague\ChampionsLeague2324::InsertDataRO16/$1');
+$routes->post('/edit-cl2324/(:num)', 'ChampionsLeague\ChampionsLeague2324::UpdateData/$1');
+$routes->get('/delete-cl2324/(:num)', 'ChampionsLeague\ChampionsLeague2324::DeleteData/$1');
 
 /*
  * --------------------------------------------------------------------

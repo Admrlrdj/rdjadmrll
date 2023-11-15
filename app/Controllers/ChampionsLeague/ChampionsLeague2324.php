@@ -1,15 +1,16 @@
 <?php
 
-namespace App\Controllers;
+namespace App\Controllers\ChampionsLeague;
 
-use App\Models\ModelConfederation;
-use App\Models\ModelCountry;
-use App\Models\ModelGroup;
-use App\Models\ModelUser;
-use App\Models\ModelCL2324;
-use App\Models\ModelWC22;
-use App\Models\ModelClub;
-use App\Models\ModelKnockout;
+use App\Controllers\BaseController;
+
+use App\Models\Database\ModelConfederation;
+use App\Models\Database\ModelCountry;
+use App\Models\Database\ModelGroup;
+use App\Models\Info\ModelUser;
+use App\Models\ChampionsLeague\ModelCL2324;
+use App\Models\Database\ModelClub;
+use App\Models\Database\ModelKnockout;
 
 class ChampionsLeague2324 extends BaseController
 {
@@ -20,7 +21,6 @@ class ChampionsLeague2324 extends BaseController
         $this->ModelCountry = new ModelCountry;
         $this->ModelConfederation = new ModelConfederation;
         $this->ModelGroup = new ModelGroup;
-        $this->ModelWC22 = new ModelWC22;
         $this->ModelClub = new ModelClub;
         $this->ModelKnockout = new ModelKnockout;
     }
@@ -41,7 +41,6 @@ class ChampionsLeague2324 extends BaseController
             'club' => $this->ModelClub->AllData(),
             'confederation' => $this->ModelConfederation->AllData(),
             'grup' => $this->ModelGroup->AllData(),
-            'wc22' => $this->ModelWC22->AllData(),
             'ro16' => $this->ModelKnockout->AllRO16(),
 
         ];

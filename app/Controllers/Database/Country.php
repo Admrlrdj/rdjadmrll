@@ -4,9 +4,9 @@ namespace App\Controllers\Database;
 
 use App\Controllers\BaseController;
 
-use App\Models\ModelConfederation;
-use App\Models\ModelUser;
-use App\Models\ModelCountry;
+use App\Models\Database\ModelConfederation;
+use App\Models\Info\ModelUser;
+use App\Models\Database\ModelCountry;
 
 class Country extends BaseController
 {

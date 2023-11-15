@@ -3,8 +3,9 @@
 namespace App\Controllers\Database;
 
 use App\Controllers\BaseController;
-use App\Models\ModelUser;
-use App\Models\ModelGroup;
+
+use App\Models\Info\ModelUser;
+use App\Models\Database\ModelGroup;
 
 class Group extends BaseController
 {

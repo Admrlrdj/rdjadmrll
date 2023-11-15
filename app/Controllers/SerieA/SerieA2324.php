@@ -1,10 +1,11 @@
 <?php
 
-namespace App\Controllers;
+namespace App\Controllers\SerieA;
 
-use App\Models\ModelClub;
-use App\Models\ModelSerieA2324;
-use App\Models\ModelUser;
+use App\Controllers\BaseController;
+use App\Models\Database\ModelClub;
+use App\Models\SerieA\ModelSerieA2324;
+use App\Models\Info\ModelUser;
 
 class SerieA2324 extends BaseController
 {

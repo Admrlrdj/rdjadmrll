@@ -1,12 +1,13 @@
 <?php
 
-namespace App\Controllers;
+namespace App\Controllers\LaLiga;
 
-use App\Models\ModelConfederation;
-use App\Models\ModelCountry;
-use App\Models\ModelUser;
-use App\Models\ModelLaLiga2324;
-use App\Models\ModelClub;
+use App\Controllers\BaseController;
+use App\Models\Database\ModelConfederation;
+use App\Models\Database\ModelCountry;
+use App\Models\Info\ModelUser;
+use App\Models\LaLiga\ModelLaLiga2324;
+use App\Models\Database\ModelClub;
 
 class LaLiga2324 extends BaseController
 {

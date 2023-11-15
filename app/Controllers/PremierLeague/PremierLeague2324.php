@@ -3,9 +3,9 @@
 namespace App\Controllers\PremierLeague;
 
 use App\Controllers\BaseController;
-use App\Models\ModelUser;
-use App\Models\ModelPL2324;
-use App\Models\ModelClub;
+use App\Models\Info\ModelUser;
+use App\Models\PremierLeague\ModelPL2324;
+use App\Models\Database\ModelClub;
 
 class PremierLeague2324 extends BaseController
 {
