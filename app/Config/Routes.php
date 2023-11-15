@@ -51,31 +51,31 @@ $routes->post('/edit-user/(:num)', 'User::UpdateData/$1');
 $routes->get('/delete-user/(:num)', 'User::DeleteData/$1');
 
 // * Country
-$routes->get('/country', 'Country::index');
+$routes->get('/country', 'Database\Country::index');
 $routes->post('/add-country', 'Country::InsertData');
 $routes->post('/edit-country/(:num)', 'Country::UpdateData/$1');
 $routes->get('/delete-country/(:num)', 'Country::DeleteData/$1');
 
 // * Club
-$routes->get('/club', 'Club::index');
+$routes->get('/club', 'Database\Club::index');
 $routes->post('/add-club', 'Club::InsertData');
 $routes->post('/edit-club/(:num)', 'Club::UpdateData/$1');
 $routes->get('/delete-club/(:num)', 'Club::DeleteData/$1');
 
 // * Confederation
-$routes->get('/confederation', 'Confederation::index');
+$routes->get('/confederation', 'Database\Confederation::index');
 $routes->post('/add-confederation', 'Confederation::InsertData');
 $routes->post('/edit-confederation/(:num)', 'Confederation::UpdateData/$1');
 $routes->get('/delete-confederation/(:num)', 'Confederation::DeleteData/$1');
 
 // * Group
-$routes->get('/group', 'Group::index');
+$routes->get('/group', 'Database\Group::index');
 $routes->post('/add-group', 'Group::InsertData');
 $routes->post('/edit-group/(:num)', 'Group::UpdateData/$1');
 $routes->get('/delete-group/(:num)', 'Group::DeleteData/$1');
 
 // * RO16
-$routes->get('/knockout', 'Knockout::index');
+$routes->get('/knockout', 'Database\Knockout::index');
 $routes->post('/add-ro16', 'Knockout::InsertRO16');
 $routes->post('/edit-ro16/(:num)', 'Knockout::UpdateRO16/$1');
 $routes->get('/delete-ro16/(:num)', 'Knockout::DeleteRO16/$1');
@@ -99,7 +99,7 @@ $routes->post('/edit-final/(:num)', 'Knockout::UpdateFinal/$1');
 $routes->get('/delete-final/(:num)', 'Knockout::DeleteFinal/$1');
 
 //* Premier League 2023/2024
-$routes->get('/pl2324', 'PremierLeague2324::index');
+$routes->get('/pl2324', 'PremierLeague\PremierLeague2324::index');
 $routes->post('/add-pl2324', 'PremierLeague2324::InsertData');
 $routes->post('/edit-pl2324/(:num)', 'PremierLeague2324::UpdateData/$1');
 $routes->get('/delete-pl2324/(:num)', 'PremierLeague2324::DeleteData/$1');
@@ -110,9 +110,31 @@ $routes->post('/add-laliga2324', 'LaLiga2324::InsertData');
 $routes->post('/edit-laliga2324/(:num)', 'LaLiga2324::UpdateData/$1');
 $routes->get('/delete-laliga2324/(:num)', 'LaLiga2324::DeleteData/$1');
 
+//* Serie A 2023/2024
+$routes->get('/seriea2324', 'SerieA2324::index');
+$routes->post('/add-seriea2324', 'SerieA2324::InsertData');
+$routes->post('/edit-seriea2324/(:num)', 'SerieA2324::UpdateData/$1');
+$routes->get('/delete-seriea2324/(:num)', 'SerieA2324::DeleteData/$1');
+
 //* World Cup 2022
 $routes->get('/wc22', 'WorldCup2022::index');
 $routes->post('/add-wc22', 'WorldCup2022::InsertData');
+$routes->post('/edit-wc22/(:num)', 'WorldCup2022::UpdateData/$1');
+$routes->get('/delete-wc22/(:num)', 'WorldCup2022::DeleteData/$1');
+//* World Cup 2022 (RO16)
+$routes->post('/add-wc22-ro16/(:num)', 'WorldCup2022::InsertDataRO16/$1');
+$routes->post('/edit-wc22/(:num)', 'WorldCup2022::UpdateData/$1');
+$routes->get('/delete-wc22/(:num)', 'WorldCup2022::DeleteData/$1');
+//* World Cup 2022 (QF)
+$routes->post('/add-wc22-qf/(:num)', 'WorldCup2022::InsertDataQF/$1');
+$routes->post('/edit-wc22/(:num)', 'WorldCup2022::UpdateData/$1');
+$routes->get('/delete-wc22/(:num)', 'WorldCup2022::DeleteData/$1');
+//* World Cup 2022 (SF)
+$routes->post('/add-wc22-sf/(:num)', 'WorldCup2022::InsertDataSF/$1');
+$routes->post('/edit-wc22/(:num)', 'WorldCup2022::UpdateData/$1');
+$routes->get('/delete-wc22/(:num)', 'WorldCup2022::DeleteData/$1');
+//* World Cup 2022 (Final)
+$routes->post('/add-wc22-final/(:num)', 'WorldCup2022::InsertDataFinal/$1');
 $routes->post('/edit-wc22/(:num)', 'WorldCup2022::UpdateData/$1');
 $routes->get('/delete-wc22/(:num)', 'WorldCup2022::DeleteData/$1');
 
@@ -122,7 +144,7 @@ $routes->post('/add-cl2324', 'ChampionsLeague2324::InsertData');
 $routes->post('/edit-cl2324/(:num)', 'ChampionsLeague2324::UpdateData/$1');
 $routes->get('/delete-cl2324/(:num)', 'ChampionsLeague2324::DeleteData/$1');
 // * Champions League 2023/2024 (RO16)
-$routes->post('/add-cl2324-ro16', 'ChampionsLeague2324::InsertDataRO16');
+$routes->post('/add-cl2324-ro16/(:num)', 'ChampionsLeague2324::InsertDataRO16/$1');
 $routes->post('/edit-cl2324/(:num)', 'ChampionsLeague2324::UpdateData/$1');
 $routes->get('/delete-cl2324/(:num)', 'ChampionsLeague2324::DeleteData/$1');
 

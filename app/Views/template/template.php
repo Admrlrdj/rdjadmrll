@@ -232,7 +232,23 @@
                                         <li class="nav-item">
                                             <a href="<?= base_url('/laliga2324') ?>" class="nav-link <?= $submenu2 == 'laliga2324' ? 'active' : '' ?>">
                                                 <i class="nav-icon fas fa-trophy"></i>
-                                                <p>La Liga</p>
+                                                <p>LaLiga</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item <?= $submenu1 == 'figc' ? 'menu-open' : '' ?>">
+                                    <a href="#" class="nav-link <?= $submenu1 == 'figc' ? 'active' : '' ?>">
+                                        <p>
+                                            FIGC
+                                            <i class="right fas fa-angle-left"></i>
+                                        </p>
+                                    </a>
+                                    <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a href="<?= base_url('/seriea2324') ?>" class="nav-link <?= $submenu2 == 'seriea2324' ? 'active' : '' ?>">
+                                                <i class="nav-icon fas fa-trophy"></i>
+                                                <p>Serie A</p>
                                             </a>
                                         </li>
                                     </ul>

@@ -334,30 +334,39 @@
                 </div>
                 <div class="tab-pane fade" id="custom-tabs-one-ro16" role="tabpanel" aria-labelledby="custom-tabs-one-ro16-tab">
                     <?php $groups = ['R1', 'R2', 'R3', 'R4', 'R5', 'R6', 'R7', 'R8']; ?>
-                    <?php if (session()->get('role') != '4') {
-                        $canAddClub = false;
-
-                        foreach ($groups as $group) {
-                            $countInGroup = 0;
-                            foreach ($cl2324 as $key => $value) {
-                                if ($value['code_ro16'] === $group) {
-                                    $countInGroup++;
-                                }
-                            }
-
-                            if ($countInGroup < 1) {
-                                $canAddClub = true;
-                                break;
-                            }
-                        }
-
-                        if ($canAddClub) { ?>
-                            <div class="card-tools">
-                                <button class="btn btn-warning btn-sm btn-flat" data-toggle="modal" data-target="#add-cl2324-ro16"><i class="fas fa-plus"></i></button>
-                            </div>
-                        <?php } ?>
-                    <?php } ?>
                     <div class="row">
+                        <div class="col-md-12">
+                            <div class="card card-primary">
+                                <div class="card-header">
+                                    <h3 class="card-title">Qualified Clubs</h3>
+                                </div>
+                                <div class="card-body">
+                                    <table id="cl2324ro16" class="table table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <td>No</td>
+                                                <td>Klub</td>
+                                                <td>Aksi</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <?php $no = 1 ?>
+                                            <?php foreach ($cl2324 as $key => $value) { ?>
+                                                <?php if ($value['group_rank'] == 1 || $value['group_rank'] == 2) { ?>
+                                                    <tr>
+                                                        <td><?= $no++ ?></td>
+                                                        <td><?= $value['name_club'] ?></td>
+                                                        <td>
+                                                            <button class="btn btn-warning btn-sm btn-flat" data-toggle="modal" data-target="#add-cl2324-ro16<?= $value['id_cl2324'] ?>" onclick="editClub(<?= $value['id_cl2324'] ?>)"><i class="fas fa-pencil-alt"></i></button>
+                                                        </td>
+                                                    </tr>
+                                                <?php } ?>
+                                            <?php } ?>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
                         <?php foreach ($groups as $group) { ?>
                             <div class="col-md-6">
                                 <div class="card card-primary">
@@ -394,21 +403,16 @@
                                                             <td><?= $value['name_club'] ?></td>
                                                             <td><?= $value['score_ro16'] ?></td>
                                                             <td>-</td>
-                                                            <?php
-                                                            // Find a different club for the second team
-                                                            $opponentScore = '';
-                                                            foreach ($cl2324 as $opponent) {
+                                                            <?php $opponentScore = ''; ?>
+                                                            <?php foreach ($cl2324 as $opponent) {
                                                                 if ($opponent['code_ro16'] === $group && $opponent['score_ro16'] !== $value['score_ro16']) {
                                                                     $opponentScore = $opponent['score_ro16'];
                                                                     break;
                                                                 }
-                                                            }
-                                                            ?>
+                                                            } ?>
                                                             <td><?= $opponentScore ?></td>
-                                                            <?php
-                                                            // Find a different club for the second team
-                                                            $opponentClub = '';
-                                                            foreach ($cl2324 as $opponent) {
+                                                            <?php $opponentClub = ''; ?>
+                                                            <?php foreach ($cl2324 as $opponent) {
                                                                 if ($opponent['code_ro16'] === $group && $opponent['name_club'] !== $value['name_club']) {
                                                                     $opponentClub = $opponent['name_club'];
                                                                     break;
@@ -436,75 +440,73 @@
                         <?php } ?>
                     </div>
 
-                    <!-- /add-modal -->
-                    <div class="modal fade" id="add-cl2324-ro16">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h4 class="modal-title">Add Klub</h4>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <?php echo form_open('/add-cl2324-ro16') ?>
-                                <div class="modal-body">
-                                    <div class="form-group">
-                                        <label for="">Klub</label>
-                                        <select name="id_club" class="form-control">
-                                            <option value=""> ---Pilih Klub--- </option>
-                                            <?php foreach ($cl2324 as $key => $value) {
-                                                // Tampilkan klub hanya jika group_rank-nya adalah 1 atau 2
-                                                if ($value['group_rank'] == 1 || $value['group_rank'] == 2) { ?>
-                                                    <option value="<?= $value['id_club'] ?>"><?= $value['name_club'] ?></option>
+                    <?php foreach ($cl2324 as $key => $value) { ?>
+                        <!-- /add-modal -->
+                        <div class="modal fade" id="add-cl2324-ro16<?= $value['id_cl2324'] ?>">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Add Klub (<?= $value['name_club'] ?>)</h4>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <?php echo form_open('/add-cl2324-ro16/' . $value['id_cl2324']) ?>
+                                    <div class="modal-body">
+                                        <div class="form-group" hidden>
+                                            <label for="">Klub</label>
+                                            <select name="id_club" class="form-control">
+                                                <option value=""> ---Pilih Klub--- </option>
+                                                <?php foreach ($cl2324 as $key => $c) { ?>
+                                                    <option value="<?= $c['id_club'] ?>" <?= $value['id_club'] == $c['id_club'] ? 'Selected' : '' ?>><?= $c['name_club'] ?></option>
                                                 <?php } ?>
-                                            <?php } ?>
-                                        </select>
-                                    </div>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="">Room</label>
+                                            <select name="id_ro16" class="form-control" id="groupSelect">
+                                                <option value=""> ---Pilih Room--- </option>
+                                                <?php
+                                                $sortedRooms = array_column($ro16, 'code_ro16');
+                                                asort($sortedRooms); // Mengurutkan Room berdasarkan abjad
+                                                foreach ($sortedRooms as $roomCode) {
+                                                    $roomId = array_search($roomCode, array_column($ro16, 'code_ro16'));
+                                                    $roomId = $ro16[$roomId]['id_ro16'];
 
-                                    <div class="form-group">
-                                        <label for="">Room</label>
-                                        <select name="id_ro16" class="form-control" id="groupSelect">
-                                            <option value=""> ---Pilih Room--- </option>
-                                            <?php
-                                            $sortedRooms = array_column($ro16, 'code_ro16');
-                                            asort($sortedRooms); // Mengurutkan Room berdasarkan abjad
-                                            foreach ($sortedRooms as $roomCode) {
-                                                $roomId = array_search($roomCode, array_column($ro16, 'code_ro16'));
-                                                $roomId = $ro16[$roomId]['id_ro16'];
-
-                                                // Menghitung jumlah tim di Room saat ini
-                                                $countInRoom = 0;
-                                                foreach ($cl2324 as $key => $value) {
-                                                    if ($value['code_ro16'] === $roomCode) {
-                                                        $countInRoom++;
+                                                    // Menghitung jumlah tim di Room saat ini
+                                                    $countInRoom = 0;
+                                                    foreach ($cl2324 as $key => $value) {
+                                                        if ($value['code_ro16'] === $roomCode) {
+                                                            $countInRoom++;
+                                                        }
                                                     }
+
+                                                    // Sembunyikan opsi jika grup sudah memiliki 4 tim
+                                                    $hiddenStyle = ($countInRoom >= 2) ? 'style="display:none;"' : '';
+
+                                                    // Tampilkan opsi hanya jika $no ada di grup 1 atau 2
+                                                    $displayOption = ($no == 1 || $no == 2) ? '' : 'style="display:none;"';
+                                                ?>
+                                                    <option value="<?= $roomId ?>" <?= $hiddenStyle . ' ' . $displayOption ?>><?= $roomCode ?></option>
+                                                <?php
                                                 }
-
-                                                // Sembunyikan opsi jika grup sudah memiliki 4 tim
-                                                $hiddenStyle = ($countInRoom >= 1) ? 'style="display:none;"' : '';
-
-                                                // Tampilkan opsi hanya jika $no ada di grup 1 atau 2
-                                                $displayOption = ($no == 1 || $no == 2) ? '' : 'style="display:none;"';
-                                            ?>
-                                                <option value="<?= $roomId ?>" <?= $hiddenStyle . ' ' . $displayOption ?>><?= $roomCode ?></option>
-                                            <?php
-                                            }
-                                            ?>
-                                        </select>
+                                                ?>
+                                            </select>
+                                        </div>
                                     </div>
-                                </div>
 
-                                <div class="modal-footer justify-content-between">
-                                    <button type="button" class="btn btn-default btn-flat" data-dismiss="modal">Close</button>
-                                    <button type="submit" class="btn btn-primary btn-flat">Save</button>
+                                    <div class="modal-footer justify-content-between">
+                                        <button type="button" class="btn btn-default btn-flat" data-dismiss="modal">Close</button>
+                                        <button type="submit" class="btn btn-primary btn-flat">Save</button>
+                                    </div>
+                                    <?php echo form_close() ?>
                                 </div>
-                                <?php echo form_close() ?>
+                                <!-- /.modal-content -->
                             </div>
-                            <!-- /.modal-content -->
+                            <!-- /.modal-dialog -->
                         </div>
-                        <!-- /.modal-dialog -->
-                    </div>
-                    <!-- /.modal -->
+                        <!-- /.modal -->
+                    <?php } ?>
                 </div>
             </div>
         </div>
@@ -535,5 +537,18 @@
                 $("#roomSelect option[value='" + selectedRoom + "']").show();
             }
         });
+    });
+</script>
+<script>
+    $(function() {
+        $("#cl2324ro16").DataTable({
+            "responsive": true,
+            "lengthChange": true,
+            "autoWidth": false,
+            "paging": false,
+            "searching": true,
+            "ordering": false,
+            "info": false,
+        }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
     });
 </script>

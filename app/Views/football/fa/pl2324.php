@@ -3,7 +3,8 @@
         <div class="card-header">
             <div class="card-tools">
                 <?php if (session()->get('role') != '4') { ?>
-                    <button type="button" class="btn btn-tool" data-toggle="modal" data-target="#add-pl2324"><i class="fas fa-plus"></i> Add Klub
+                    <button type="button" class="btn btn-tool" data-toggle="modal" data-target="#add-pl2324">
+                        <i class="fas fa-plus"></i> Add Klub
                     </button>
                 <?php } ?>
             </div>

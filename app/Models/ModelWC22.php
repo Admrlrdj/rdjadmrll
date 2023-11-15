@@ -17,6 +17,14 @@ class ModelWC22 extends Model
         $db->select('wc22.id_qf');
         $db->select('wc22.id_sf');
         $db->select('wc22.id_final');
+        $db->select('wc22.score_ro16');
+        $db->select('wc22.score_qf');
+        $db->select('wc22.score_sf');
+        $db->select('wc22.score_final');
+        $db->select('wc22.status_ro16');
+        $db->select('wc22.status_qf');
+        $db->select('wc22.status_sf');
+        $db->select('wc22.status_final');
         $db->select('wc22.play');
         $db->select('wc22.win');
         $db->select('wc22.draw');
