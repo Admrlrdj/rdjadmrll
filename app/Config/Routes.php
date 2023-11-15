@@ -100,9 +100,13 @@ $routes->get('/delete-final/(:num)', 'Database\Knockout::DeleteFinal/$1');
 
 //* Premier League 2023/2024
 $routes->get('/pl2324', 'PremierLeague\PremierLeague2324::index');
-$routes->post('/add-pl2324', 'PremierLeague\PremierLeague2324::InsertData');
-$routes->post('/edit-pl2324/(:num)', 'PremierLeague\PremierLeague2324::UpdateData/$1');
-$routes->get('/delete-pl2324/(:num)', 'PremierLeague\PremierLeague2324::DeleteData/$1');
+$routes->post('/add-pl2324', 'PremierLeague\PremierLeague2324::InsertData2324');
+$routes->post('/edit-pl2324/(:num)', 'PremierLeague\PremierLeague2324::UpdateData2324/$1');
+$routes->get('/delete-pl2324/(:num)', 'PremierLeague\PremierLeague2324::DeleteData2324/$1');
+//* Premier League 2022/2023
+$routes->post('/add-pl2223', 'PremierLeague\PremierLeague2324::InsertData2223');
+$routes->post('/edit-pl2223/(:num)', 'PremierLeague\PremierLeague2324::UpdateData2223/$1');
+$routes->get('/delete-pl2223/(:num)', 'PremierLeague\PremierLeague2324::DeleteData2223/$1');
 
 //* La Liga 2023/2024
 $routes->get('/laliga2324', 'LaLiga\LaLiga2324::index');

@@ -8,7 +8,7 @@ $(function () {
         "searching": true,
         "ordering": true,
         "info": false,
-    }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
+    });
 });
 
 //* Fade Out Alert

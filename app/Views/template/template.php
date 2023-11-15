@@ -214,7 +214,7 @@
                                     </a>
                                     <ul class="nav nav-treeview">
                                         <li class="nav-item">
-                                            <a href="<?= base_url('/pl2324') ?>" class="nav-link <?= $submenu2 == 'pl2324' ? 'active' : '' ?>">
+                                            <a href="<?= base_url('/pl2324') ?>" class="nav-link <?= $submenu2 == 'premierleague' ? 'active' : '' ?>">
                                                 <i class="nav-icon fas fa-trophy"></i>
                                                 <p>Premier League</p>
                                             </a>

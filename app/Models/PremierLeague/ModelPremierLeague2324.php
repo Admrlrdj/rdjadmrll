@@ -4,7 +4,7 @@ namespace App\Models\PremierLeague;
 
 use CodeIgniter\Model;
 
-class ModelPL2324 extends Model
+class ModelPremierLeague2324 extends Model
 {
     protected $useTimestamps = true;
     public function AllData()
