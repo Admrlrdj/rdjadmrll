@@ -29,8 +29,8 @@
                                 <div class="card-header">
                                     <div class="card-tools">
                                         <?php if (session()->get('role') != '4') { ?>
-                                            <button type="button" class="btn btn-tool" data-toggle="modal" data-target="#add-seriea2324">
-                                                <i class="fas fa-serieaus"></i> Add Klub
+                                            <button type="button" class="btn btn-tool" data-toggle="modal" data-target="#add-laliga2324">
+                                                <i class="fas fa-plus"></i> Add Klub
                                             </button>
                                         <?php } ?>
                                     </div>
@@ -76,7 +76,7 @@
                                         <tbody>
                                             <?php
                                             // Sort the array based on points, goal difference, and goals scored
-                                            usort($seriea2324, function ($a, $b) {
+                                            usort($laliga2324, function ($a, $b) {
                                                 if ($b['points'] !== $a['points']) {
                                                     return $b['points'] - $a['points'];
                                                 }
@@ -88,12 +88,12 @@
                                                 return $b['goal_in'] - $a['goal_in'];
                                             });
                                             $no = 1;
-                                            foreach ($seriea2324 as $key => $value) { ?>
+                                            foreach ($laliga2324 as $key => $value) { ?>
                                                 <tr class="text-center">
                                                     <td style="border: none;" class="<?= ($no == 1 || $no == 2 || $no == 3 || $no == 4) ? 'bg-blue color-palette' : (($no == 5 || $no == 6) ? 'bg-orange color-palette' : ($no == 7 ? 'bg-green color-palette' : ($no == 18 || $no == 19 || $no == 20 ? 'bg-red color-palette' : ''))) ?>"></td>
                                                     <td><?= $no++ ?></td>
                                                     <td><?= $value['name_club'] ?></td>
-                                                    <td><?= $value['serieaay'] ?></td>
+                                                    <td><?= $value['play'] ?></td>
                                                     <td><?= $value['win'] ?></td>
                                                     <td><?= $value['draw'] ?></td>
                                                     <td><?= $value['lose'] ?></td>
@@ -103,8 +103,8 @@
                                                     <td><?= $value['points'] = ($value['win'] * 3) + ($value['draw'] * 1) + ($value['lose'] * 0) ?></td>
                                                     <?php if (session()->get('role') != '4') { ?>
                                                         <td>
-                                                            <button class="btn btn-warning btn-sm btn-flat" data-toggle="modal" data-target="#edit-seriea2324<?= $value['id_seriea2324'] ?>"><i class="fas fa-pencil-alt"></i></button>
-                                                            <button class="btn btn-danger btn-sm btn-flat" data-toggle="modal" data-target="#delete-seriea2324<?= $value['id_seriea2324'] ?>"><i class="fas fa-trash"></i></button>
+                                                            <button class="btn btn-warning btn-sm btn-flat" data-toggle="modal" data-target="#edit-laliga2324<?= $value['id_laliga2324'] ?>"><i class="fas fa-pencil-alt"></i></button>
+                                                            <button class="btn btn-danger btn-sm btn-flat" data-toggle="modal" data-target="#delete-laliga2324<?= $value['id_laliga2324'] ?>"><i class="fas fa-trash"></i></button>
                                                         </td>
                                                     <?php } ?>
                                                 </tr>
@@ -122,7 +122,7 @@
                         </div>
 
                         <!-- /add-modal -->
-                        <div class="modal fade" id="add-seriea2324">
+                        <div class="modal fade" id="add-laliga2324">
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
@@ -131,7 +131,7 @@
                                             <span aria-hidden="true">&times;</span>
                                         </button>
                                     </div>
-                                    <?php echo form_open('/add-seriea2324') ?>
+                                    <?php echo form_open('/add-laliga2324') ?>
                                     <div class="modal-body">
                                         <div class="form-group">
                                             <label for="">Klub</label>
@@ -139,12 +139,12 @@
                                                 <option value=""> ---Pilih Klub--- </option>
                                                 <?php
                                                 foreach ($club as $c) {
-                                                    // Check if the club's country is Italy
-                                                    if ($c['name_country'] == 'Italy') {
+                                                    // Check if the club's country is Spain
+                                                    if ($c['name_country'] == 'Spain') {
                                                         $clubId = $c['id_club'];
                                                         // Check if the selected club is already in any group
                                                         $clubAlreadyInGroup = false;
-                                                        foreach ($seriea2324 as $key => $value) {
+                                                        foreach ($laliga2324 as $key => $value) {
                                                             if ($value['id_club'] == $clubId) {
                                                                 $clubAlreadyInGroup = true;
                                                                 break;
@@ -176,8 +176,8 @@
                         <!-- /.modal -->
 
                         <!-- /edit-modal -->
-                        <?php foreach ($seriea2324 as $key => $value) { ?>
-                            <div class="modal fade" id="edit-seriea2324<?= $value['id_seriea2324'] ?>">
+                        <?php foreach ($laliga2324 as $key => $value) { ?>
+                            <div class="modal fade" id="edit-laliga2324<?= $value['id_laliga2324'] ?>">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
                                         <div class="modal-header">
@@ -186,14 +186,14 @@
                                                 <span aria-hidden="true">&times;</span>
                                             </button>
                                         </div>
-                                        <?php echo form_open('/edit-seriea2324/' . $value['id_seriea2324']) ?>
+                                        <?php echo form_open('/edit-laliga2324/' . $value['id_laliga2324']) ?>
                                         <div class="modal-body">
                                             <div class="form-group">
                                                 <label for="">Klub</label>
                                                 <select name="id_club" class="form-control">
                                                     <option value=""> ---Pilih Klub--- </option>
                                                     <?php foreach ($club as $key => $c) {
-                                                        if ($c['name_country'] == 'Italy') { ?>
+                                                        if ($c['name_country'] == 'Spain') { ?>
                                                             <option value="<?= $c['id_club'] ?>" <?= $value['id_club'] == $c['id_club'] ? 'Selected' : '' ?>><?= $c['name_club'] ?></option>
                                                         <?php } ?>
                                                     <?php } ?>
@@ -201,35 +201,35 @@
                                             </div>
                                             <div class="form-group">
                                                 <label for="">Main</label>
-                                                <input name="serieaay" class="form-control" serieaaceholder="Masukkan Main" value="<?= $value['serieaay'] ?>" required>
+                                                <input name="play" class="form-control" placeholder="Masukkan Main" value="<?= $value['play'] ?>" required>
                                             </div>
                                             <div class="form-group">
                                                 <label for="">Menang</label>
-                                                <input name="win" class="form-control" serieaaceholder="Masukkan Menang" value="<?= $value['win'] ?>" required>
+                                                <input name="win" class="form-control" placeholder="Masukkan Menang" value="<?= $value['win'] ?>" required>
                                             </div>
                                             <div class="form-group">
                                                 <label for="">Seri</label>
-                                                <input name="draw" class="form-control" serieaaceholder="Masukkan Seri" value="<?= $value['draw'] ?>" required>
+                                                <input name="draw" class="form-control" placeholder="Masukkan Seri" value="<?= $value['draw'] ?>" required>
                                             </div>
                                             <div class="form-group">
                                                 <label for="">Kalah</label>
-                                                <input name="lose" class="form-control" serieaaceholder="Masukkan Kalah" value="<?= $value['lose'] ?>" required>
+                                                <input name="lose" class="form-control" placeholder="Masukkan Kalah" value="<?= $value['lose'] ?>" required>
                                             </div>
                                             <div class="form-group">
                                                 <label for="">Gol Masuk</label>
-                                                <input name="goal_in" class="form-control" serieaaceholder="Masukkan Gol Masuk" value="<?= $value['goal_in'] ?>" required>
+                                                <input name="goal_in" class="form-control" placeholder="Masukkan Gol Masuk" value="<?= $value['goal_in'] ?>" required>
                                             </div>
                                             <div class="form-group">
                                                 <label for="">Gol Keluar</label>
-                                                <input name="goal_out" class="form-control" serieaaceholder="Masukkan Gol Keluar" value="<?= $value['goal_out'] ?>" required>
+                                                <input name="goal_out" class="form-control" placeholder="Masukkan Gol Keluar" value="<?= $value['goal_out'] ?>" required>
                                             </div>
                                             <div class="form-group" hidden>
                                                 <label for="">Selisih Gol</label>
-                                                <input name="goal_diff" class="form-control" serieaaceholder="Masukkan Gol Keluar" value="<?= $value['goal_diff'] = $value['goal_in'] - $value['goal_out'] ?>">
+                                                <input name="goal_diff" class="form-control" placeholder="Masukkan Gol Keluar" value="<?= $value['goal_diff'] = $value['goal_in'] - $value['goal_out'] ?>">
                                             </div>
                                             <div class="form-group" hidden>
                                                 <label for="">Poin</label>
-                                                <input name="points" class="form-control" serieaaceholder="Masukkan Gol Keluar" value="<?= $value['points'] = ($value['win'] * 3) + ($value['draw'] * 1) + ($value['lose'] * 0) ?>">
+                                                <input name="points" class="form-control" placeholder="Masukkan Gol Keluar" value="<?= $value['points'] = ($value['win'] * 3) + ($value['draw'] * 1) + ($value['lose'] * 0) ?>">
                                             </div>
                                         </div>
                                         <div class="modal-footer justify-content-between">
@@ -246,8 +246,8 @@
                         <?php } ?>
 
                         <!-- /delete-modal -->
-                        <?php foreach ($seriea2324 as $key => $value) { ?>
-                            <div class="modal fade" id="delete-seriea2324<?= $value['id_seriea2324'] ?>">
+                        <?php foreach ($laliga2324 as $key => $value) { ?>
+                            <div class="modal fade" id="delete-laliga2324<?= $value['id_laliga2324'] ?>">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
                                         <div class="modal-header">
@@ -261,7 +261,7 @@
                                         </div>
                                         <div class="modal-footer justify-content-between">
                                             <button type="button" class="btn btn-default btn-flat" data-dismiss="modal">Close</button>
-                                            <a href="<?= base_url('/delete-seriea2324/' . $value['id_seriea2324']) ?>" class="btn btn-danger btn-flat">Delete</a>
+                                            <a href="<?= base_url('/delete-laliga2324/' . $value['id_laliga2324']) ?>" class="btn btn-danger btn-flat">Delete</a>
                                         </div>
                                     </div>
                                     <!-- /.modal-content -->
@@ -280,8 +280,8 @@
                                 <div class="card-header">
                                     <div class="card-tools">
                                         <?php if (session()->get('role') != '4') { ?>
-                                            <button type="button" class="btn btn-tool" data-toggle="modal" data-target="#add-seriea2223">
-                                                <i class="fas fa-serieaus"></i> Add Klub
+                                            <button type="button" class="btn btn-tool" data-toggle="modal" data-target="#add-laliga2223">
+                                                <i class="fas fa-plus"></i> Add Klub
                                             </button>
                                         <?php } ?>
                                     </div>
@@ -327,7 +327,7 @@
                                         <tbody>
                                             <?php
                                             // Sort the array based on points, goal difference, and goals scored
-                                            usort($seriea2223, function ($a, $b) {
+                                            usort($laliga2223, function ($a, $b) {
                                                 if ($b['points'] !== $a['points']) {
                                                     return $b['points'] - $a['points'];
                                                 }
@@ -339,12 +339,12 @@
                                                 return $b['goal_in'] - $a['goal_in'];
                                             });
                                             $no = 1;
-                                            foreach ($seriea2223 as $key => $value) { ?>
+                                            foreach ($laliga2223 as $key => $value) { ?>
                                                 <tr class="text-center">
                                                     <td style="border: none;" class="<?= ($no == 1 || $no == 2 || $no == 3 || $no == 4) ? 'bg-blue color-palette' : (($no == 5 || $no == 6) ? 'bg-orange color-palette' : ($no == 7 ? 'bg-green color-palette' : ($no == 18 || $no == 19 || $no == 20 ? 'bg-red color-palette' : ''))) ?>"></td>
                                                     <td><?= $no++ ?></td>
                                                     <td><?= $value['name_club'] ?></td>
-                                                    <td><?= $value['serieaay'] ?></td>
+                                                    <td><?= $value['play'] ?></td>
                                                     <td><?= $value['win'] ?></td>
                                                     <td><?= $value['draw'] ?></td>
                                                     <td><?= $value['lose'] ?></td>
@@ -354,8 +354,8 @@
                                                     <td><?= $value['points'] = ($value['win'] * 3) + ($value['draw'] * 1) + ($value['lose'] * 0) ?></td>
                                                     <?php if (session()->get('role') != '4') { ?>
                                                         <td>
-                                                            <button class="btn btn-warning btn-sm btn-flat" data-toggle="modal" data-target="#edit-seriea2223<?= $value['id_seriea2223'] ?>"><i class="fas fa-pencil-alt"></i></button>
-                                                            <button class="btn btn-danger btn-sm btn-flat" data-toggle="modal" data-target="#delete-seriea2223<?= $value['id_seriea2223'] ?>"><i class="fas fa-trash"></i></button>
+                                                            <button class="btn btn-warning btn-sm btn-flat" data-toggle="modal" data-target="#edit-laliga2223<?= $value['id_laliga2223'] ?>"><i class="fas fa-pencil-alt"></i></button>
+                                                            <button class="btn btn-danger btn-sm btn-flat" data-toggle="modal" data-target="#delete-laliga2223<?= $value['id_laliga2223'] ?>"><i class="fas fa-trash"></i></button>
                                                         </td>
                                                     <?php } ?>
                                                 </tr>
@@ -373,7 +373,7 @@
                         </div>
 
                         <!-- /add-modal -->
-                        <div class="modal fade" id="add-seriea2223">
+                        <div class="modal fade" id="add-laliga2223">
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
@@ -382,7 +382,7 @@
                                             <span aria-hidden="true">&times;</span>
                                         </button>
                                     </div>
-                                    <?php echo form_open('/add-seriea2223') ?>
+                                    <?php echo form_open('/add-laliga2223') ?>
                                     <div class="modal-body">
                                         <div class="form-group">
                                             <label for="">Klub</label>
@@ -390,12 +390,12 @@
                                                 <option value=""> ---Pilih Klub--- </option>
                                                 <?php
                                                 foreach ($club as $c) {
-                                                    // Check if the club's country is Italy
-                                                    if ($c['name_country'] == 'Italy') {
+                                                    // Check if the club's country is Spain
+                                                    if ($c['name_country'] == 'Spain') {
                                                         $clubId = $c['id_club'];
                                                         // Check if the selected club is already in any group
                                                         $clubAlreadyInGroup = false;
-                                                        foreach ($seriea2223 as $key => $value) {
+                                                        foreach ($laliga2223 as $key => $value) {
                                                             if ($value['id_club'] == $clubId) {
                                                                 $clubAlreadyInGroup = true;
                                                                 break;
@@ -427,8 +427,8 @@
                         <!-- /.modal -->
 
                         <!-- /edit-modal -->
-                        <?php foreach ($seriea2223 as $key => $value) { ?>
-                            <div class="modal fade" id="edit-seriea2223<?= $value['id_seriea2223'] ?>">
+                        <?php foreach ($laliga2223 as $key => $value) { ?>
+                            <div class="modal fade" id="edit-laliga2223<?= $value['id_laliga2223'] ?>">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
                                         <div class="modal-header">
@@ -437,14 +437,14 @@
                                                 <span aria-hidden="true">&times;</span>
                                             </button>
                                         </div>
-                                        <?php echo form_open('/edit-seriea2223/' . $value['id_seriea2223']) ?>
+                                        <?php echo form_open('/edit-laliga2223/' . $value['id_laliga2223']) ?>
                                         <div class="modal-body">
                                             <div class="form-group">
                                                 <label for="">Klub</label>
                                                 <select name="id_club" class="form-control">
                                                     <option value=""> ---Pilih Klub--- </option>
                                                     <?php foreach ($club as $key => $c) {
-                                                        if ($c['name_country'] == 'Italy') { ?>
+                                                        if ($c['name_country'] == 'Spain') { ?>
                                                             <option value="<?= $c['id_club'] ?>" <?= $value['id_club'] == $c['id_club'] ? 'Selected' : '' ?>><?= $c['name_club'] ?></option>
                                                         <?php } ?>
                                                     <?php } ?>
@@ -452,35 +452,35 @@
                                             </div>
                                             <div class="form-group">
                                                 <label for="">Main</label>
-                                                <input name="serieaay" class="form-control" serieaaceholder="Masukkan Main" value="<?= $value['serieaay'] ?>" required>
+                                                <input name="play" class="form-control" placeholder="Masukkan Main" value="<?= $value['play'] ?>" required>
                                             </div>
                                             <div class="form-group">
                                                 <label for="">Menang</label>
-                                                <input name="win" class="form-control" serieaaceholder="Masukkan Menang" value="<?= $value['win'] ?>" required>
+                                                <input name="win" class="form-control" placeholder="Masukkan Menang" value="<?= $value['win'] ?>" required>
                                             </div>
                                             <div class="form-group">
                                                 <label for="">Seri</label>
-                                                <input name="draw" class="form-control" serieaaceholder="Masukkan Seri" value="<?= $value['draw'] ?>" required>
+                                                <input name="draw" class="form-control" placeholder="Masukkan Seri" value="<?= $value['draw'] ?>" required>
                                             </div>
                                             <div class="form-group">
                                                 <label for="">Kalah</label>
-                                                <input name="lose" class="form-control" serieaaceholder="Masukkan Kalah" value="<?= $value['lose'] ?>" required>
+                                                <input name="lose" class="form-control" placeholder="Masukkan Kalah" value="<?= $value['lose'] ?>" required>
                                             </div>
                                             <div class="form-group">
                                                 <label for="">Gol Masuk</label>
-                                                <input name="goal_in" class="form-control" serieaaceholder="Masukkan Gol Masuk" value="<?= $value['goal_in'] ?>" required>
+                                                <input name="goal_in" class="form-control" placeholder="Masukkan Gol Masuk" value="<?= $value['goal_in'] ?>" required>
                                             </div>
                                             <div class="form-group">
                                                 <label for="">Gol Keluar</label>
-                                                <input name="goal_out" class="form-control" serieaaceholder="Masukkan Gol Keluar" value="<?= $value['goal_out'] ?>" required>
+                                                <input name="goal_out" class="form-control" placeholder="Masukkan Gol Keluar" value="<?= $value['goal_out'] ?>" required>
                                             </div>
                                             <div class="form-group" hidden>
                                                 <label for="">Selisih Gol</label>
-                                                <input name="goal_diff" class="form-control" serieaaceholder="Masukkan Gol Keluar" value="<?= $value['goal_diff'] = $value['goal_in'] - $value['goal_out'] ?>">
+                                                <input name="goal_diff" class="form-control" placeholder="Masukkan Gol Keluar" value="<?= $value['goal_diff'] = $value['goal_in'] - $value['goal_out'] ?>">
                                             </div>
                                             <div class="form-group" hidden>
                                                 <label for="">Poin</label>
-                                                <input name="points" class="form-control" serieaaceholder="Masukkan Gol Keluar" value="<?= $value['points'] = ($value['win'] * 3) + ($value['draw'] * 1) + ($value['lose'] * 0) ?>">
+                                                <input name="points" class="form-control" placeholder="Masukkan Gol Keluar" value="<?= $value['points'] = ($value['win'] * 3) + ($value['draw'] * 1) + ($value['lose'] * 0) ?>">
                                             </div>
                                         </div>
                                         <div class="modal-footer justify-content-between">
@@ -497,8 +497,8 @@
                         <?php } ?>
 
                         <!-- /delete-modal -->
-                        <?php foreach ($seriea2223 as $key => $value) { ?>
-                            <div class="modal fade" id="delete-seriea2223<?= $value['id_seriea2223'] ?>">
+                        <?php foreach ($laliga2223 as $key => $value) { ?>
+                            <div class="modal fade" id="delete-laliga2223<?= $value['id_laliga2223'] ?>">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
                                         <div class="modal-header">
@@ -512,7 +512,7 @@
                                         </div>
                                         <div class="modal-footer justify-content-between">
                                             <button type="button" class="btn btn-default btn-flat" data-dismiss="modal">Close</button>
-                                            <a href="<?= base_url('/delete-seriea2223/' . $value['id_seriea2223']) ?>" class="btn btn-danger btn-flat">Delete</a>
+                                            <a href="<?= base_url('/delete-laliga2223/' . $value['id_laliga2223']) ?>" class="btn btn-danger btn-flat">Delete</a>
                                         </div>
                                     </div>
                                     <!-- /.modal-content -->
@@ -531,8 +531,8 @@
                                 <div class="card-header">
                                     <div class="card-tools">
                                         <?php if (session()->get('role') != '4') { ?>
-                                            <button type="button" class="btn btn-tool" data-toggle="modal" data-target="#add-seriea2122">
-                                                <i class="fas fa-serieaus"></i> Add Klub
+                                            <button type="button" class="btn btn-tool" data-toggle="modal" data-target="#add-laliga2122">
+                                                <i class="fas fa-plus"></i> Add Klub
                                             </button>
                                         <?php } ?>
                                     </div>
@@ -578,7 +578,7 @@
                                         <tbody>
                                             <?php
                                             // Sort the array based on points, goal difference, and goals scored
-                                            usort($seriea2122, function ($a, $b) {
+                                            usort($laliga2122, function ($a, $b) {
                                                 if ($b['points'] !== $a['points']) {
                                                     return $b['points'] - $a['points'];
                                                 }
@@ -590,12 +590,12 @@
                                                 return $b['goal_in'] - $a['goal_in'];
                                             });
                                             $no = 1;
-                                            foreach ($seriea2122 as $key => $value) { ?>
+                                            foreach ($laliga2122 as $key => $value) { ?>
                                                 <tr class="text-center">
                                                     <td style="border: none;" class="<?= ($no == 1 || $no == 2 || $no == 3 || $no == 4) ? 'bg-blue color-palette' : (($no == 5 || $no == 6) ? 'bg-orange color-palette' : ($no == 7 ? 'bg-green color-palette' : ($no == 18 || $no == 19 || $no == 20 ? 'bg-red color-palette' : ''))) ?>"></td>
                                                     <td><?= $no++ ?></td>
                                                     <td><?= $value['name_club'] ?></td>
-                                                    <td><?= $value['serieaay'] ?></td>
+                                                    <td><?= $value['play'] ?></td>
                                                     <td><?= $value['win'] ?></td>
                                                     <td><?= $value['draw'] ?></td>
                                                     <td><?= $value['lose'] ?></td>
@@ -605,8 +605,8 @@
                                                     <td><?= $value['points'] = ($value['win'] * 3) + ($value['draw'] * 1) + ($value['lose'] * 0) ?></td>
                                                     <?php if (session()->get('role') != '4') { ?>
                                                         <td>
-                                                            <button class="btn btn-warning btn-sm btn-flat" data-toggle="modal" data-target="#edit-seriea2122<?= $value['id_seriea2122'] ?>"><i class="fas fa-pencil-alt"></i></button>
-                                                            <button class="btn btn-danger btn-sm btn-flat" data-toggle="modal" data-target="#delete-seriea2122<?= $value['id_seriea2122'] ?>"><i class="fas fa-trash"></i></button>
+                                                            <button class="btn btn-warning btn-sm btn-flat" data-toggle="modal" data-target="#edit-laliga2122<?= $value['id_laliga2122'] ?>"><i class="fas fa-pencil-alt"></i></button>
+                                                            <button class="btn btn-danger btn-sm btn-flat" data-toggle="modal" data-target="#delete-laliga2122<?= $value['id_laliga2122'] ?>"><i class="fas fa-trash"></i></button>
                                                         </td>
                                                     <?php } ?>
                                                 </tr>
@@ -624,7 +624,7 @@
                         </div>
 
                         <!-- /add-modal -->
-                        <div class="modal fade" id="add-seriea2122">
+                        <div class="modal fade" id="add-laliga2122">
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
@@ -633,19 +633,19 @@
                                             <span aria-hidden="true">&times;</span>
                                         </button>
                                     </div>
-                                    <?php echo form_open('/add-seriea2122') ?>
+                                    <?php echo form_open('/add-laliga2122') ?>
                                     <div class="modal-body">
                                         <div class="form-group">
                                             <label for="">Klub</label>
                                             <select name="id_club" class="form-control">
                                                 <option value=""> ---Pilih Klub--- </option>
                                                 <?php foreach ($club as $c) {
-                                                    // Check if the club's country is Italy
-                                                    if ($c['name_country'] == 'Italy') {
+                                                    // Check if the club's country is Spain
+                                                    if ($c['name_country'] == 'Spain') {
                                                         $clubId = $c['id_club'];
                                                         // Check if the selected club is already in any group
                                                         $clubAlreadyInGroup = false;
-                                                        foreach ($seriea2122 as $key => $value) {
+                                                        foreach ($laliga2122 as $key => $value) {
                                                             if ($value['id_club'] == $clubId) {
                                                                 $clubAlreadyInGroup = true;
                                                                 break;
@@ -676,8 +676,8 @@
                         <!-- /.modal -->
 
                         <!-- /edit-modal -->
-                        <?php foreach ($seriea2122 as $key => $value) { ?>
-                            <div class="modal fade" id="edit-seriea2122<?= $value['id_seriea2122'] ?>">
+                        <?php foreach ($laliga2122 as $key => $value) { ?>
+                            <div class="modal fade" id="edit-laliga2122<?= $value['id_laliga2122'] ?>">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
                                         <div class="modal-header">
@@ -686,15 +686,15 @@
                                                 <span aria-hidden="true">&times;</span>
                                             </button>
                                         </div>
-                                        <?php echo form_open('/edit-seriea2122/' . $value['id_seriea2122']) ?>
+                                        <?php echo form_open('/edit-laliga2122/' . $value['id_laliga2122']) ?>
                                         <div class="modal-body">
                                             <div class="form-group">
                                                 <label for="">Klub</label>
                                                 <select name="id_club" class="form-control">
                                                     <option value=""> ---Pilih Klub--- </option>
                                                     <?php foreach ($club as $key => $c) {
-                                                        // Check if the club's country is Italy
-                                                        if ($c['name_country'] == 'Italy') { ?>
+                                                        // Check if the club's country is Spain
+                                                        if ($c['name_country'] == 'Spain') { ?>
                                                             <option value="<?= $c['id_club'] ?>" <?= $value['id_club'] == $c['id_club'] ? 'Selected' : '' ?>><?= $c['name_club'] ?></option>
                                                         <?php } ?>
                                                     <?php } ?>
@@ -702,35 +702,35 @@
                                             </div>
                                             <div class="form-group">
                                                 <label for="">Main</label>
-                                                <input name="serieaay" class="form-control" serieaaceholder="Masukkan Main" value="<?= $value['serieaay'] ?>" required>
+                                                <input name="play" class="form-control" placeholder="Masukkan Main" value="<?= $value['play'] ?>" required>
                                             </div>
                                             <div class="form-group">
                                                 <label for="">Menang</label>
-                                                <input name="win" class="form-control" serieaaceholder="Masukkan Menang" value="<?= $value['win'] ?>" required>
+                                                <input name="win" class="form-control" placeholder="Masukkan Menang" value="<?= $value['win'] ?>" required>
                                             </div>
                                             <div class="form-group">
                                                 <label for="">Seri</label>
-                                                <input name="draw" class="form-control" serieaaceholder="Masukkan Seri" value="<?= $value['draw'] ?>" required>
+                                                <input name="draw" class="form-control" placeholder="Masukkan Seri" value="<?= $value['draw'] ?>" required>
                                             </div>
                                             <div class="form-group">
                                                 <label for="">Kalah</label>
-                                                <input name="lose" class="form-control" serieaaceholder="Masukkan Kalah" value="<?= $value['lose'] ?>" required>
+                                                <input name="lose" class="form-control" placeholder="Masukkan Kalah" value="<?= $value['lose'] ?>" required>
                                             </div>
                                             <div class="form-group">
                                                 <label for="">Gol Masuk</label>
-                                                <input name="goal_in" class="form-control" serieaaceholder="Masukkan Gol Masuk" value="<?= $value['goal_in'] ?>" required>
+                                                <input name="goal_in" class="form-control" placeholder="Masukkan Gol Masuk" value="<?= $value['goal_in'] ?>" required>
                                             </div>
                                             <div class="form-group">
                                                 <label for="">Gol Keluar</label>
-                                                <input name="goal_out" class="form-control" serieaaceholder="Masukkan Gol Keluar" value="<?= $value['goal_out'] ?>" required>
+                                                <input name="goal_out" class="form-control" placeholder="Masukkan Gol Keluar" value="<?= $value['goal_out'] ?>" required>
                                             </div>
                                             <div class="form-group" hidden>
                                                 <label for="">Selisih Gol</label>
-                                                <input name="goal_diff" class="form-control" serieaaceholder="Masukkan Gol Keluar" value="<?= $value['goal_diff'] = $value['goal_in'] - $value['goal_out'] ?>">
+                                                <input name="goal_diff" class="form-control" placeholder="Masukkan Gol Keluar" value="<?= $value['goal_diff'] = $value['goal_in'] - $value['goal_out'] ?>">
                                             </div>
                                             <div class="form-group" hidden>
                                                 <label for="">Poin</label>
-                                                <input name="points" class="form-control" serieaaceholder="Masukkan Gol Keluar" value="<?= $value['points'] = ($value['win'] * 3) + ($value['draw'] * 1) + ($value['lose'] * 0) ?>">
+                                                <input name="points" class="form-control" placeholder="Masukkan Gol Keluar" value="<?= $value['points'] = ($value['win'] * 3) + ($value['draw'] * 1) + ($value['lose'] * 0) ?>">
                                             </div>
                                         </div>
                                         <div class="modal-footer justify-content-between">
@@ -747,8 +747,8 @@
                         <?php } ?>
 
                         <!-- /delete-modal -->
-                        <?php foreach ($seriea2122 as $key => $value) { ?>
-                            <div class="modal fade" id="delete-seriea2122<?= $value['id_seriea2122'] ?>">
+                        <?php foreach ($laliga2122 as $key => $value) { ?>
+                            <div class="modal fade" id="delete-laliga2122<?= $value['id_laliga2122'] ?>">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
                                         <div class="modal-header">
@@ -762,7 +762,7 @@
                                         </div>
                                         <div class="modal-footer justify-content-between">
                                             <button type="button" class="btn btn-default btn-flat" data-dismiss="modal">Close</button>
-                                            <a href="<?= base_url('/delete-seriea2122/' . $value['id_seriea2122']) ?>" class="btn btn-danger btn-flat">Delete</a>
+                                            <a href="<?= base_url('/delete-laliga2122/' . $value['id_laliga2122']) ?>" class="btn btn-danger btn-flat">Delete</a>
                                         </div>
                                     </div>
                                     <!-- /.modal-content -->
@@ -781,8 +781,8 @@
                                 <div class="card-header">
                                     <div class="card-tools">
                                         <?php if (session()->get('role') != '4') { ?>
-                                            <button type="button" class="btn btn-tool" data-toggle="modal" data-target="#add-seriea2021">
-                                                <i class="fas fa-serieaus"></i> Add Klub
+                                            <button type="button" class="btn btn-tool" data-toggle="modal" data-target="#add-laliga2021">
+                                                <i class="fas fa-plus"></i> Add Klub
                                             </button>
                                         <?php } ?>
                                     </div>
@@ -828,7 +828,7 @@
                                         <tbody>
                                             <?php
                                             // Sort the array based on points, goal difference, and goals scored
-                                            usort($seriea2021, function ($a, $b) {
+                                            usort($laliga2021, function ($a, $b) {
                                                 if ($b['points'] !== $a['points']) {
                                                     return $b['points'] - $a['points'];
                                                 }
@@ -840,12 +840,12 @@
                                                 return $b['goal_in'] - $a['goal_in'];
                                             });
                                             $no = 1;
-                                            foreach ($seriea2021 as $key => $value) { ?>
+                                            foreach ($laliga2021 as $key => $value) { ?>
                                                 <tr class="text-center">
                                                     <td style="border: none;" class="<?= ($no == 1 || $no == 2 || $no == 3 || $no == 4) ? 'bg-blue color-palette' : (($no == 5 || $no == 6) ? 'bg-orange color-palette' : ($no == 7 ? 'bg-green color-palette' : ($no == 18 || $no == 19 || $no == 20 ? 'bg-red color-palette' : ''))) ?>"></td>
                                                     <td><?= $no++ ?></td>
                                                     <td><?= $value['name_club'] ?></td>
-                                                    <td><?= $value['serieaay'] ?></td>
+                                                    <td><?= $value['play'] ?></td>
                                                     <td><?= $value['win'] ?></td>
                                                     <td><?= $value['draw'] ?></td>
                                                     <td><?= $value['lose'] ?></td>
@@ -855,8 +855,8 @@
                                                     <td><?= $value['points'] = ($value['win'] * 3) + ($value['draw'] * 1) + ($value['lose'] * 0) ?></td>
                                                     <?php if (session()->get('role') != '4') { ?>
                                                         <td>
-                                                            <button class="btn btn-warning btn-sm btn-flat" data-toggle="modal" data-target="#edit-seriea2021<?= $value['id_seriea2021'] ?>"><i class="fas fa-pencil-alt"></i></button>
-                                                            <button class="btn btn-danger btn-sm btn-flat" data-toggle="modal" data-target="#delete-seriea2021<?= $value['id_seriea2021'] ?>"><i class="fas fa-trash"></i></button>
+                                                            <button class="btn btn-warning btn-sm btn-flat" data-toggle="modal" data-target="#edit-laliga2021<?= $value['id_laliga2021'] ?>"><i class="fas fa-pencil-alt"></i></button>
+                                                            <button class="btn btn-danger btn-sm btn-flat" data-toggle="modal" data-target="#delete-laliga2021<?= $value['id_laliga2021'] ?>"><i class="fas fa-trash"></i></button>
                                                         </td>
                                                     <?php } ?>
                                                 </tr>
@@ -874,7 +874,7 @@
                         </div>
 
                         <!-- /add-modal -->
-                        <div class="modal fade" id="add-seriea2021">
+                        <div class="modal fade" id="add-laliga2021">
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
@@ -883,19 +883,19 @@
                                             <span aria-hidden="true">&times;</span>
                                         </button>
                                     </div>
-                                    <?php echo form_open('/add-seriea2021') ?>
+                                    <?php echo form_open('/add-laliga2021') ?>
                                     <div class="modal-body">
                                         <div class="form-group">
                                             <label for="">Klub</label>
                                             <select name="id_club" class="form-control">
                                                 <option value=""> ---Pilih Klub--- </option>
                                                 <?php foreach ($club as $c) {
-                                                    // Check if the club's country is Italy
-                                                    if ($c['name_country'] == 'Italy') {
+                                                    // Check if the club's country is Spain
+                                                    if ($c['name_country'] == 'Spain') {
                                                         $clubId = $c['id_club'];
                                                         // Check if the selected club is already in any group
                                                         $clubAlreadyInGroup = false;
-                                                        foreach ($seriea2021 as $key => $value) {
+                                                        foreach ($laliga2021 as $key => $value) {
                                                             if ($value['id_club'] == $clubId) {
                                                                 $clubAlreadyInGroup = true;
                                                                 break;
@@ -924,9 +924,10 @@
                             <!-- /.modal-dialog -->
                         </div>
                         <!-- /.modal -->
+
                         <!-- /edit-modal -->
-                        <?php foreach ($seriea2021 as $key => $value) { ?>
-                            <div class="modal fade" id="edit-seriea2021<?= $value['id_seriea2021'] ?>">
+                        <?php foreach ($laliga2021 as $key => $value) { ?>
+                            <div class="modal fade" id="edit-laliga2021<?= $value['id_laliga2021'] ?>">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
                                         <div class="modal-header">
@@ -935,15 +936,15 @@
                                                 <span aria-hidden="true">&times;</span>
                                             </button>
                                         </div>
-                                        <?php echo form_open('/edit-seriea2021/' . $value['id_seriea2021']) ?>
+                                        <?php echo form_open('/edit-laliga2021/' . $value['id_laliga2021']) ?>
                                         <div class="modal-body">
                                             <div class="form-group">
                                                 <label for="">Klub</label>
                                                 <select name="id_club" class="form-control">
                                                     <option value=""> ---Pilih Klub--- </option>
                                                     <?php foreach ($club as $key => $c) {
-                                                        // Check if the club's country is Italy
-                                                        if ($c['name_country'] == 'Italy') { ?>
+                                                        // Check if the club's country is Spain
+                                                        if ($c['name_country'] == 'Spain') { ?>
                                                             <option value="<?= $c['id_club'] ?>" <?= $value['id_club'] == $c['id_club'] ? 'Selected' : '' ?>><?= $c['name_club'] ?></option>
                                                         <?php } ?>
                                                     <?php } ?>
@@ -951,35 +952,35 @@
                                             </div>
                                             <div class="form-group">
                                                 <label for="">Main</label>
-                                                <input name="serieaay" class="form-control" serieaaceholder="Masukkan Main" value="<?= $value['serieaay'] ?>" required>
+                                                <input name="play" class="form-control" placeholder="Masukkan Main" value="<?= $value['play'] ?>" required>
                                             </div>
                                             <div class="form-group">
                                                 <label for="">Menang</label>
-                                                <input name="win" class="form-control" serieaaceholder="Masukkan Menang" value="<?= $value['win'] ?>" required>
+                                                <input name="win" class="form-control" placeholder="Masukkan Menang" value="<?= $value['win'] ?>" required>
                                             </div>
                                             <div class="form-group">
                                                 <label for="">Seri</label>
-                                                <input name="draw" class="form-control" serieaaceholder="Masukkan Seri" value="<?= $value['draw'] ?>" required>
+                                                <input name="draw" class="form-control" placeholder="Masukkan Seri" value="<?= $value['draw'] ?>" required>
                                             </div>
                                             <div class="form-group">
                                                 <label for="">Kalah</label>
-                                                <input name="lose" class="form-control" serieaaceholder="Masukkan Kalah" value="<?= $value['lose'] ?>" required>
+                                                <input name="lose" class="form-control" placeholder="Masukkan Kalah" value="<?= $value['lose'] ?>" required>
                                             </div>
                                             <div class="form-group">
                                                 <label for="">Gol Masuk</label>
-                                                <input name="goal_in" class="form-control" serieaaceholder="Masukkan Gol Masuk" value="<?= $value['goal_in'] ?>" required>
+                                                <input name="goal_in" class="form-control" placeholder="Masukkan Gol Masuk" value="<?= $value['goal_in'] ?>" required>
                                             </div>
                                             <div class="form-group">
                                                 <label for="">Gol Keluar</label>
-                                                <input name="goal_out" class="form-control" serieaaceholder="Masukkan Gol Keluar" value="<?= $value['goal_out'] ?>" required>
+                                                <input name="goal_out" class="form-control" placeholder="Masukkan Gol Keluar" value="<?= $value['goal_out'] ?>" required>
                                             </div>
                                             <div class="form-group" hidden>
                                                 <label for="">Selisih Gol</label>
-                                                <input name="goal_diff" class="form-control" serieaaceholder="Masukkan Gol Keluar" value="<?= $value['goal_diff'] = $value['goal_in'] - $value['goal_out'] ?>">
+                                                <input name="goal_diff" class="form-control" placeholder="Masukkan Gol Keluar" value="<?= $value['goal_diff'] = $value['goal_in'] - $value['goal_out'] ?>">
                                             </div>
                                             <div class="form-group" hidden>
                                                 <label for="">Poin</label>
-                                                <input name="points" class="form-control" serieaaceholder="Masukkan Gol Keluar" value="<?= $value['points'] = ($value['win'] * 3) + ($value['draw'] * 1) + ($value['lose'] * 0) ?>">
+                                                <input name="points" class="form-control" placeholder="Masukkan Gol Keluar" value="<?= $value['points'] = ($value['win'] * 3) + ($value['draw'] * 1) + ($value['lose'] * 0) ?>">
                                             </div>
                                         </div>
                                         <div class="modal-footer justify-content-between">
@@ -994,9 +995,10 @@
                             </div>
                             <!-- /.modal -->
                         <?php } ?>
+
                         <!-- /delete-modal -->
-                        <?php foreach ($seriea2021 as $key => $value) { ?>
-                            <div class="modal fade" id="delete-seriea2021<?= $value['id_seriea2021'] ?>">
+                        <?php foreach ($laliga2021 as $key => $value) { ?>
+                            <div class="modal fade" id="delete-laliga2021<?= $value['id_laliga2021'] ?>">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
                                         <div class="modal-header">
@@ -1010,7 +1012,7 @@
                                         </div>
                                         <div class="modal-footer justify-content-between">
                                             <button type="button" class="btn btn-default btn-flat" data-dismiss="modal">Close</button>
-                                            <a href="<?= base_url('/delete-seriea2021/' . $value['id_seriea2021']) ?>" class="btn btn-danger btn-flat">Delete</a>
+                                            <a href="<?= base_url('/delete-laliga2021/' . $value['id_laliga2021']) ?>" class="btn btn-danger btn-flat">Delete</a>
                                         </div>
                                     </div>
                                     <!-- /.modal-content -->
@@ -1029,8 +1031,8 @@
                                 <div class="card-header">
                                     <div class="card-tools">
                                         <?php if (session()->get('role') != '4') { ?>
-                                            <button type="button" class="btn btn-tool" data-toggle="modal" data-target="#add-seriea1920">
-                                                <i class="fas fa-serieaus"></i> Add Klub
+                                            <button type="button" class="btn btn-tool" data-toggle="modal" data-target="#add-laliga1920">
+                                                <i class="fas fa-plus"></i> Add Klub
                                             </button>
                                         <?php } ?>
                                     </div>
@@ -1076,7 +1078,7 @@
                                         <tbody>
                                             <?php
                                             // Sort the array based on points, goal difference, and goals scored
-                                            usort($seriea1920, function ($a, $b) {
+                                            usort($laliga1920, function ($a, $b) {
                                                 if ($b['points'] !== $a['points']) {
                                                     return $b['points'] - $a['points'];
                                                 }
@@ -1088,12 +1090,12 @@
                                                 return $b['goal_in'] - $a['goal_in'];
                                             });
                                             $no = 1;
-                                            foreach ($seriea1920 as $key => $value) { ?>
+                                            foreach ($laliga1920 as $key => $value) { ?>
                                                 <tr class="text-center">
                                                     <td style="border: none;" class="<?= ($no == 1 || $no == 2 || $no == 3 || $no == 4) ? 'bg-blue color-palette' : (($no == 5 || $no == 6) ? 'bg-orange color-palette' : ($no == 7 ? 'bg-green color-palette' : ($no == 18 || $no == 19 || $no == 20 ? 'bg-red color-palette' : ''))) ?>"></td>
                                                     <td><?= $no++ ?></td>
                                                     <td><?= $value['name_club'] ?></td>
-                                                    <td><?= $value['serieaay'] ?></td>
+                                                    <td><?= $value['play'] ?></td>
                                                     <td><?= $value['win'] ?></td>
                                                     <td><?= $value['draw'] ?></td>
                                                     <td><?= $value['lose'] ?></td>
@@ -1103,8 +1105,8 @@
                                                     <td><?= $value['points'] = ($value['win'] * 3) + ($value['draw'] * 1) + ($value['lose'] * 0) ?></td>
                                                     <?php if (session()->get('role') != '4') { ?>
                                                         <td>
-                                                            <button class="btn btn-warning btn-sm btn-flat" data-toggle="modal" data-target="#edit-seriea1920<?= $value['id_seriea1920'] ?>"><i class="fas fa-pencil-alt"></i></button>
-                                                            <button class="btn btn-danger btn-sm btn-flat" data-toggle="modal" data-target="#delete-seriea1920<?= $value['id_seriea1920'] ?>"><i class="fas fa-trash"></i></button>
+                                                            <button class="btn btn-warning btn-sm btn-flat" data-toggle="modal" data-target="#edit-laliga1920<?= $value['id_laliga1920'] ?>"><i class="fas fa-pencil-alt"></i></button>
+                                                            <button class="btn btn-danger btn-sm btn-flat" data-toggle="modal" data-target="#delete-laliga1920<?= $value['id_laliga1920'] ?>"><i class="fas fa-trash"></i></button>
                                                         </td>
                                                     <?php } ?>
                                                 </tr>
@@ -1122,7 +1124,7 @@
                         </div>
 
                         <!-- /add-modal -->
-                        <div class="modal fade" id="add-seriea1920">
+                        <div class="modal fade" id="add-laliga1920">
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
@@ -1131,19 +1133,19 @@
                                             <span aria-hidden="true">&times;</span>
                                         </button>
                                     </div>
-                                    <?php echo form_open('/add-seriea1920') ?>
+                                    <?php echo form_open('/add-laliga1920') ?>
                                     <div class="modal-body">
                                         <div class="form-group">
                                             <label for="">Klub</label>
                                             <select name="id_club" class="form-control">
                                                 <option value=""> ---Pilih Klub--- </option>
                                                 <?php foreach ($club as $c) {
-                                                    // Check if the club's country is Italy
-                                                    if ($c['name_country'] == 'Italy') {
+                                                    // Check if the club's country is Spain
+                                                    if ($c['name_country'] == 'Spain') {
                                                         $clubId = $c['id_club'];
                                                         // Check if the selected club is already in any group
                                                         $clubAlreadyInGroup = false;
-                                                        foreach ($seriea1920 as $key => $value) {
+                                                        foreach ($laliga1920 as $key => $value) {
                                                             if ($value['id_club'] == $clubId) {
                                                                 $clubAlreadyInGroup = true;
                                                                 break;
@@ -1174,8 +1176,8 @@
                         <!-- /.modal -->
 
                         <!-- /edit-modal -->
-                        <?php foreach ($seriea1920 as $key => $value) { ?>
-                            <div class="modal fade" id="edit-seriea1920<?= $value['id_seriea1920'] ?>">
+                        <?php foreach ($laliga1920 as $key => $value) { ?>
+                            <div class="modal fade" id="edit-laliga1920<?= $value['id_laliga1920'] ?>">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
                                         <div class="modal-header">
@@ -1184,15 +1186,15 @@
                                                 <span aria-hidden="true">&times;</span>
                                             </button>
                                         </div>
-                                        <?php echo form_open('/edit-seriea1920/' . $value['id_seriea1920']) ?>
+                                        <?php echo form_open('/edit-laliga1920/' . $value['id_laliga1920']) ?>
                                         <div class="modal-body">
                                             <div class="form-group">
                                                 <label for="">Klub</label>
                                                 <select name="id_club" class="form-control">
                                                     <option value=""> ---Pilih Klub--- </option>
                                                     <?php foreach ($club as $key => $c) {
-                                                        // Check if the club's country is Italy
-                                                        if ($c['name_country'] == 'Italy') { ?>
+                                                        // Check if the club's country is Spain
+                                                        if ($c['name_country'] == 'Spain') { ?>
                                                             <option value="<?= $c['id_club'] ?>" <?= $value['id_club'] == $c['id_club'] ? 'Selected' : '' ?>><?= $c['name_club'] ?></option>
                                                         <?php } ?>
                                                     <?php } ?>
@@ -1200,35 +1202,35 @@
                                             </div>
                                             <div class="form-group">
                                                 <label for="">Main</label>
-                                                <input name="serieaay" class="form-control" serieaaceholder="Masukkan Main" value="<?= $value['serieaay'] ?>" required>
+                                                <input name="play" class="form-control" placeholder="Masukkan Main" value="<?= $value['play'] ?>" required>
                                             </div>
                                             <div class="form-group">
                                                 <label for="">Menang</label>
-                                                <input name="win" class="form-control" serieaaceholder="Masukkan Menang" value="<?= $value['win'] ?>" required>
+                                                <input name="win" class="form-control" placeholder="Masukkan Menang" value="<?= $value['win'] ?>" required>
                                             </div>
                                             <div class="form-group">
                                                 <label for="">Seri</label>
-                                                <input name="draw" class="form-control" serieaaceholder="Masukkan Seri" value="<?= $value['draw'] ?>" required>
+                                                <input name="draw" class="form-control" placeholder="Masukkan Seri" value="<?= $value['draw'] ?>" required>
                                             </div>
                                             <div class="form-group">
                                                 <label for="">Kalah</label>
-                                                <input name="lose" class="form-control" serieaaceholder="Masukkan Kalah" value="<?= $value['lose'] ?>" required>
+                                                <input name="lose" class="form-control" placeholder="Masukkan Kalah" value="<?= $value['lose'] ?>" required>
                                             </div>
                                             <div class="form-group">
                                                 <label for="">Gol Masuk</label>
-                                                <input name="goal_in" class="form-control" serieaaceholder="Masukkan Gol Masuk" value="<?= $value['goal_in'] ?>" required>
+                                                <input name="goal_in" class="form-control" placeholder="Masukkan Gol Masuk" value="<?= $value['goal_in'] ?>" required>
                                             </div>
                                             <div class="form-group">
                                                 <label for="">Gol Keluar</label>
-                                                <input name="goal_out" class="form-control" serieaaceholder="Masukkan Gol Keluar" value="<?= $value['goal_out'] ?>" required>
+                                                <input name="goal_out" class="form-control" placeholder="Masukkan Gol Keluar" value="<?= $value['goal_out'] ?>" required>
                                             </div>
                                             <div class="form-group" hidden>
                                                 <label for="">Selisih Gol</label>
-                                                <input name="goal_diff" class="form-control" serieaaceholder="Masukkan Gol Keluar" value="<?= $value['goal_diff'] = $value['goal_in'] - $value['goal_out'] ?>">
+                                                <input name="goal_diff" class="form-control" placeholder="Masukkan Gol Keluar" value="<?= $value['goal_diff'] = $value['goal_in'] - $value['goal_out'] ?>">
                                             </div>
                                             <div class="form-group" hidden>
                                                 <label for="">Poin</label>
-                                                <input name="points" class="form-control" serieaaceholder="Masukkan Gol Keluar" value="<?= $value['points'] = ($value['win'] * 3) + ($value['draw'] * 1) + ($value['lose'] * 0) ?>">
+                                                <input name="points" class="form-control" placeholder="Masukkan Gol Keluar" value="<?= $value['points'] = ($value['win'] * 3) + ($value['draw'] * 1) + ($value['lose'] * 0) ?>">
                                             </div>
                                         </div>
                                         <div class="modal-footer justify-content-between">
@@ -1245,8 +1247,8 @@
                         <?php } ?>
 
                         <!-- /delete-modal -->
-                        <?php foreach ($seriea1920 as $key => $value) { ?>
-                            <div class="modal fade" id="delete-seriea1920<?= $value['id_seriea1920'] ?>">
+                        <?php foreach ($laliga1920 as $key => $value) { ?>
+                            <div class="modal fade" id="delete-laliga1920<?= $value['id_laliga1920'] ?>">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
                                         <div class="modal-header">
@@ -1260,7 +1262,7 @@
                                         </div>
                                         <div class="modal-footer justify-content-between">
                                             <button type="button" class="btn btn-default btn-flat" data-dismiss="modal">Close</button>
-                                            <a href="<?= base_url('/delete-seriea1920/' . $value['id_seriea1920']) ?>" class="btn btn-danger btn-flat">Delete</a>
+                                            <a href="<?= base_url('/delete-laliga1920/' . $value['id_laliga1920']) ?>" class="btn btn-danger btn-flat">Delete</a>
                                         </div>
                                     </div>
                                     <!-- /.modal-content -->

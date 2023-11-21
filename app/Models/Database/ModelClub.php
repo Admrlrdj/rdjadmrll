@@ -11,14 +11,14 @@ class ModelClub extends Model
     {
         $db = $this->db->table('club');
         $db->select('club.id_club');
+        $db->select('club.id_country');
+        $db->select('club.id_confederation');
         $db->select('club.name_club');
         $db->select('club.code_club');
-        $db->select('club.id_club');
-        $db->select('club.id_confederation');
-        $db->select('club.id_country');
+        $db->select('country.id_country');
+        $db->select('country.id_confederation');
         $db->select('country.name_country');
         $db->select('country.code_country');
-        $db->select('country.id_confederation');
         $db->select('confederation.id_confederation');
         $db->select('confederation.name_confederation');
         $db->select('confederation.code_confederation');
