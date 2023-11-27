@@ -38,7 +38,7 @@ class LaLiga extends BaseController
             'menu' => 'football',
             'submenu1' => 'rfef',
             'submenu2' => 'laliga',
-            'page' => 'football/rfef/laliga',
+            'page' => 'football/league/rfef/laliga',
             'profile' => $this->ModelUser->AllData(),
             'laliga2324' => $this->ModelLaLiga2324->AllData(),
             'laliga2223' => $this->ModelLaLiga2223->AllData(),

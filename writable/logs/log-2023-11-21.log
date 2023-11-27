@@ -534,3 +534,1031 @@ WARNING - 2023-11-21 04:58:00 --> [DEPRECATED] Creation of dynamic property App\
  3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
 INFO - 2023-11-21 04:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-21 06:33:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelUser is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:33:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2324 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:33:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2223 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:33:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2122 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:33:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2021 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:33:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA1920 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:33:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelClub is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 06:33:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-21 06:34:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelUser is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2324 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2223 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2122 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2021 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA1920 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelClub is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 06:34:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-21 06:34:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\LaLiga\LaLiga::$ModelUser is deprecated in APPPATH\Controllers\LaLiga\LaLiga.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\LaLiga\LaLiga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\LaLiga\LaLiga::$ModelLaLiga2324 is deprecated in APPPATH\Controllers\LaLiga\LaLiga.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\LaLiga\LaLiga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\LaLiga\LaLiga::$ModelLaLiga2223 is deprecated in APPPATH\Controllers\LaLiga\LaLiga.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\LaLiga\LaLiga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\LaLiga\LaLiga::$ModelLaLiga2122 is deprecated in APPPATH\Controllers\LaLiga\LaLiga.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\LaLiga\LaLiga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\LaLiga\LaLiga::$ModelLaLiga2021 is deprecated in APPPATH\Controllers\LaLiga\LaLiga.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\LaLiga\LaLiga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\LaLiga\LaLiga::$ModelLaLiga1920 is deprecated in APPPATH\Controllers\LaLiga\LaLiga.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\LaLiga\LaLiga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\LaLiga\LaLiga::$ModelCountry is deprecated in APPPATH\Controllers\LaLiga\LaLiga.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\LaLiga\LaLiga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\LaLiga\LaLiga::$ModelConfederation is deprecated in APPPATH\Controllers\LaLiga\LaLiga.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\LaLiga\LaLiga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\LaLiga\LaLiga::$ModelClub is deprecated in APPPATH\Controllers\LaLiga\LaLiga.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\LaLiga\LaLiga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 06:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-21 06:34:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\PremierLeague::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\PremierLeague.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\PremierLeague->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\PremierLeague::$ModelPremierLeague2324 is deprecated in APPPATH\Controllers\PremierLeague\PremierLeague.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\PremierLeague->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\PremierLeague::$ModelPremierLeague2223 is deprecated in APPPATH\Controllers\PremierLeague\PremierLeague.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\PremierLeague->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\PremierLeague::$ModelPremierLeague2122 is deprecated in APPPATH\Controllers\PremierLeague\PremierLeague.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\PremierLeague->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\PremierLeague::$ModelPremierLeague2021 is deprecated in APPPATH\Controllers\PremierLeague\PremierLeague.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\PremierLeague->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\PremierLeague::$ModelPremierLeague1920 is deprecated in APPPATH\Controllers\PremierLeague\PremierLeague.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\PremierLeague->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\PremierLeague::$ModelClub is deprecated in APPPATH\Controllers\PremierLeague\PremierLeague.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\PremierLeague->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 06:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-21 06:34:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\ChampionsLeague\ChampionsLeague2324::$ModelUser is deprecated in APPPATH\Controllers\ChampionsLeague\ChampionsLeague2324.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ChampionsLeague\ChampionsLeague2324->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\ChampionsLeague\ChampionsLeague2324::$ModelCL2324 is deprecated in APPPATH\Controllers\ChampionsLeague\ChampionsLeague2324.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ChampionsLeague\ChampionsLeague2324->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\ChampionsLeague\ChampionsLeague2324::$ModelCountry is deprecated in APPPATH\Controllers\ChampionsLeague\ChampionsLeague2324.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ChampionsLeague\ChampionsLeague2324->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\ChampionsLeague\ChampionsLeague2324::$ModelConfederation is deprecated in APPPATH\Controllers\ChampionsLeague\ChampionsLeague2324.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ChampionsLeague\ChampionsLeague2324->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\ChampionsLeague\ChampionsLeague2324::$ModelGroup is deprecated in APPPATH\Controllers\ChampionsLeague\ChampionsLeague2324.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ChampionsLeague\ChampionsLeague2324->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\ChampionsLeague\ChampionsLeague2324::$ModelClub is deprecated in APPPATH\Controllers\ChampionsLeague\ChampionsLeague2324.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ChampionsLeague\ChampionsLeague2324->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\ChampionsLeague\ChampionsLeague2324::$ModelKnockout is deprecated in APPPATH\Controllers\ChampionsLeague\ChampionsLeague2324.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ChampionsLeague\ChampionsLeague2324->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-21 06:34:26 --> mysqli_sql_exception: Table 'rdjadmrll.cl2324' doesn't exist in C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `cl2324`...', 0)
+#1 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `cl2324`...')
+#2 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `cl2324`...')
+#3 C:\xampp\htdocs\rdjadmrll\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `cl2324`...', Array, false)
+#4 C:\xampp\htdocs\rdjadmrll\app\Models\ChampionsLeague\ModelCL2324.php(51): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\rdjadmrll\app\Controllers\ChampionsLeague\ChampionsLeague2324.php(40): App\Models\ChampionsLeague\ModelCL2324->AllData()
+#6 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(932): App\Controllers\ChampionsLeague\ChampionsLeague2324->index()
+#7 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChampionsLeague\ChampionsLeague2324))
+#8 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\rdjadmrll\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-21 06:34:26 --> Table 'rdjadmrll.cl2324' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `cl2324`.`id_cl2324`, `cl2324`.`id_club`, `cl2324`.`id_group`, `cl2324`.`id_ro16`, `cl2324`.`id_qf`, `cl2324`.`id_sf`, `cl2324`.`id_final`, `cl2324`.`score_ro16`, `cl2324`.`score_qf`, `cl2324`.`score_sf`, `cl2324`.`score_final`, `cl2324`.`play`, `cl2324`.`win`, `cl2324`.`draw`, `cl2324`.`lose`, `cl2324`.`goal_in`, `cl2324`.`goal_out`, `cl2324`.`goal_diff`, `cl2324`.`points`, `cl2324`.`group_rank`, `club`.`id_club`, `club`.`name_club`, `group`.`id_group`, `group`.`code_group`, `ro16`.`id_ro16`, `ro16`.`code_ro16`, `qf`.`id_qf`, `qf`.`code_qf`, `sf`.`id_sf`, `sf`.`code_sf`, `final`.`id_final`, `final`.`code_final`
+FROM `cl2324`
+LEFT JOIN `club` ON `club`.`id_club` = `cl2324`.`id_club`
+LEFT JOIN `group` ON `group`.`id_group` = `cl2324`.`id_group`
+LEFT JOIN `ro16` ON `ro16`.`id_ro16` = `cl2324`.`id_ro16`
+LEFT JOIN `qf` ON `qf`.`id_qf` = `cl2324`.`id_qf`
+LEFT JOIN `sf` ON `sf`.`id_sf` = `cl2324`.`id_sf`
+LEFT JOIN `final` ON `final`.`id_final` = `cl2324`.`id_final`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `cl2324`.`id_cl2324`, `cl2324`.`id_club`, `cl2324`.`id_group`, `cl2324`.`id_ro16`, `cl2324`.`id_qf`, `cl2324`.`id_sf`, `cl2324`.`id_final`, `cl2324`.`score_ro16`, `cl2324`.`score_qf`, `cl2324`.`score_sf`, `cl2324`.`score_final`, `cl2324`.`play`, `cl2324`.`win`, `cl2324`.`draw`, `cl2324`.`lose`, `cl2324`.`goal_in`, `cl2324`.`goal_out`, `cl2324`.`goal_diff`, `cl2324`.`points`, `cl2324`.`group_rank`, `club`.`id_club`, `club`.`name_club`, `group`.`id_group`, `group`.`code_group`, `ro16`.`id_ro16`, `ro16`.`code_ro16`, `qf`.`id_qf`, `qf`.`code_qf`, `sf`.`id_sf`, `sf`.`code_sf`, `final`.`id_final`, `final`.`code_final`
+FROM `cl2324`
+LEFT JOIN `club` ON `club`.`id_club` = `cl2324`.`id_club`
+LEFT JOIN `group` ON `group`.`id_group` = `cl2324`.`id_group`
+LEFT JOIN `ro16` ON `ro16`.`id_ro16` = `cl2324`.`id_ro16`
+LEFT JOIN `qf` ON `qf`.`id_qf` = `cl2324`.`id_qf`
+LEFT JOIN `sf` ON `sf`.`id_sf` = `cl2324`.`id_sf`
+LEFT JOIN `final` ON `final`.`id_final` = `cl2324`.`id_final`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `cl2324`.`id_cl2324`, `cl2324`.`id_club`, `cl2324`.`id_group`, `cl2324`.`id_ro16`, `cl2324`.`id_qf`, `cl2324`.`id_sf`, `cl2324`.`id_final`, `cl2324`.`score_ro16`, `cl2324`.`score_qf`, `cl2324`.`score_sf`, `cl2324`.`score_final`, `cl2324`.`play`, `cl2324`.`win`, `cl2324`.`draw`, `cl2324`.`lose`, `cl2324`.`goal_in`, `cl2324`.`goal_out`, `cl2324`.`goal_diff`, `cl2324`.`points`, `cl2324`.`group_rank`, `club`.`id_club`, `club`.`name_club`, `group`.`id_group`, `group`.`code_group`, `ro16`.`id_ro16`, `ro16`.`code_ro16`, `qf`.`id_qf`, `qf`.`code_qf`, `sf`.`id_sf`, `sf`.`code_sf`, `final`.`id_final`, `final`.`code_final`
+FROM `cl2324`
+LEFT JOIN `club` ON `club`.`id_club` = `cl2324`.`id_club`
+LEFT JOIN `group` ON `group`.`id_group` = `cl2324`.`id_group`
+LEFT JOIN `ro16` ON `ro16`.`id_ro16` = `cl2324`.`id_ro16`
+LEFT JOIN `qf` ON `qf`.`id_qf` = `cl2324`.`id_qf`
+LEFT JOIN `sf` ON `sf`.`id_sf` = `cl2324`.`id_sf`
+LEFT JOIN `final` ON `final`.`id_final` = `cl2324`.`id_final`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `cl2324`.`id_cl2324`, `cl2324`.`id_club`, `cl2324`.`id_group`, `cl2324`.`id_ro16`, `cl2324`.`id_qf`, `cl2324`.`id_sf`, `cl2324`.`id_final`, `cl2324`.`score_ro16`, `cl2324`.`score_qf`, `cl2324`.`score_sf`, `cl2324`.`score_final`, `cl2324`.`play`, `cl2324`.`win`, `cl2324`.`draw`, `cl2324`.`lose`, `cl2324`.`goal_in`, `cl2324`.`goal_out`, `cl2324`.`goal_diff`, `cl2324`.`points`, `cl2324`.`group_rank`, `club`.`id_club`, `club`.`name_club`, `group`.`id_group`, `group`.`code_group`, `ro16`.`id_ro16`, `ro16`.`code_ro16`, `qf`.`id_qf`, `qf`.`code_qf`, `sf`.`id_sf`, `sf`.`code_sf`, `final`.`id_final`, `final`.`code_final`
+FROM `cl2324`
+LEFT JOIN `club` ON `club`.`id_club` = `cl2324`.`id_club`
+LEFT JOIN `group` ON `group`.`id_group` = `cl2324`.`id_group`
+LEFT JOIN `ro16` ON `ro16`.`id_ro16` = `cl2324`.`id_ro16`
+LEFT JOIN `qf` ON `qf`.`id_qf` = `cl2324`.`id_qf`
+LEFT JOIN `sf` ON `sf`.`id_sf` = `cl2324`.`id_sf`
+LEFT JOIN `final` ON `final`.`id_final` = `cl2324`.`id_final`', [], false)
+ 5 APPPATH\Models\ChampionsLeague\ModelCL2324.php(51): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\ChampionsLeague\ChampionsLeague2324.php(40): App\Models\ChampionsLeague\ModelCL2324->AllData()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ChampionsLeague\ChampionsLeague2324->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChampionsLeague\ChampionsLeague2324))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\PremierLeague::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\PremierLeague.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\PremierLeague->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\PremierLeague::$ModelPremierLeague2324 is deprecated in APPPATH\Controllers\PremierLeague\PremierLeague.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\PremierLeague->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\PremierLeague::$ModelPremierLeague2223 is deprecated in APPPATH\Controllers\PremierLeague\PremierLeague.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\PremierLeague->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\PremierLeague::$ModelPremierLeague2122 is deprecated in APPPATH\Controllers\PremierLeague\PremierLeague.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\PremierLeague->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\PremierLeague::$ModelPremierLeague2021 is deprecated in APPPATH\Controllers\PremierLeague\PremierLeague.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\PremierLeague->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\PremierLeague::$ModelPremierLeague1920 is deprecated in APPPATH\Controllers\PremierLeague\PremierLeague.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\PremierLeague->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\PremierLeague::$ModelClub is deprecated in APPPATH\Controllers\PremierLeague\PremierLeague.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\PremierLeague->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 06:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-21 06:34:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup\WorldCup2022.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup\WorldCup2022.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup\WorldCup2022::$ModelKnockout is deprecated in APPPATH\Controllers\WorldCup\WorldCup2022.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-21 06:34:27 --> mysqli_sql_exception: Table 'rdjadmrll.wc22' doesn't exist in C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `wc22`.`...', 0)
+#1 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `wc22`.`...')
+#2 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `wc22`.`...')
+#3 C:\xampp\htdocs\rdjadmrll\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `wc22`.`...', Array, false)
+#4 C:\xampp\htdocs\rdjadmrll\app\Models\WorldCup\ModelWC22.php(54): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\rdjadmrll\app\Controllers\WorldCup\WorldCup2022.php(37): App\Models\WorldCup\ModelWC22->AllData()
+#6 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(932): App\Controllers\WorldCup\WorldCup2022->index()
+#7 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorldCup\WorldCup2022))
+#8 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\rdjadmrll\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-21 06:34:27 --> Table 'rdjadmrll.wc22' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `wc22`.`id_wc22`, `wc22`.`id_country`, `wc22`.`id_group`, `wc22`.`id_ro16`, `wc22`.`id_qf`, `wc22`.`id_sf`, `wc22`.`id_final`, `wc22`.`score_ro16`, `wc22`.`score_qf`, `wc22`.`score_sf`, `wc22`.`score_final`, `wc22`.`status_ro16`, `wc22`.`status_qf`, `wc22`.`status_sf`, `wc22`.`status_final`, `wc22`.`play`, `wc22`.`win`, `wc22`.`draw`, `wc22`.`lose`, `wc22`.`goal_in`, `wc22`.`goal_out`, `wc22`.`goal_diff`, `wc22`.`points`, `country`.`id_country`, `country`.`name_country`, `group`.`id_group`, `group`.`code_group`, `ro16`.`id_ro16`, `ro16`.`code_ro16`, `qf`.`id_qf`, `qf`.`code_qf`, `sf`.`id_sf`, `sf`.`code_sf`, `final`.`id_final`, `final`.`code_final`
+FROM `wc22`
+LEFT JOIN `country` ON `country`.`id_country` = `wc22`.`id_country`
+LEFT JOIN `group` ON `group`.`id_group` = `wc22`.`id_group`
+LEFT JOIN `ro16` ON `ro16`.`id_ro16` = `wc22`.`id_ro16`
+LEFT JOIN `qf` ON `qf`.`id_qf` = `wc22`.`id_qf`
+LEFT JOIN `sf` ON `sf`.`id_sf` = `wc22`.`id_sf`
+LEFT JOIN `final` ON `final`.`id_final` = `wc22`.`id_final`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `wc22`.`id_wc22`, `wc22`.`id_country`, `wc22`.`id_group`, `wc22`.`id_ro16`, `wc22`.`id_qf`, `wc22`.`id_sf`, `wc22`.`id_final`, `wc22`.`score_ro16`, `wc22`.`score_qf`, `wc22`.`score_sf`, `wc22`.`score_final`, `wc22`.`status_ro16`, `wc22`.`status_qf`, `wc22`.`status_sf`, `wc22`.`status_final`, `wc22`.`play`, `wc22`.`win`, `wc22`.`draw`, `wc22`.`lose`, `wc22`.`goal_in`, `wc22`.`goal_out`, `wc22`.`goal_diff`, `wc22`.`points`, `country`.`id_country`, `country`.`name_country`, `group`.`id_group`, `group`.`code_group`, `ro16`.`id_ro16`, `ro16`.`code_ro16`, `qf`.`id_qf`, `qf`.`code_qf`, `sf`.`id_sf`, `sf`.`code_sf`, `final`.`id_final`, `final`.`code_final`
+FROM `wc22`
+LEFT JOIN `country` ON `country`.`id_country` = `wc22`.`id_country`
+LEFT JOIN `group` ON `group`.`id_group` = `wc22`.`id_group`
+LEFT JOIN `ro16` ON `ro16`.`id_ro16` = `wc22`.`id_ro16`
+LEFT JOIN `qf` ON `qf`.`id_qf` = `wc22`.`id_qf`
+LEFT JOIN `sf` ON `sf`.`id_sf` = `wc22`.`id_sf`
+LEFT JOIN `final` ON `final`.`id_final` = `wc22`.`id_final`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `wc22`.`id_wc22`, `wc22`.`id_country`, `wc22`.`id_group`, `wc22`.`id_ro16`, `wc22`.`id_qf`, `wc22`.`id_sf`, `wc22`.`id_final`, `wc22`.`score_ro16`, `wc22`.`score_qf`, `wc22`.`score_sf`, `wc22`.`score_final`, `wc22`.`status_ro16`, `wc22`.`status_qf`, `wc22`.`status_sf`, `wc22`.`status_final`, `wc22`.`play`, `wc22`.`win`, `wc22`.`draw`, `wc22`.`lose`, `wc22`.`goal_in`, `wc22`.`goal_out`, `wc22`.`goal_diff`, `wc22`.`points`, `country`.`id_country`, `country`.`name_country`, `group`.`id_group`, `group`.`code_group`, `ro16`.`id_ro16`, `ro16`.`code_ro16`, `qf`.`id_qf`, `qf`.`code_qf`, `sf`.`id_sf`, `sf`.`code_sf`, `final`.`id_final`, `final`.`code_final`
+FROM `wc22`
+LEFT JOIN `country` ON `country`.`id_country` = `wc22`.`id_country`
+LEFT JOIN `group` ON `group`.`id_group` = `wc22`.`id_group`
+LEFT JOIN `ro16` ON `ro16`.`id_ro16` = `wc22`.`id_ro16`
+LEFT JOIN `qf` ON `qf`.`id_qf` = `wc22`.`id_qf`
+LEFT JOIN `sf` ON `sf`.`id_sf` = `wc22`.`id_sf`
+LEFT JOIN `final` ON `final`.`id_final` = `wc22`.`id_final`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `wc22`.`id_wc22`, `wc22`.`id_country`, `wc22`.`id_group`, `wc22`.`id_ro16`, `wc22`.`id_qf`, `wc22`.`id_sf`, `wc22`.`id_final`, `wc22`.`score_ro16`, `wc22`.`score_qf`, `wc22`.`score_sf`, `wc22`.`score_final`, `wc22`.`status_ro16`, `wc22`.`status_qf`, `wc22`.`status_sf`, `wc22`.`status_final`, `wc22`.`play`, `wc22`.`win`, `wc22`.`draw`, `wc22`.`lose`, `wc22`.`goal_in`, `wc22`.`goal_out`, `wc22`.`goal_diff`, `wc22`.`points`, `country`.`id_country`, `country`.`name_country`, `group`.`id_group`, `group`.`code_group`, `ro16`.`id_ro16`, `ro16`.`code_ro16`, `qf`.`id_qf`, `qf`.`code_qf`, `sf`.`id_sf`, `sf`.`code_sf`, `final`.`id_final`, `final`.`code_final`
+FROM `wc22`
+LEFT JOIN `country` ON `country`.`id_country` = `wc22`.`id_country`
+LEFT JOIN `group` ON `group`.`id_group` = `wc22`.`id_group`
+LEFT JOIN `ro16` ON `ro16`.`id_ro16` = `wc22`.`id_ro16`
+LEFT JOIN `qf` ON `qf`.`id_qf` = `wc22`.`id_qf`
+LEFT JOIN `sf` ON `sf`.`id_sf` = `wc22`.`id_sf`
+LEFT JOIN `final` ON `final`.`id_final` = `wc22`.`id_final`', [], false)
+ 5 APPPATH\Models\WorldCup\ModelWC22.php(54): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\WorldCup\WorldCup2022.php(37): App\Models\WorldCup\ModelWC22->AllData()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\WorldCup\WorldCup2022->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorldCup\WorldCup2022))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\PremierLeague::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\PremierLeague.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\PremierLeague->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\PremierLeague::$ModelPremierLeague2324 is deprecated in APPPATH\Controllers\PremierLeague\PremierLeague.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\PremierLeague->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\PremierLeague::$ModelPremierLeague2223 is deprecated in APPPATH\Controllers\PremierLeague\PremierLeague.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\PremierLeague->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\PremierLeague::$ModelPremierLeague2122 is deprecated in APPPATH\Controllers\PremierLeague\PremierLeague.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\PremierLeague->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\PremierLeague::$ModelPremierLeague2021 is deprecated in APPPATH\Controllers\PremierLeague\PremierLeague.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\PremierLeague->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\PremierLeague::$ModelPremierLeague1920 is deprecated in APPPATH\Controllers\PremierLeague\PremierLeague.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\PremierLeague->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\PremierLeague::$ModelClub is deprecated in APPPATH\Controllers\PremierLeague\PremierLeague.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\PremierLeague->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 06:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-21 06:34:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelUser is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2324 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2223 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2122 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2021 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA1920 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:34:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelClub is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 06:34:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-21 06:36:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\LaLiga\LaLiga::$ModelUser is deprecated in APPPATH\Controllers\LaLiga\LaLiga.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\LaLiga\LaLiga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:36:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\LaLiga\LaLiga::$ModelLaLiga2324 is deprecated in APPPATH\Controllers\LaLiga\LaLiga.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\LaLiga\LaLiga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:36:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\LaLiga\LaLiga::$ModelLaLiga2223 is deprecated in APPPATH\Controllers\LaLiga\LaLiga.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\LaLiga\LaLiga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:36:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\LaLiga\LaLiga::$ModelLaLiga2122 is deprecated in APPPATH\Controllers\LaLiga\LaLiga.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\LaLiga\LaLiga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:36:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\LaLiga\LaLiga::$ModelLaLiga2021 is deprecated in APPPATH\Controllers\LaLiga\LaLiga.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\LaLiga\LaLiga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:36:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\LaLiga\LaLiga::$ModelLaLiga1920 is deprecated in APPPATH\Controllers\LaLiga\LaLiga.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\LaLiga\LaLiga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:36:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\LaLiga\LaLiga::$ModelCountry is deprecated in APPPATH\Controllers\LaLiga\LaLiga.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\LaLiga\LaLiga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:36:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\LaLiga\LaLiga::$ModelConfederation is deprecated in APPPATH\Controllers\LaLiga\LaLiga.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\LaLiga\LaLiga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:36:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\LaLiga\LaLiga::$ModelClub is deprecated in APPPATH\Controllers\LaLiga\LaLiga.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\LaLiga\LaLiga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 06:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-21 06:36:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\PremierLeague::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\PremierLeague.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\PremierLeague->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:36:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\PremierLeague::$ModelPremierLeague2324 is deprecated in APPPATH\Controllers\PremierLeague\PremierLeague.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\PremierLeague->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:36:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\PremierLeague::$ModelPremierLeague2223 is deprecated in APPPATH\Controllers\PremierLeague\PremierLeague.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\PremierLeague->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:36:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\PremierLeague::$ModelPremierLeague2122 is deprecated in APPPATH\Controllers\PremierLeague\PremierLeague.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\PremierLeague->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:36:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\PremierLeague::$ModelPremierLeague2021 is deprecated in APPPATH\Controllers\PremierLeague\PremierLeague.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\PremierLeague->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:36:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\PremierLeague::$ModelPremierLeague1920 is deprecated in APPPATH\Controllers\PremierLeague\PremierLeague.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\PremierLeague->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:36:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\PremierLeague::$ModelClub is deprecated in APPPATH\Controllers\PremierLeague\PremierLeague.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\PremierLeague->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 06:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-21 06:36:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelUser is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:36:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2324 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:36:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2223 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:36:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2122 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:36:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2021 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:36:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA1920 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:36:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelClub is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 06:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-21 06:36:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelUser is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:36:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2324 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:36:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2223 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:36:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2122 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:36:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2021 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:36:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA1920 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:36:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelClub is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 06:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-21 06:37:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelUser is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:37:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2324 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:37:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2223 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:37:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2122 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:37:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2021 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:37:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA1920 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:37:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelClub is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 06:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-21 06:38:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelUser is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:38:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2324 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:38:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2223 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:38:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2122 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:38:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2021 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:38:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA1920 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:38:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelClub is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 06:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-21 06:38:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelUser is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:38:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2324 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:38:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2223 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:38:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2122 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:38:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2021 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:38:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA1920 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:38:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelClub is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 06:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-21 06:38:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelUser is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:38:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2324 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:38:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2223 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:38:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2122 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:38:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2021 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:38:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA1920 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:38:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelClub is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 06:38:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-21 06:38:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelUser is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:38:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2324 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:38:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2223 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:38:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2122 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:38:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2021 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:38:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA1920 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:38:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelClub is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 06:38:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-21 06:38:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelUser is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:38:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2324 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:38:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2223 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:38:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2122 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:38:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2021 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:38:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA1920 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:38:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelClub is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 06:38:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-21 06:38:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelUser is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:38:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2324 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:38:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2223 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:38:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2122 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:38:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2021 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:38:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA1920 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:38:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelClub is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 06:38:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-21 06:39:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:39:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:39:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:39:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup\WorldCup2022.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:39:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup\WorldCup2022.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:39:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup\WorldCup2022::$ModelKnockout is deprecated in APPPATH\Controllers\WorldCup\WorldCup2022.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-21 06:39:05 --> mysqli_sql_exception: Table 'rdjadmrll.wc22' doesn't exist in C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `wc22`.`...', 0)
+#1 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `wc22`.`...')
+#2 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `wc22`.`...')
+#3 C:\xampp\htdocs\rdjadmrll\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `wc22`.`...', Array, false)
+#4 C:\xampp\htdocs\rdjadmrll\app\Models\WorldCup\ModelWC22.php(54): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\rdjadmrll\app\Controllers\WorldCup\WorldCup2022.php(37): App\Models\WorldCup\ModelWC22->AllData()
+#6 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(932): App\Controllers\WorldCup\WorldCup2022->index()
+#7 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorldCup\WorldCup2022))
+#8 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\rdjadmrll\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-21 06:39:05 --> Table 'rdjadmrll.wc22' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `wc22`.`id_wc22`, `wc22`.`id_country`, `wc22`.`id_group`, `wc22`.`id_ro16`, `wc22`.`id_qf`, `wc22`.`id_sf`, `wc22`.`id_final`, `wc22`.`score_ro16`, `wc22`.`score_qf`, `wc22`.`score_sf`, `wc22`.`score_final`, `wc22`.`status_ro16`, `wc22`.`status_qf`, `wc22`.`status_sf`, `wc22`.`status_final`, `wc22`.`play`, `wc22`.`win`, `wc22`.`draw`, `wc22`.`lose`, `wc22`.`goal_in`, `wc22`.`goal_out`, `wc22`.`goal_diff`, `wc22`.`points`, `country`.`id_country`, `country`.`name_country`, `group`.`id_group`, `group`.`code_group`, `ro16`.`id_ro16`, `ro16`.`code_ro16`, `qf`.`id_qf`, `qf`.`code_qf`, `sf`.`id_sf`, `sf`.`code_sf`, `final`.`id_final`, `final`.`code_final`
+FROM `wc22`
+LEFT JOIN `country` ON `country`.`id_country` = `wc22`.`id_country`
+LEFT JOIN `group` ON `group`.`id_group` = `wc22`.`id_group`
+LEFT JOIN `ro16` ON `ro16`.`id_ro16` = `wc22`.`id_ro16`
+LEFT JOIN `qf` ON `qf`.`id_qf` = `wc22`.`id_qf`
+LEFT JOIN `sf` ON `sf`.`id_sf` = `wc22`.`id_sf`
+LEFT JOIN `final` ON `final`.`id_final` = `wc22`.`id_final`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `wc22`.`id_wc22`, `wc22`.`id_country`, `wc22`.`id_group`, `wc22`.`id_ro16`, `wc22`.`id_qf`, `wc22`.`id_sf`, `wc22`.`id_final`, `wc22`.`score_ro16`, `wc22`.`score_qf`, `wc22`.`score_sf`, `wc22`.`score_final`, `wc22`.`status_ro16`, `wc22`.`status_qf`, `wc22`.`status_sf`, `wc22`.`status_final`, `wc22`.`play`, `wc22`.`win`, `wc22`.`draw`, `wc22`.`lose`, `wc22`.`goal_in`, `wc22`.`goal_out`, `wc22`.`goal_diff`, `wc22`.`points`, `country`.`id_country`, `country`.`name_country`, `group`.`id_group`, `group`.`code_group`, `ro16`.`id_ro16`, `ro16`.`code_ro16`, `qf`.`id_qf`, `qf`.`code_qf`, `sf`.`id_sf`, `sf`.`code_sf`, `final`.`id_final`, `final`.`code_final`
+FROM `wc22`
+LEFT JOIN `country` ON `country`.`id_country` = `wc22`.`id_country`
+LEFT JOIN `group` ON `group`.`id_group` = `wc22`.`id_group`
+LEFT JOIN `ro16` ON `ro16`.`id_ro16` = `wc22`.`id_ro16`
+LEFT JOIN `qf` ON `qf`.`id_qf` = `wc22`.`id_qf`
+LEFT JOIN `sf` ON `sf`.`id_sf` = `wc22`.`id_sf`
+LEFT JOIN `final` ON `final`.`id_final` = `wc22`.`id_final`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `wc22`.`id_wc22`, `wc22`.`id_country`, `wc22`.`id_group`, `wc22`.`id_ro16`, `wc22`.`id_qf`, `wc22`.`id_sf`, `wc22`.`id_final`, `wc22`.`score_ro16`, `wc22`.`score_qf`, `wc22`.`score_sf`, `wc22`.`score_final`, `wc22`.`status_ro16`, `wc22`.`status_qf`, `wc22`.`status_sf`, `wc22`.`status_final`, `wc22`.`play`, `wc22`.`win`, `wc22`.`draw`, `wc22`.`lose`, `wc22`.`goal_in`, `wc22`.`goal_out`, `wc22`.`goal_diff`, `wc22`.`points`, `country`.`id_country`, `country`.`name_country`, `group`.`id_group`, `group`.`code_group`, `ro16`.`id_ro16`, `ro16`.`code_ro16`, `qf`.`id_qf`, `qf`.`code_qf`, `sf`.`id_sf`, `sf`.`code_sf`, `final`.`id_final`, `final`.`code_final`
+FROM `wc22`
+LEFT JOIN `country` ON `country`.`id_country` = `wc22`.`id_country`
+LEFT JOIN `group` ON `group`.`id_group` = `wc22`.`id_group`
+LEFT JOIN `ro16` ON `ro16`.`id_ro16` = `wc22`.`id_ro16`
+LEFT JOIN `qf` ON `qf`.`id_qf` = `wc22`.`id_qf`
+LEFT JOIN `sf` ON `sf`.`id_sf` = `wc22`.`id_sf`
+LEFT JOIN `final` ON `final`.`id_final` = `wc22`.`id_final`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `wc22`.`id_wc22`, `wc22`.`id_country`, `wc22`.`id_group`, `wc22`.`id_ro16`, `wc22`.`id_qf`, `wc22`.`id_sf`, `wc22`.`id_final`, `wc22`.`score_ro16`, `wc22`.`score_qf`, `wc22`.`score_sf`, `wc22`.`score_final`, `wc22`.`status_ro16`, `wc22`.`status_qf`, `wc22`.`status_sf`, `wc22`.`status_final`, `wc22`.`play`, `wc22`.`win`, `wc22`.`draw`, `wc22`.`lose`, `wc22`.`goal_in`, `wc22`.`goal_out`, `wc22`.`goal_diff`, `wc22`.`points`, `country`.`id_country`, `country`.`name_country`, `group`.`id_group`, `group`.`code_group`, `ro16`.`id_ro16`, `ro16`.`code_ro16`, `qf`.`id_qf`, `qf`.`code_qf`, `sf`.`id_sf`, `sf`.`code_sf`, `final`.`id_final`, `final`.`code_final`
+FROM `wc22`
+LEFT JOIN `country` ON `country`.`id_country` = `wc22`.`id_country`
+LEFT JOIN `group` ON `group`.`id_group` = `wc22`.`id_group`
+LEFT JOIN `ro16` ON `ro16`.`id_ro16` = `wc22`.`id_ro16`
+LEFT JOIN `qf` ON `qf`.`id_qf` = `wc22`.`id_qf`
+LEFT JOIN `sf` ON `sf`.`id_sf` = `wc22`.`id_sf`
+LEFT JOIN `final` ON `final`.`id_final` = `wc22`.`id_final`', [], false)
+ 5 APPPATH\Models\WorldCup\ModelWC22.php(54): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\WorldCup\WorldCup2022.php(37): App\Models\WorldCup\ModelWC22->AllData()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\WorldCup\WorldCup2022->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorldCup\WorldCup2022))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:39:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelUser is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:39:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2324 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:39:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2223 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:39:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2122 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:39:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA2021 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:39:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelSerieA1920 is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:39:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelClub is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 06:39:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-21 06:39:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Database\Club::$ModelUser is deprecated in APPPATH\Controllers\Database\Club.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Database\Club->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:39:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Database\Club::$ModelCountry is deprecated in APPPATH\Controllers\Database\Club.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Database\Club->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:39:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Database\Club::$ModelClub is deprecated in APPPATH\Controllers\Database\Club.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Database\Club->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 06:39:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Database\Club::$ModelConfederation is deprecated in APPPATH\Controllers\Database\Club.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Database\Club->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 06:39:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-21 09:43:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Info\Auth::$ModelAuth is deprecated in APPPATH\Controllers\Info\Auth.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Info\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 09:43:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-21 09:43:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Info\Auth::$ModelAuth is deprecated in APPPATH\Controllers\Info\Auth.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Info\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 09:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-21 09:43:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Info\Profile::$ModelUser is deprecated in APPPATH\Controllers\Info\Profile.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Info\Profile->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 09:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-21 09:44:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup\WorldCup2022::$ModelUser is deprecated in APPPATH\Controllers\WorldCup\WorldCup2022.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 09:44:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup\WorldCup2022::$ModelWC22 is deprecated in APPPATH\Controllers\WorldCup\WorldCup2022.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 09:44:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup\WorldCup2022::$ModelCountry is deprecated in APPPATH\Controllers\WorldCup\WorldCup2022.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 09:44:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup\WorldCup2022::$ModelConfederation is deprecated in APPPATH\Controllers\WorldCup\WorldCup2022.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 09:44:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup\WorldCup2022::$ModelGroup is deprecated in APPPATH\Controllers\WorldCup\WorldCup2022.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 09:44:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\WorldCup\WorldCup2022::$ModelKnockout is deprecated in APPPATH\Controllers\WorldCup\WorldCup2022.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\WorldCup\WorldCup2022->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 09:44:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

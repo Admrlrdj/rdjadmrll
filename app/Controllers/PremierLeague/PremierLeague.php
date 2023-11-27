@@ -34,7 +34,7 @@ class PremierLeague extends BaseController
             'menu' => 'football',
             'submenu1' => 'fa',
             'submenu2' => 'premierleague',
-            'page' => 'football/fa/premierleague',
+            'page' => 'football/league/fa/premierleague',
             'profile' => $this->ModelUser->AllData(),
             'pl2324' => $this->ModelPremierLeague2324->AllData(),
             'pl2223' => $this->ModelPremierLeague2223->AllData(),

@@ -159,7 +159,7 @@ class Auth extends BaseController
         // session()->remove('id_user');
         // session()->remove('nama');
         // session()->remove('username');
-        session()->remove('password');
+        // session()->remove('password');
         // session()->remove('role');
         // session()->remove('tgl_lahir');
         // session()->remove('telp');

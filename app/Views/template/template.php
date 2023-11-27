@@ -246,9 +246,25 @@
                                     </a>
                                     <ul class="nav nav-treeview">
                                         <li class="nav-item">
-                                            <a href="<?= base_url('/seriea2324') ?>" class="nav-link <?= $submenu2 == 'seriea2324' ? 'active' : '' ?>">
+                                            <a href="<?= base_url('/seriea2324') ?>" class="nav-link <?= $submenu2 == 'seriea' ? 'active' : '' ?>">
                                                 <i class="nav-icon fas fa-trophy"></i>
                                                 <p>Serie A</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item <?= $submenu1 == 'dfl' ? 'menu-open' : '' ?>">
+                                    <a href="#" class="nav-link <?= $submenu1 == 'dfl' ? 'active' : '' ?>">
+                                        <p>
+                                            DFL
+                                            <i class="right fas fa-angle-left"></i>
+                                        </p>
+                                    </a>
+                                    <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a href="<?= base_url('/bundesliga2324') ?>" class="nav-link <?= $submenu2 == 'bundesliga' ? 'active' : '' ?>">
+                                                <i class="nav-icon fas fa-trophy"></i>
+                                                <p>Bundesliga</p>
                                             </a>
                                         </li>
                                     </ul>
