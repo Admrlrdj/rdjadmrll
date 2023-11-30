@@ -93,7 +93,7 @@
                                                     <td style="border: none;" class="<?= ($no == 1 || $no == 2 || $no == 3 || $no == 4) ? 'bg-blue color-palette' : (($no == 5 || $no == 6) ? 'bg-orange color-palette' : ($no == 7 ? 'bg-green color-palette' : ($no == 18 || $no == 19 || $no == 20 ? 'bg-red color-palette' : ''))) ?>"></td>
                                                     <td><?= $no++ ?></td>
                                                     <td><?= $value['name_club'] ?></td>
-                                                    <td><?= $value['serieaay'] ?></td>
+                                                    <td><?= $value['play'] ?></td>
                                                     <td><?= $value['win'] ?></td>
                                                     <td><?= $value['draw'] ?></td>
                                                     <td><?= $value['lose'] ?></td>
@@ -344,7 +344,7 @@
                                                     <td style="border: none;" class="<?= ($no == 1 || $no == 2 || $no == 3 || $no == 4) ? 'bg-blue color-palette' : (($no == 5 || $no == 6) ? 'bg-orange color-palette' : ($no == 7 ? 'bg-green color-palette' : ($no == 18 || $no == 19 || $no == 20 ? 'bg-red color-palette' : ''))) ?>"></td>
                                                     <td><?= $no++ ?></td>
                                                     <td><?= $value['name_club'] ?></td>
-                                                    <td><?= $value['serieaay'] ?></td>
+                                                    <td><?= $value['play'] ?></td>
                                                     <td><?= $value['win'] ?></td>
                                                     <td><?= $value['draw'] ?></td>
                                                     <td><?= $value['lose'] ?></td>
@@ -595,7 +595,7 @@
                                                     <td style="border: none;" class="<?= ($no == 1 || $no == 2 || $no == 3 || $no == 4) ? 'bg-blue color-palette' : (($no == 5 || $no == 6) ? 'bg-orange color-palette' : ($no == 7 ? 'bg-green color-palette' : ($no == 18 || $no == 19 || $no == 20 ? 'bg-red color-palette' : ''))) ?>"></td>
                                                     <td><?= $no++ ?></td>
                                                     <td><?= $value['name_club'] ?></td>
-                                                    <td><?= $value['serieaay'] ?></td>
+                                                    <td><?= $value['play'] ?></td>
                                                     <td><?= $value['win'] ?></td>
                                                     <td><?= $value['draw'] ?></td>
                                                     <td><?= $value['lose'] ?></td>
@@ -845,7 +845,7 @@
                                                     <td style="border: none;" class="<?= ($no == 1 || $no == 2 || $no == 3 || $no == 4) ? 'bg-blue color-palette' : (($no == 5 || $no == 6) ? 'bg-orange color-palette' : ($no == 7 ? 'bg-green color-palette' : ($no == 18 || $no == 19 || $no == 20 ? 'bg-red color-palette' : ''))) ?>"></td>
                                                     <td><?= $no++ ?></td>
                                                     <td><?= $value['name_club'] ?></td>
-                                                    <td><?= $value['serieaay'] ?></td>
+                                                    <td><?= $value['play'] ?></td>
                                                     <td><?= $value['win'] ?></td>
                                                     <td><?= $value['draw'] ?></td>
                                                     <td><?= $value['lose'] ?></td>
@@ -1093,7 +1093,7 @@
                                                     <td style="border: none;" class="<?= ($no == 1 || $no == 2 || $no == 3 || $no == 4) ? 'bg-blue color-palette' : (($no == 5 || $no == 6) ? 'bg-orange color-palette' : ($no == 7 ? 'bg-green color-palette' : ($no == 18 || $no == 19 || $no == 20 ? 'bg-red color-palette' : ''))) ?>"></td>
                                                     <td><?= $no++ ?></td>
                                                     <td><?= $value['name_club'] ?></td>
-                                                    <td><?= $value['serieaay'] ?></td>
+                                                    <td><?= $value['play'] ?></td>
                                                     <td><?= $value['win'] ?></td>
                                                     <td><?= $value['draw'] ?></td>
                                                     <td><?= $value['lose'] ?></td>

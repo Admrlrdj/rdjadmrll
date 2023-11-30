@@ -144,9 +144,9 @@ $routes->get('/delete-laliga1920/(:num)', 'LaLiga\LaLiga::DeleteData1920/$1');
 
 //* Serie A 2023/2024
 $routes->get('/seriea2324', 'SerieA\SerieA::index');
-$routes->post('/add-seriea2324', 'SerieA\SerieA::InsertData');
-$routes->post('/edit-seriea2324/(:num)', 'SerieA\SerieA::UpdateData/$1');
-$routes->get('/delete-seriea2324/(:num)', 'SerieA\SerieA::DeleteData/$1');
+$routes->post('/add-seriea2324', 'SerieA\SerieA::InsertData2324');
+$routes->post('/edit-seriea2324/(:num)', 'SerieA\SerieA::UpdateData2324/$1');
+$routes->get('/delete-seriea2324/(:num)', 'SerieA\SerieA::DeleteData2324/$1');
 //* Serie A 2022/2023
 $routes->post('/add-seriea2223', 'SerieA\SerieA::InsertData2223');
 $routes->post('/edit-seriea2223/(:num)', 'SerieA\SerieA::UpdateData2223/$1');
@@ -185,6 +185,28 @@ $routes->get('/delete-bundesliga2021/(:num)', 'Bundesliga\Bundesliga::DeleteData
 $routes->post('/add-bundesliga1920', 'Bundesliga\Bundesliga::InsertData1920');
 $routes->post('/edit-bundesliga1920/(:num)', 'Bundesliga\Bundesliga::UpdateData1920/$1');
 $routes->get('/delete-bundesliga1920/(:num)', 'Bundesliga\Bundesliga::DeleteData1920/$1');
+
+//* Ligue 1 2023/2024
+$routes->get('/ligue12324', 'Ligue1\Ligue1::index');
+$routes->post('/add-ligue12324', 'Ligue1\Ligue1::InsertData');
+$routes->post('/edit-ligue12324/(:num)', 'Ligue1\Ligue1::UpdateData/$1');
+$routes->get('/delete-ligue12324/(:num)', 'Ligue1\Ligue1::DeleteData/$1');
+//* Ligue 1 2022/2023
+$routes->post('/add-ligue12223', 'Ligue1\Ligue1::InsertData2223');
+$routes->post('/edit-ligue12223/(:num)', 'Ligue1\Ligue1::UpdateData2223/$1');
+$routes->get('/delete-ligue12223/(:num)', 'Ligue1\Ligue1::DeleteData2223/$1');
+//* Ligue 1 2021/2022
+$routes->post('/add-ligue12122', 'Ligue1\Ligue1::InsertData2122');
+$routes->post('/edit-ligue12122/(:num)', 'Ligue1\Ligue1::UpdateData2122/$1');
+$routes->get('/delete-ligue12122/(:num)', 'Ligue1\Ligue1::DeleteData2122/$1');
+//* Ligue 1 2020/2021
+$routes->post('/add-ligue12021', 'Ligue1\Ligue1::InsertData2021');
+$routes->post('/edit-ligue12021/(:num)', 'Ligue1\Ligue1::UpdateData2021/$1');
+$routes->get('/delete-ligue12021/(:num)', 'Ligue1\Ligue1::DeleteData2021/$1');
+//* Ligue 1 2019/2020
+$routes->post('/add-ligue11920', 'Ligue1\Ligue1::InsertData1920');
+$routes->post('/edit-ligue11920/(:num)', 'Ligue1\Ligue1::UpdateData1920/$1');
+$routes->get('/delete-ligue11920/(:num)', 'Ligue1\Ligue1::DeleteData1920/$1');
 
 //* World Cup 2022
 $routes->get('/wc22', 'WorldCup\WorldCup2022::index');
