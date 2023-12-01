@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Rdjadmrll | <?= $title ?></title>
 
+    <link rel="website icon" type="png" href="<?= base_url('AdminLTE') ?>/dist/img/AdminLTELogo.png">
+
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
     <!-- Font Awesome -->
@@ -119,50 +121,6 @@
                                 </a>
                             </li>
                         <?php } ?>
-                        <?php if (session()->get('role') != '4') { ?>
-                            <br>
-                            <li class="nav-item <?= $menu == 'data' ? 'menu-open' : '' ?>">
-                                <a href="#" class="nav-link <?= $menu == 'data' ? 'active' : '' ?>">
-                                    <i class="nav-icon fas fa-solid fa-database"></i>
-                                    <p>
-                                        Database
-                                        <i class="right fas fa-angle-left"></i>
-                                    </p>
-                                </a>
-                                <ul class="nav nav-treeview">
-                                    <li class="nav-item">
-                                        <a href="<?= base_url('/club') ?>" class="nav-link <?= $submenu1 == 'club' ? 'active' : '' ?>">
-                                            <i class="nav-icon fas fa-shield-alt"></i>
-                                            <p>Club</p>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="<?= base_url('/country') ?>" class="nav-link <?= $submenu1 == 'country' ? 'active' : '' ?>">
-                                            <i class="nav-icon fas fa-flag"></i>
-                                            <p>Country</p>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="<?= base_url('/confederation') ?>" class="nav-link <?= $submenu1 == 'confederation' ? 'active' : '' ?>">
-                                            <i class="nav-icon fas fa-globe"></i>
-                                            <p>Confederation</p>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="<?= base_url('/group') ?>" class="nav-link <?= $submenu1 == 'group' ? 'active' : '' ?>">
-                                            <i class="nav-icon fas fa-users"></i>
-                                            <p>Group</p>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="<?= base_url('/knockout') ?>" class="nav-link <?= $submenu1 == 'knockout' ? 'active' : '' ?>">
-                                            <i class="nav-icon fas fa-users"></i>
-                                            <p>Knockout</p>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-                        <?php } ?>
                         <br>
                         <li class="nav-item <?= $menu == 'football' ? 'menu-open' : '' ?>">
                             <a href="#" class="nav-link <?= $menu == 'football' ? 'active' : '' ?>">
@@ -173,48 +131,16 @@
                                 </p>
                             </a>
                             <ul class="nav nav-treeview">
-                                <li class="nav-item <?= $submenu1 == 'fifa' ? 'menu-open' : '' ?>">
-                                    <a href="#" class="nav-link <?= $submenu1 == 'fifa' ? 'active' : '' ?>">
-                                        <p>
-                                            FIFA
-                                            <i class="right fas fa-angle-left"></i>
-                                        </p>
-                                    </a>
-                                    <ul class="nav nav-treeview">
-                                        <li class="nav-item">
-                                            <a href="<?= base_url('/wc22') ?>" class="nav-link <?= $submenu2 == 'wc22' ? 'active' : '' ?>">
-                                                <i class="nav-icon fas fa-trophy"></i>
-                                                <p>World Cup 2022</p>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item <?= $submenu1 == 'uefa' ? 'menu-open' : '' ?>">
-                                    <a href="#" class="nav-link <?= $submenu1 == 'uefa' ? 'active' : '' ?>">
-                                        <p>
-                                            UEFA
-                                            <i class="right fas fa-angle-left"></i>
-                                        </p>
-                                    </a>
-                                    <ul class="nav nav-treeview">
-                                        <li class="nav-item">
-                                            <a href="<?= base_url('/cl2324') ?>" class="nav-link <?= $submenu2 == 'cl2324' ? 'active' : '' ?>">
-                                                <i class="nav-icon fas fa-trophy"></i>
-                                                <p>Champions League 23/24</p>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
                                 <li class="nav-item <?= $submenu1 == 'fa' ? 'menu-open' : '' ?>">
                                     <a href="#" class="nav-link <?= $submenu1 == 'fa' ? 'active' : '' ?>">
                                         <p>
-                                            FA
+                                            English
                                             <i class="right fas fa-angle-left"></i>
                                         </p>
                                     </a>
                                     <ul class="nav nav-treeview">
                                         <li class="nav-item">
-                                            <a href="<?= base_url('/pl2324') ?>" class="nav-link <?= $submenu2 == 'premierleague' ? 'active' : '' ?>">
+                                            <a href="<?= base_url('/premierleague') ?>" class="nav-link <?= $submenu2 == 'premierleague' ? 'active' : '' ?>">
                                                 <i class="nav-icon fas fa-trophy"></i>
                                                 <p>Premier League</p>
                                             </a>
@@ -224,13 +150,13 @@
                                 <li class="nav-item <?= $submenu1 == 'rfef' ? 'menu-open' : '' ?>">
                                     <a href="#" class="nav-link <?= $submenu1 == 'rfef' ? 'active' : '' ?>">
                                         <p>
-                                            RFEF
+                                            Spain
                                             <i class="right fas fa-angle-left"></i>
                                         </p>
                                     </a>
                                     <ul class="nav nav-treeview">
                                         <li class="nav-item">
-                                            <a href="<?= base_url('/laliga2324') ?>" class="nav-link <?= $submenu2 == 'laliga' ? 'active' : '' ?>">
+                                            <a href="<?= base_url('/laliga') ?>" class="nav-link <?= $submenu2 == 'laliga' ? 'active' : '' ?>">
                                                 <i class="nav-icon fas fa-trophy"></i>
                                                 <p>LaLiga</p>
                                             </a>
@@ -240,13 +166,13 @@
                                 <li class="nav-item <?= $submenu1 == 'figc' ? 'menu-open' : '' ?>">
                                     <a href="#" class="nav-link <?= $submenu1 == 'figc' ? 'active' : '' ?>">
                                         <p>
-                                            FIGC
+                                            Italy
                                             <i class="right fas fa-angle-left"></i>
                                         </p>
                                     </a>
                                     <ul class="nav nav-treeview">
                                         <li class="nav-item">
-                                            <a href="<?= base_url('/seriea2324') ?>" class="nav-link <?= $submenu2 == 'seriea' ? 'active' : '' ?>">
+                                            <a href="<?= base_url('/seriea') ?>" class="nav-link <?= $submenu2 == 'seriea' ? 'active' : '' ?>">
                                                 <i class="nav-icon fas fa-trophy"></i>
                                                 <p>Serie A</p>
                                             </a>
@@ -256,15 +182,47 @@
                                 <li class="nav-item <?= $submenu1 == 'dfl' ? 'menu-open' : '' ?>">
                                     <a href="#" class="nav-link <?= $submenu1 == 'dfl' ? 'active' : '' ?>">
                                         <p>
-                                            DFL
+                                            Germany
                                             <i class="right fas fa-angle-left"></i>
                                         </p>
                                     </a>
                                     <ul class="nav nav-treeview">
                                         <li class="nav-item">
-                                            <a href="<?= base_url('/bundesliga2324') ?>" class="nav-link <?= $submenu2 == 'bundesliga' ? 'active' : '' ?>">
+                                            <a href="<?= base_url('/bundesliga') ?>" class="nav-link <?= $submenu2 == 'bundesliga' ? 'active' : '' ?>">
                                                 <i class="nav-icon fas fa-trophy"></i>
                                                 <p>Bundesliga</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item <?= $submenu1 == 'fff' ? 'menu-open' : '' ?>">
+                                    <a href="#" class="nav-link <?= $submenu1 == 'fff' ? 'active' : '' ?>">
+                                        <p>
+                                            France
+                                            <i class="right fas fa-angle-left"></i>
+                                        </p>
+                                    </a>
+                                    <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a href="<?= base_url('/ligue1') ?>" class="nav-link <?= $submenu2 == 'ligue1' ? 'active' : '' ?>">
+                                                <i class="nav-icon fas fa-trophy"></i>
+                                                <p>Ligue 1</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item <?= $submenu1 == 'pssi' ? 'menu-open' : '' ?>">
+                                    <a href="#" class="nav-link <?= $submenu1 == 'pssi' ? 'active' : '' ?>">
+                                        <p>
+                                            Liga 1
+                                            <i class="right fas fa-angle-left"></i>
+                                        </p>
+                                    </a>
+                                    <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a href="<?= base_url('/liga1') ?>" class="nav-link <?= $submenu2 == 'liga1' ? 'active' : '' ?>">
+                                                <i class="nav-icon fas fa-trophy"></i>
+                                                <p>Liga 1</p>
                                             </a>
                                         </li>
                                     </ul>

@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Controllers\Bundesliga;
+namespace App\Controllers\Liga1;
 
 use App\Controllers\BaseController;
 use App\Models\Info\ModelUser;
 
 
-class Bundesliga extends BaseController
+class Liga1 extends BaseController
 {
     public function __construct()
     {
@@ -17,13 +17,13 @@ class Bundesliga extends BaseController
     {
         $data = [
             'judul' => 'Football',
-            'subjudul1' => 'DFL',
-            'subjudul2' => 'Bundesliga',
-            'title' => 'Bundesliga',
+            'subjudul1' => 'PSSI',
+            'subjudul2' => 'Liga 1',
+            'title' => 'Liga 1',
             'menu' => 'football',
-            'submenu1' => 'dfl',
-            'submenu2' => 'bundesliga',
-            'page' => 'football/league/germany/bundesliga',
+            'submenu1' => 'pssi',
+            'submenu2' => 'liga1',
+            'page' => 'football/league/indonesia/liga1',
             'profile' => $this->ModelUser->AllData(),
 
         ];
