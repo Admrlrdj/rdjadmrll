@@ -59,6 +59,9 @@ $routes->get('/club', 'Database\Club::index');
 // * Confederation
 $routes->get('/confederation', 'Database\Confederation::index');
 
+//* Champions League
+$routes->get('/cl2324', 'ChampionsLeague\CL2324::index');
+
 //* Premier League
 $routes->get('/premierleague', 'PremierLeague\PremierLeague::index');
 
@@ -76,6 +79,9 @@ $routes->get('/ligue1', 'Ligue1\Ligue1::index');
 
 //* BRI League 1
 $routes->get('/liga1', 'Liga1\Liga1::index');
+
+//* Saudi Pro League
+$routes->get('/roshn', 'ROSHN\ROSHN::index');
 
 /*
  * --------------------------------------------------------------------

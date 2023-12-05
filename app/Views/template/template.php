@@ -131,6 +131,25 @@
                                 </p>
                             </a>
                             <ul class="nav nav-treeview">
+                                <li class="nav-item <?= $submenu1 == 'uefa' ? 'menu-open' : '' ?>">
+                                    <a href="#" class="nav-link <?= $submenu1 == 'uefa' ? 'active' : '' ?>">
+                                        <p>
+                                            UEFA
+                                            <i class="right fas fa-angle-left"></i>
+                                        </p>
+                                    </a>
+                                    <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a href="<?= base_url('/cl2324') ?>" class="nav-link <?= $submenu2 == 'cl2324' ? 'active' : '' ?>">
+                                                <i class="nav-icon fas fa-trophy"></i>
+                                                <p>Champions League 2023/2024</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <br>
+                            <ul class="nav nav-treeview">
                                 <li class="nav-item <?= $submenu1 == 'fa' ? 'menu-open' : '' ?>">
                                     <a href="#" class="nav-link <?= $submenu1 == 'fa' ? 'active' : '' ?>">
                                         <p>
@@ -214,7 +233,7 @@
                                 <li class="nav-item <?= $submenu1 == 'pssi' ? 'menu-open' : '' ?>">
                                     <a href="#" class="nav-link <?= $submenu1 == 'pssi' ? 'active' : '' ?>">
                                         <p>
-                                            Liga 1
+                                            Indonesia
                                             <i class="right fas fa-angle-left"></i>
                                         </p>
                                     </a>
@@ -223,6 +242,22 @@
                                             <a href="<?= base_url('/liga1') ?>" class="nav-link <?= $submenu2 == 'liga1' ? 'active' : '' ?>">
                                                 <i class="nav-icon fas fa-trophy"></i>
                                                 <p>Liga 1</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item <?= $submenu1 == 'saff' ? 'menu-open' : '' ?>">
+                                    <a href="#" class="nav-link <?= $submenu1 == 'saff' ? 'active' : '' ?>">
+                                        <p>
+                                            Saudi Arabia
+                                            <i class="right fas fa-angle-left"></i>
+                                        </p>
+                                    </a>
+                                    <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a href="<?= base_url('/roshn') ?>" class="nav-link <?= $submenu2 == 'roshn' ? 'active' : '' ?>">
+                                                <i class="nav-icon fas fa-trophy"></i>
+                                                <p>Saudi Pro League</p>
                                             </a>
                                         </li>
                                     </ul>
