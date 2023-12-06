@@ -55,7 +55,7 @@
                     </a>
                 </li>
                 <li class="list-group-item">
-                    <b>Tanggal Lahir</b> <a class="float-right"><?= date('d-m-Y', strtotime(session()->get('tgl_lahir'))); ?></a>
+                    <b>Tanggal Lahir</b> <a class="float-right"><?= date('d F Y', strtotime(session()->get('tgl_lahir'))); ?></a>
                 </li>
                 <li class="list-group-item">
                     <b>Jenis Kelamin</b> <a class="float-right"><?php

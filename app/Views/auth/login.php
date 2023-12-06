@@ -37,16 +37,16 @@
                         </ul>
                     </div>
                 <?php } ?>
-                <?php if (session()->getFlashdata('gagal')) {
-                    echo '<div class="alert alert-danger alert-dismissible"> <i class="icon fas fa-times"></i>';
-                    echo session()->getFlashdata('gagal');
-                    echo '</div>';
-                } ?>
-                <?php if (session()->getFlashdata('pesan')) {
-                    echo '<div class="alert alert-success alert-dismissible"> <h5><i class="icon fas fa-check"></i>';
-                    echo session()->getFlashdata('pesan');
-                    echo '</h5></div>';
-                } ?>
+                <?php if (session()->getFlashdata('gagal')) { ?>
+                    <div class="alert alert-danger alert-dismissible"> <i class="icon fas fa-times"></i>
+                        <?php echo session()->getFlashdata('gagal'); ?>
+                    </div>
+                <?php } ?>
+                <?php if (session()->getFlashdata('pesan')) { ?>
+                    <div class="alert alert-success alert-dismissible">
+                        <h5> <i class="icon fas fa-check"></i><?php echo session()->getFlashdata('pesan'); ?></h5>
+                    </div>
+                <?php } ?>
 
                 <form action="valid-login" method="post">
                     <div class="input-group mb-3">

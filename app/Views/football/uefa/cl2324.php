@@ -8,7 +8,7 @@
                 </li>
                 <!-- //* Round of 16 -->
                 <li class="nav-item">
-                    <a class="nav-link disabled" id="custom-tabs-one-ro16-tab" data-toggle="pill" href="#custom-tabs-one-ro16" role="tab" aria-controls="custom-tabs-one-ro16" aria-selected="false">Round of 16</a>
+                    <a class="nav-link" id="custom-tabs-one-ro16-tab" data-toggle="pill" href="#custom-tabs-one-ro16" role="tab" aria-controls="custom-tabs-one-ro16" aria-selected="false">Round of 16</a>
                 </li>
                 <!-- //* Quarter Final -->
                 <li class="nav-item">
@@ -53,6 +53,37 @@
                                                     <th>GK</th>
                                                     <th>SG</th>
                                                     <th>Poin</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody></tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        <?php } ?>
+                    </div>
+                </div>
+                <!-- //* Round Of 16 -->
+                <div class="tab-pane fade" id="custom-tabs-one-ro16" role="tabpanel" aria-labelledby="custom-tabs-one-ro16-tab">
+                    <?php $groups = ['1', '2', '3', '4', '5', '6', '7', '8']; ?>
+                    <div class="row">
+                        <?php foreach ($groups as $key => $group) { ?>
+                            <div class="col-md-6">
+                                <div class="card card-primary">
+                                    <div class="card-header">
+                                        <h1 class="card-title">
+                                            Round of 16 <?= $group ?>
+                                        </h1>
+                                    </div>
+                                    <div class="card-body">
+                                        <table id="custom-tabs-one-<?php echo strtolower($group); ?>" class="table table-bordered table-responsive">
+                                            <thead>
+                                                <tr class="text-center">
+                                                    <th width="500px">Tim</th>
+                                                    <th>S</th>
+                                                    <th>-</th>
+                                                    <th>S</th>
+                                                    <th width="500px">Tim</th>
                                                 </tr>
                                             </thead>
                                             <tbody></tbody>

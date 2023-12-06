@@ -73,7 +73,7 @@
                                     <span class="badge bg-disabled">Role Not Found</span>
                                 <?php } ?>
                             </td>
-                            <td><?= date('d-m-Y', strtotime($value['tgl_lahir'])); ?></td>
+                            <td><?= date('d F Y', strtotime($value['tgl_lahir'])); ?></td>
                             <td><?= $value['telp'] ?></td>
                             <td><?php
                                 if ($value['jenkel'] == '1') { ?>
