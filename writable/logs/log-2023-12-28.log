@@ -1,0 +1,895 @@
+ERROR - 2023-12-28 02:18:47 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'rdjadmrll', 3306, '', 0)
+#1 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\rdjadmrll\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\rdjadmrll\app\Models\Info\ModelAuth.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\rdjadmrll\app\Controllers\Info\Auth.php(127): App\Models\Info\ModelAuth->ValidLogin('owner', 'Rdjadmrl060206')
+#6 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(932): App\Controllers\Info\Auth->ValidLogin()
+#7 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info\Auth))
+#8 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\rdjadmrll\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\rdjadmrll\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\rdjadmrll\app\Models\Info\ModelAuth.php(27): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\rdjadmrll\app\Controllers\Info\Auth.php(127): App\Models\Info\ModelAuth->ValidLogin('owner', 'Rdjadmrl060206')
+#5 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(932): App\Controllers\Info\Auth->ValidLogin()
+#6 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info\Auth))
+#7 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rdjadmrll\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-28 02:18:47 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `username` = :username:
+AND `password` = :password:', [...], false)
+ 3 APPPATH\Models\Info\ModelAuth.php(27): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Info\Auth.php(127): App\Models\Info\ModelAuth->ValidLogin('owner', 'Rdjadmrl060206')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Info\Auth->ValidLogin()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-28 03:29:30 --> Undefined variable $submenu3
+in APPPATH\Views\template\template.php on line 172.
+ 1 APPPATH\Views\template\template.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $submenu3', 'C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\template\\template.php', 172)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\template\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('template/template', [], true)
+ 5 APPPATH\Controllers\SerieA\SerieA.php(28): view('template/template', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SerieA\SerieA->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SerieA\SerieA))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-28 03:29:32 --> Undefined variable $submenu3
+in APPPATH\Views\template\template.php on line 172.
+ 1 APPPATH\Views\template\template.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $submenu3', 'C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\template\\template.php', 172)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\template\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('template/template', [], true)
+ 5 APPPATH\Controllers\SerieA\SerieA.php(28): view('template/template', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SerieA\SerieA->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SerieA\SerieA))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-28 03:29:32 --> Undefined variable $submenu3
+in APPPATH\Views\template\template.php on line 172.
+ 1 APPPATH\Views\template\template.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $submenu3', 'C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\template\\template.php', 172)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\template\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('template/template', [], true)
+ 5 APPPATH\Controllers\PremierLeague\PremierLeague.php(29): view('template/template', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PremierLeague\PremierLeague->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PremierLeague\PremierLeague))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-28 03:29:34 --> Undefined variable $submenu3
+in APPPATH\Views\template\template.php on line 172.
+ 1 APPPATH\Views\template\template.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $submenu3', 'C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\template\\template.php', 172)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\template\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('template/template', [], true)
+ 5 APPPATH\Controllers\PremierLeague\PremierLeague.php(29): view('template/template', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PremierLeague\PremierLeague->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PremierLeague\PremierLeague))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-28 03:29:35 --> Undefined variable $submenu3
+in APPPATH\Views\template\template.php on line 172.
+ 1 APPPATH\Views\template\template.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $submenu3', 'C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\template\\template.php', 172)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\template\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('template/template', [], true)
+ 5 APPPATH\Controllers\PremierLeague\PremierLeague.php(29): view('template/template', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PremierLeague\PremierLeague->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PremierLeague\PremierLeague))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-28 03:31:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Info\Auth::$ModelAuth is deprecated in APPPATH\Controllers\Info\Auth.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Info\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 03:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 03:31:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Info\Auth::$ModelAuth is deprecated in APPPATH\Controllers\Info\Auth.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Info\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 03:31:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 03:31:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Info\Auth::$ModelAuth is deprecated in APPPATH\Controllers\Info\Auth.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Info\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 03:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 03:31:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Info\Auth::$ModelAuth is deprecated in APPPATH\Controllers\Info\Auth.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Info\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 03:31:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 03:31:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Info\Auth::$ModelAuth is deprecated in APPPATH\Controllers\Info\Auth.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Info\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 03:31:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 03:31:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Info\Profile::$ModelUser is deprecated in APPPATH\Controllers\Info\Profile.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Info\Profile->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 03:31:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-28 03:31:58 --> Undefined variable $submenu3
+in APPPATH\Views\template\template.php on line 172.
+ 1 APPPATH\Views\template\template.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $submenu3', 'C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\template\\template.php', 172)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\template\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('template/template', [], true)
+ 5 APPPATH\Controllers\Info\Profile.php(29): view('template/template', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Info\Profile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info\Profile))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-28 03:34:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Info\Profile::$ModelUser is deprecated in APPPATH\Controllers\Info\Profile.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Info\Profile->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 03:34:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-28 03:34:06 --> Undefined variable $submenu3
+in APPPATH\Views\template\template.php on line 172.
+ 1 APPPATH\Views\template\template.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $submenu3', 'C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\template\\template.php', 172)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\template\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('template/template', [], true)
+ 5 APPPATH\Controllers\Info\Profile.php(29): view('template/template', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Info\Profile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info\Profile))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-28 03:34:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Info\Profile::$ModelUser is deprecated in APPPATH\Controllers\Info\Profile.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Info\Profile->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 03:34:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-28 03:34:06 --> Undefined variable $submenu3
+in APPPATH\Views\template\template.php on line 172.
+ 1 APPPATH\Views\template\template.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $submenu3', 'C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\template\\template.php', 172)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\template\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('template/template', [], true)
+ 5 APPPATH\Controllers\Info\Profile.php(29): view('template/template', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Info\Profile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info\Profile))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-28 03:34:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Info\Profile::$ModelUser is deprecated in APPPATH\Controllers\Info\Profile.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Info\Profile->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 03:34:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-28 03:34:07 --> Undefined variable $submenu3
+in APPPATH\Views\template\template.php on line 172.
+ 1 APPPATH\Views\template\template.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $submenu3', 'C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\template\\template.php', 172)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\template\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('template/template', [], true)
+ 5 APPPATH\Controllers\Info\Profile.php(29): view('template/template', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Info\Profile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info\Profile))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-28 03:34:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Info\Profile::$ModelUser is deprecated in APPPATH\Controllers\Info\Profile.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Info\Profile->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 03:34:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-28 03:34:07 --> Undefined variable $submenu3
+in APPPATH\Views\template\template.php on line 172.
+ 1 APPPATH\Views\template\template.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $submenu3', 'C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\template\\template.php', 172)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\template\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('template/template', [], true)
+ 5 APPPATH\Controllers\Info\Profile.php(29): view('template/template', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Info\Profile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info\Profile))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-28 03:34:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Info\Profile::$ModelUser is deprecated in APPPATH\Controllers\Info\Profile.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Info\Profile->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 03:34:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-28 03:34:07 --> Undefined variable $submenu3
+in APPPATH\Views\template\template.php on line 172.
+ 1 APPPATH\Views\template\template.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $submenu3', 'C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\template\\template.php', 172)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\template\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('template/template', [], true)
+ 5 APPPATH\Controllers\Info\Profile.php(29): view('template/template', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Info\Profile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info\Profile))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-28 03:34:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Info\Profile::$ModelUser is deprecated in APPPATH\Controllers\Info\Profile.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Info\Profile->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 03:34:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-28 03:34:07 --> Undefined variable $submenu3
+in APPPATH\Views\template\template.php on line 172.
+ 1 APPPATH\Views\template\template.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $submenu3', 'C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\template\\template.php', 172)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\template\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('template/template', [], true)
+ 5 APPPATH\Controllers\Info\Profile.php(29): view('template/template', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Info\Profile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info\Profile))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-28 03:34:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Info\Profile::$ModelUser is deprecated in APPPATH\Controllers\Info\Profile.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Info\Profile->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 03:34:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 03:34:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Info\Profile::$ModelUser is deprecated in APPPATH\Controllers\Info\Profile.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Info\Profile->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 03:34:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 03:35:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Info\Profile::$ModelUser is deprecated in APPPATH\Controllers\Info\Profile.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Info\Profile->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 03:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 03:35:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Info\Profile::$ModelUser is deprecated in APPPATH\Controllers\Info\Profile.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Info\Profile->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 03:35:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 03:35:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\PremierLeague::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\PremierLeague.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\PremierLeague->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 03:35:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 03:36:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\PremierLeague::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\PremierLeague.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\PremierLeague->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 03:36:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 03:36:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\SerieA::$ModelUser is deprecated in APPPATH\Controllers\SerieA\SerieA.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\SerieA->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 03:36:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-28 03:36:08 --> Undefined variable $submenu3
+in APPPATH\Views\template\template.php on line 172.
+ 1 APPPATH\Views\template\template.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $submenu3', 'C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\template\\template.php', 172)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\template\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('template/template', [], true)
+ 5 APPPATH\Controllers\SerieA\SerieA.php(28): view('template/template', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SerieA\SerieA->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SerieA\SerieA))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-28 03:36:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\PremierLeague::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\PremierLeague.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\PremierLeague->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 03:36:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 03:36:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\LaLiga\LaLiga::$ModelUser is deprecated in APPPATH\Controllers\LaLiga\LaLiga.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\LaLiga\LaLiga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 03:36:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-28 03:36:11 --> Undefined variable $submenu3
+in APPPATH\Views\template\template.php on line 172.
+ 1 APPPATH\Views\template\template.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $submenu3', 'C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\template\\template.php', 172)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\template\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('template/template', [], true)
+ 5 APPPATH\Controllers\LaLiga\LaLiga.php(29): view('template/template', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\LaLiga\LaLiga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaLiga\LaLiga))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-28 03:36:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\PremierLeague::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\PremierLeague.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\PremierLeague->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 03:36:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 03:36:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\PremierLeague::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\PremierLeague.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\PremierLeague->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 03:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 03:36:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\LaLiga\LaLiga::$ModelUser is deprecated in APPPATH\Controllers\LaLiga\LaLiga.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\LaLiga\LaLiga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 03:36:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 03:36:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\PremierLeague::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\PremierLeague.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\PremierLeague->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 03:36:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 03:37:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\PremierLeague::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\PremierLeague.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\PremierLeague->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 03:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 03:37:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\PremierLeague::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\PremierLeague.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\PremierLeague->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 03:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 04:09:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\PremierLeague::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\PremierLeague.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\PremierLeague->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 04:09:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 04:09:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\PremierLeague::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\PremierLeague.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\PremierLeague->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 04:09:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 04:12:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\PremierLeague::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\PremierLeague.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\PremierLeague->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 04:12:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 04:13:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\PremierLeague::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\PremierLeague.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\PremierLeague->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 04:13:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 04:15:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\PremierLeague::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\PremierLeague.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\PremierLeague->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 04:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 04:15:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\PremierLeague::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\PremierLeague.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\PremierLeague->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 04:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:14:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Standings::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Standings.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Standings->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:15:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Standings::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Standings.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Standings->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:15:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:15:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:15:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:15:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Standings::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Standings.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Standings->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:16:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Standings::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Standings.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Standings->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:16:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:17:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:17:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:17:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:17:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:33:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:33:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:33:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:33:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:33:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:33:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:33:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:34:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:34:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:34:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:34:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:34:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:34:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:34:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:34:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:35:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:35:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:35:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:35:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:35:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:36:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:36:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:36:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:36:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:36:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:36:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:36:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:36:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:36:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:36:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:36:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:36:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:36:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:36:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:36:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:36:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:36:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:36:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:36:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:36:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:36:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:38:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:38:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:38:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:38:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:38:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:38:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:38:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:38:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:38:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:38:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:39:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:39:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:39:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:40:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:40:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:42:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:43:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:43:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:43:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:45:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:45:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:45:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:47:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:47:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:48:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:48:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:48:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:48:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:49:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Standings::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Standings.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Standings->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:49:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:49:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 07:50:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 07:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 08:54:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 08:54:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 08:55:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 08:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 09:32:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\LaLiga\LaLiga::$ModelUser is deprecated in APPPATH\Controllers\LaLiga\LaLiga.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\LaLiga\LaLiga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 09:32:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 09:33:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Standings::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Standings.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Standings->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 09:33:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 09:33:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 09:33:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 09:57:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 09:57:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 09:58:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 09:58:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 10:08:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 10:08:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 10:08:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Ligue1\Standings::$ModelUser is deprecated in APPPATH\Controllers\Ligue1\Standings.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ligue1\Standings->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 10:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 10:08:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Ligue1\Statistics::$ModelUser is deprecated in APPPATH\Controllers\Ligue1\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ligue1\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 10:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 10:09:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Ligue1\Statistics::$ModelUser is deprecated in APPPATH\Controllers\Ligue1\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ligue1\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 10:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 10:09:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Ligue1\Statistics::$ModelUser is deprecated in APPPATH\Controllers\Ligue1\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ligue1\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 10:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 10:13:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Ligue1\Statistics::$ModelUser is deprecated in APPPATH\Controllers\Ligue1\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ligue1\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 10:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 10:13:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Liga1\Statistics::$ModelUser is deprecated in APPPATH\Controllers\Liga1\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Liga1\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 10:13:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 10:13:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 10:13:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 10:13:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\LaLiga\Standings::$ModelUser is deprecated in APPPATH\Controllers\LaLiga\Standings.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\LaLiga\Standings->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 10:13:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 10:13:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\LaLiga\Statistics::$ModelUser is deprecated in APPPATH\Controllers\LaLiga\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\LaLiga\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 10:13:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 10:14:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\LaLiga\Statistics::$ModelUser is deprecated in APPPATH\Controllers\LaLiga\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\LaLiga\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 10:14:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 10:15:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\LaLiga\Statistics::$ModelUser is deprecated in APPPATH\Controllers\LaLiga\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\LaLiga\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 10:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 10:15:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\LaLiga\Statistics::$ModelUser is deprecated in APPPATH\Controllers\LaLiga\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\LaLiga\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 10:15:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 10:16:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\LaLiga\Statistics::$ModelUser is deprecated in APPPATH\Controllers\LaLiga\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\LaLiga\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 10:16:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 10:17:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\Statistics::$ModelUser is deprecated in APPPATH\Controllers\SerieA\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 10:17:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 10:18:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\SerieA\Statistics::$ModelUser is deprecated in APPPATH\Controllers\SerieA\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SerieA\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 10:18:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 10:18:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Standings::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Standings.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Standings->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 10:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 10:18:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\PremierLeague\Statistics::$ModelUser is deprecated in APPPATH\Controllers\PremierLeague\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PremierLeague\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 10:18:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 10:19:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Bundesliga\Statistics::$ModelUser is deprecated in APPPATH\Controllers\Bundesliga\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Bundesliga\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 10:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 10:20:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Bundesliga\Statistics::$ModelUser is deprecated in APPPATH\Controllers\Bundesliga\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Bundesliga\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 10:20:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 10:21:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Liga1\Statistics::$ModelUser is deprecated in APPPATH\Controllers\Liga1\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Liga1\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 10:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 10:24:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Liga1\Statistics::$ModelUser is deprecated in APPPATH\Controllers\Liga1\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Liga1\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 10:24:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 10:24:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\ChampionsLeague\CL2324::$ModelUser is deprecated in APPPATH\Controllers\ChampionsLeague\CL2324.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ChampionsLeague\CL2324->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 10:24:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-28 10:24:21 --> Undefined variable $submenu3
+in APPPATH\Views\template\template.php on line 173.
+ 1 APPPATH\Views\template\template.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $submenu3', 'C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\template\\template.php', 173)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rdjadmrll\\app\\Views\\template\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('template/template', [], true)
+ 5 APPPATH\Controllers\ChampionsLeague\CL2324.php(30): view('template/template', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ChampionsLeague\CL2324->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChampionsLeague\CL2324))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

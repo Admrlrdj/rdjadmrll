@@ -47,11 +47,10 @@
                 </li>
                 <li class="list-group-item">
                     <b>Password</b>
-                    <a class="float-right">
-                        <span id="password">********</span>
-                        <button class="btn btn-link btn-sm" id="showPasswordBtn">
-                            <i class="fas fa-eye-slash"></i>
-                        </button>
+                    <button class="btn btn-link btn-sm float-right" id="showPasswordBtn" onclick="togglePasswordVisibility()">
+                        <i id="eyeIcon" class="fas fa-eye-slash"></i>
+                    </button>
+                    <input type="password" class="float-right" id="password" value="<?= session()->get('password'); ?>" disabled style="background-color: transparent; border: none; text-align: right; color: white;">
                     </a>
                 </li>
                 <li class="list-group-item">
@@ -162,17 +161,15 @@
 
 <script>
     function togglePasswordVisibility() {
-        const passwordField = document.getElementById('password');
-        const showPasswordBtn = document.getElementById('showPasswordBtn');
+        var passwordInput = document.getElementById("password");
+        var eyeIcon = document.getElementById("eyeIcon");
 
-        if (passwordField.innerHTML === '********') {
-            passwordField.innerHTML = '<?= $value['password'] ?>';
-            showPasswordBtn.innerHTML = '<i class="fas fa-eye"></i>';
+        if (passwordInput.type === "password") {
+            passwordInput.type = "text";
+            eyeIcon.className = "fas fa-eye";
         } else {
-            passwordField.innerHTML = '********';
-            showPasswordBtn.innerHTML = '<i class="fas fa-eye-slash"></i>';
+            passwordInput.type = "password";
+            eyeIcon.className = "fas fa-eye-slash";
         }
     }
-
-    document.getElementById('showPasswordBtn').addEventListener('click', togglePasswordVisibility);
 </script>

@@ -168,6 +168,7 @@
                                                 <th>Poin</th>
                                             </tr>
                                         </thead>
+                                        <tbody></tbody>
                                     </table>
                                 </div>
                                 <!-- /.card-body -->
@@ -193,6 +194,7 @@
                 'sort': 'asc'
             },
             success: function(result) {
+                console.log(result);
                 if (result) {
                     let standings = result.data.standings;
                     let tbodyContent = '';
@@ -215,7 +217,7 @@
                                 <td>${data.stats[5].displayValue}</td>
                                 <td>${data.stats[4].displayValue}</td>
                                 <td>${data.stats[2].displayValue}</td>
-                                <td>${data.stats[3].displayValue}</td>
+                                <th>${data.stats[3].displayValue}</th>
                             </tr>
                         `;
                     });
@@ -255,7 +257,7 @@
                                 <td>${data.stats[5].displayValue}</td>
                                 <td>${data.stats[4].displayValue}</td>
                                 <td>${data.stats[2].displayValue}</td>
-                                <td>${data.stats[3].displayValue}</td>
+                                <th>${data.stats[3].displayValue}</th>
                             </tr>
                         `;
                     });
@@ -295,7 +297,7 @@
                                 <td>${data.stats[5].displayValue}</td>
                                 <td>${data.stats[4].displayValue}</td>
                                 <td>${data.stats[2].displayValue}</td>
-                                <td>${data.stats[3].displayValue}</td>
+                                <th>${data.stats[3].displayValue}</th>
                             </tr>
                         `;
                     });
@@ -334,7 +336,7 @@
                                 <td>${data.stats[5].displayValue}</td>
                                 <td>${data.stats[4].displayValue}</td>
                                 <td>${data.stats[2].displayValue}</td>
-                                <td>${data.stats[3].displayValue}</td>
+                                <th>${data.stats[3].displayValue}</th>
                             </tr>
                         `;
                     });
@@ -371,7 +373,7 @@
                                 <td>${data.stats[5].displayValue}</td>
                                 <td>${data.stats[4].displayValue}</td>
                                 <td>${data.stats[2].displayValue}</td>
-                                <td>${data.stats[3].displayValue}</td>
+                                <th>${data.stats[3].displayValue}</th>
                             </tr>
                         `;
                     });
@@ -389,46 +391,46 @@
 <script>
     $("#2324").DataTable({
         "responsive": true,
-        "lengthChange": true,
+        "lengthChange": false,
         "autoWidth": false,
         "paging": false,
-        "searching": true,
+        "searching": false,
         "ordering": false,
         "info": false,
     });
     $("#2223").DataTable({
         "responsive": true,
-        "lengthChange": true,
+        "lengthChange": false,
         "autoWidth": false,
         "paging": false,
-        "searching": true,
+        "searching": false,
         "ordering": false,
         "info": false,
     });
     $("#2122").DataTable({
         "responsive": true,
-        "lengthChange": true,
+        "lengthChange": false,
         "autoWidth": false,
         "paging": false,
-        "searching": true,
+        "searching": false,
         "ordering": false,
         "info": false,
     });
     $("#2021").DataTable({
         "responsive": true,
-        "lengthChange": true,
+        "lengthChange": false,
         "autoWidth": false,
         "paging": false,
-        "searching": true,
+        "searching": false,
         "ordering": false,
         "info": false,
     });
     $("#1920").DataTable({
         "responsive": true,
-        "lengthChange": true,
+        "lengthChange": false,
         "autoWidth": false,
         "paging": false,
-        "searching": true,
+        "searching": false,
         "ordering": false,
         "info": false,
     });

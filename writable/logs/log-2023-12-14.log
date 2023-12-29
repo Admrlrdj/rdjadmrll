@@ -1,0 +1,514 @@
+ERROR - 2023-12-14 08:34:03 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=2996 in C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\xampp\\htdocs...', 173)
+#1 C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'rdjadmrll', 3306, '', 0)
+#2 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\rdjadmrll\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 C:\xampp\htdocs\rdjadmrll\app\Models\Info\ModelAuth.php(27): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\rdjadmrll\app\Controllers\Info\Auth.php(127): App\Models\Info\ModelAuth->ValidLogin('owner', '1')
+#7 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(932): App\Controllers\Info\Auth->ValidLogin()
+#8 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info\Auth))
+#9 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\rdjadmrll\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'rdjadmrll', 3306, '', 0)
+#1 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\rdjadmrll\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\rdjadmrll\app\Models\Info\ModelAuth.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\rdjadmrll\app\Controllers\Info\Auth.php(127): App\Models\Info\ModelAuth->ValidLogin('owner', '1')
+#6 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(932): App\Controllers\Info\Auth->ValidLogin()
+#7 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info\Auth))
+#8 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\rdjadmrll\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\rdjadmrll\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\rdjadmrll\app\Models\Info\ModelAuth.php(27): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\rdjadmrll\app\Controllers\Info\Auth.php(127): App\Models\Info\ModelAuth->ValidLogin('owner', '1')
+#5 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(932): App\Controllers\Info\Auth->ValidLogin()
+#6 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info\Auth))
+#7 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rdjadmrll\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-12-14 08:34:03 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=2996 in C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\xampp\\htdocs...', 173)
+#1 C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'rdjadmrll', 3306, '', 0)
+#2 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\rdjadmrll\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 C:\xampp\htdocs\rdjadmrll\app\Models\Info\ModelAuth.php(12): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\rdjadmrll\app\Controllers\Info\Auth.php(28): App\Models\Info\ModelAuth->AllData()
+#7 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(932): App\Controllers\Info\Auth->Register()
+#8 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info\Auth))
+#9 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\rdjadmrll\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'rdjadmrll', 3306, '', 0)
+#1 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\rdjadmrll\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\rdjadmrll\app\Models\Info\ModelAuth.php(12): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\rdjadmrll\app\Controllers\Info\Auth.php(28): App\Models\Info\ModelAuth->AllData()
+#6 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(932): App\Controllers\Info\Auth->Register()
+#7 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info\Auth))
+#8 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\rdjadmrll\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\rdjadmrll\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\rdjadmrll\app\Models\Info\ModelAuth.php(12): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\rdjadmrll\app\Controllers\Info\Auth.php(28): App\Models\Info\ModelAuth->AllData()
+#5 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(932): App\Controllers\Info\Auth->Register()
+#6 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info\Auth))
+#7 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rdjadmrll\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-12-14 08:34:03 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=2996 in C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\xampp\\htdocs...', 173)
+#1 C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'rdjadmrll', 3306, '', 0)
+#2 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\rdjadmrll\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 C:\xampp\htdocs\rdjadmrll\app\Models\Info\ModelAuth.php(27): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\rdjadmrll\app\Controllers\Info\Auth.php(127): App\Models\Info\ModelAuth->ValidLogin('owner', '1')
+#7 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(932): App\Controllers\Info\Auth->ValidLogin()
+#8 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info\Auth))
+#9 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\rdjadmrll\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'rdjadmrll', 3306, '', 0)
+#1 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\rdjadmrll\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\rdjadmrll\app\Models\Info\ModelAuth.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\rdjadmrll\app\Controllers\Info\Auth.php(127): App\Models\Info\ModelAuth->ValidLogin('owner', '1')
+#6 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(932): App\Controllers\Info\Auth->ValidLogin()
+#7 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info\Auth))
+#8 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\rdjadmrll\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\rdjadmrll\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\rdjadmrll\app\Models\Info\ModelAuth.php(27): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\rdjadmrll\app\Controllers\Info\Auth.php(127): App\Models\Info\ModelAuth->ValidLogin('owner', '1')
+#5 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(932): App\Controllers\Info\Auth->ValidLogin()
+#6 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info\Auth))
+#7 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rdjadmrll\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-12-14 08:34:03 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=2996 in C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\xampp\\htdocs...', 173)
+#1 C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'rdjadmrll', 3306, '', 0)
+#2 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\rdjadmrll\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 C:\xampp\htdocs\rdjadmrll\app\Models\Info\ModelAuth.php(12): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\rdjadmrll\app\Controllers\Info\Auth.php(28): App\Models\Info\ModelAuth->AllData()
+#7 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(932): App\Controllers\Info\Auth->Register()
+#8 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info\Auth))
+#9 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\rdjadmrll\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'rdjadmrll', 3306, '', 0)
+#1 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\rdjadmrll\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\rdjadmrll\app\Models\Info\ModelAuth.php(12): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\rdjadmrll\app\Controllers\Info\Auth.php(28): App\Models\Info\ModelAuth->AllData()
+#6 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(932): App\Controllers\Info\Auth->Register()
+#7 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info\Auth))
+#8 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\rdjadmrll\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\rdjadmrll\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\rdjadmrll\app\Models\Info\ModelAuth.php(12): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\rdjadmrll\app\Controllers\Info\Auth.php(28): App\Models\Info\ModelAuth->AllData()
+#5 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(932): App\Controllers\Info\Auth->Register()
+#6 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info\Auth))
+#7 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rdjadmrll\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-14 08:34:03 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`', [], false)
+ 3 APPPATH\Models\Info\ModelAuth.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Info\Auth.php(28): App\Models\Info\ModelAuth->AllData()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Info\Auth->Register()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 08:34:03 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`', [], false)
+ 3 APPPATH\Models\Info\ModelAuth.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Info\Auth.php(28): App\Models\Info\ModelAuth->AllData()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Info\Auth->Register()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-14 08:34:03 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=2996 in C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\xampp\\htdocs...', 173)
+#1 C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'rdjadmrll', 3306, '', 0)
+#2 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\rdjadmrll\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 C:\xampp\htdocs\rdjadmrll\app\Models\Info\ModelAuth.php(12): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\rdjadmrll\app\Controllers\Info\Auth.php(28): App\Models\Info\ModelAuth->AllData()
+#7 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(932): App\Controllers\Info\Auth->Register()
+#8 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info\Auth))
+#9 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\rdjadmrll\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'rdjadmrll', 3306, '', 0)
+#1 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\rdjadmrll\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\rdjadmrll\app\Models\Info\ModelAuth.php(12): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\rdjadmrll\app\Controllers\Info\Auth.php(28): App\Models\Info\ModelAuth->AllData()
+#6 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(932): App\Controllers\Info\Auth->Register()
+#7 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info\Auth))
+#8 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\rdjadmrll\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\rdjadmrll\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\rdjadmrll\app\Models\Info\ModelAuth.php(12): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\rdjadmrll\app\Controllers\Info\Auth.php(28): App\Models\Info\ModelAuth->AllData()
+#5 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(932): App\Controllers\Info\Auth->Register()
+#6 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info\Auth))
+#7 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rdjadmrll\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-12-14 08:34:03 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=2996 in C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\xampp\\htdocs...', 173)
+#1 C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'rdjadmrll', 3306, '', 0)
+#2 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\rdjadmrll\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 C:\xampp\htdocs\rdjadmrll\app\Models\Info\ModelAuth.php(12): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\rdjadmrll\app\Controllers\Info\Auth.php(28): App\Models\Info\ModelAuth->AllData()
+#7 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(932): App\Controllers\Info\Auth->Register()
+#8 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info\Auth))
+#9 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\rdjadmrll\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'rdjadmrll', 3306, '', 0)
+#1 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\rdjadmrll\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\rdjadmrll\app\Models\Info\ModelAuth.php(12): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\rdjadmrll\app\Controllers\Info\Auth.php(28): App\Models\Info\ModelAuth->AllData()
+#6 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(932): App\Controllers\Info\Auth->Register()
+#7 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info\Auth))
+#8 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\rdjadmrll\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\rdjadmrll\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\rdjadmrll\app\Models\Info\ModelAuth.php(12): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\rdjadmrll\app\Controllers\Info\Auth.php(28): App\Models\Info\ModelAuth->AllData()
+#5 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(932): App\Controllers\Info\Auth->Register()
+#6 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info\Auth))
+#7 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rdjadmrll\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-14 08:34:03 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `username` = :username:
+AND `password` = :password:', [...], false)
+ 3 APPPATH\Models\Info\ModelAuth.php(27): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Info\Auth.php(127): App\Models\Info\ModelAuth->ValidLogin('owner', '1')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Info\Auth->ValidLogin()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-14 08:34:03 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=2996 in C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\xampp\\htdocs...', 173)
+#1 C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'rdjadmrll', 3306, '', 0)
+#2 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\rdjadmrll\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 C:\xampp\htdocs\rdjadmrll\app\Models\Info\ModelAuth.php(12): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\rdjadmrll\app\Controllers\Info\Auth.php(28): App\Models\Info\ModelAuth->AllData()
+#7 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(932): App\Controllers\Info\Auth->Register()
+#8 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info\Auth))
+#9 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\rdjadmrll\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'rdjadmrll', 3306, '', 0)
+#1 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\rdjadmrll\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\rdjadmrll\app\Models\Info\ModelAuth.php(12): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\rdjadmrll\app\Controllers\Info\Auth.php(28): App\Models\Info\ModelAuth->AllData()
+#6 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(932): App\Controllers\Info\Auth->Register()
+#7 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info\Auth))
+#8 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\rdjadmrll\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\rdjadmrll\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\rdjadmrll\app\Models\Info\ModelAuth.php(12): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\rdjadmrll\app\Controllers\Info\Auth.php(28): App\Models\Info\ModelAuth->AllData()
+#5 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(932): App\Controllers\Info\Auth->Register()
+#6 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info\Auth))
+#7 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rdjadmrll\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-12-14 08:34:03 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=2996 in C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\xampp\\htdocs...', 173)
+#1 C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'rdjadmrll', 3306, '', 0)
+#2 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\rdjadmrll\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 C:\xampp\htdocs\rdjadmrll\app\Models\Info\ModelAuth.php(12): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\rdjadmrll\app\Controllers\Info\Auth.php(28): App\Models\Info\ModelAuth->AllData()
+#7 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(932): App\Controllers\Info\Auth->Register()
+#8 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info\Auth))
+#9 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\rdjadmrll\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'rdjadmrll', 3306, '', 0)
+#1 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\rdjadmrll\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\rdjadmrll\app\Models\Info\ModelAuth.php(12): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\rdjadmrll\app\Controllers\Info\Auth.php(28): App\Models\Info\ModelAuth->AllData()
+#6 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(932): App\Controllers\Info\Auth->Register()
+#7 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info\Auth))
+#8 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\rdjadmrll\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\rdjadmrll\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\rdjadmrll\app\Models\Info\ModelAuth.php(12): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\rdjadmrll\app\Controllers\Info\Auth.php(28): App\Models\Info\ModelAuth->AllData()
+#5 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(932): App\Controllers\Info\Auth->Register()
+#6 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info\Auth))
+#7 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rdjadmrll\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-14 08:34:03 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Debug\Exceptions.php on line 170.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2023-12-14 08:34:03 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=2996 in C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\xampp\\htdocs...', 173)
+#1 C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'rdjadmrll', 3306, '', 0)
+#2 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\rdjadmrll\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 C:\xampp\htdocs\rdjadmrll\app\Models\Info\ModelAuth.php(12): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\rdjadmrll\app\Controllers\Info\Auth.php(28): App\Models\Info\ModelAuth->AllData()
+#7 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(932): App\Controllers\Info\Auth->Register()
+#8 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info\Auth))
+#9 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\rdjadmrll\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'rdjadmrll', 3306, '', 0)
+#1 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\rdjadmrll\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\rdjadmrll\app\Models\Info\ModelAuth.php(12): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\rdjadmrll\app\Controllers\Info\Auth.php(28): App\Models\Info\ModelAuth->AllData()
+#6 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(932): App\Controllers\Info\Auth->Register()
+#7 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info\Auth))
+#8 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\rdjadmrll\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in C:\xampp\htdocs\rdjadmrll\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\rdjadmrll\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\rdjadmrll\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\rdjadmrll\app\Models\Info\ModelAuth.php(12): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\rdjadmrll\app\Controllers\Info\Auth.php(28): App\Models\Info\ModelAuth->AllData()
+#5 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(932): App\Controllers\Info\Auth->Register()
+#6 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info\Auth))
+#7 C:\xampp\htdocs\rdjadmrll\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rdjadmrll\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-14 08:34:03 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `username` = :username:
+AND `password` = :password:', [...], false)
+ 3 APPPATH\Models\Info\ModelAuth.php(27): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Info\Auth.php(127): App\Models\Info\ModelAuth->ValidLogin('owner', '1')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Info\Auth->ValidLogin()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 08:34:03 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`', [], false)
+ 3 APPPATH\Models\Info\ModelAuth.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Info\Auth.php(28): App\Models\Info\ModelAuth->AllData()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Info\Auth->Register()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 08:34:03 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`', [], false)
+ 3 APPPATH\Models\Info\ModelAuth.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Info\Auth.php(28): App\Models\Info\ModelAuth->AllData()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Info\Auth->Register()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 08:34:03 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Debug\Exceptions.php on line 170.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-14 08:34:03 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`', [], false)
+ 3 APPPATH\Models\Info\ModelAuth.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Info\Auth.php(28): App\Models\Info\ModelAuth->AllData()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Info\Auth->Register()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 08:34:03 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`', [], false)
+ 3 APPPATH\Models\Info\ModelAuth.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Info\Auth.php(28): App\Models\Info\ModelAuth->AllData()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Info\Auth->Register()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 08:34:03 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Debug\Exceptions.php on line 170.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-14 08:34:03 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Debug\Exceptions.php on line 170.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-14 08:34:03 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Debug\Exceptions.php on line 170.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-14 08:34:03 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Debug\Exceptions.php on line 170.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-14 08:34:03 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`', [], false)
+ 3 APPPATH\Models\Info\ModelAuth.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Info\Auth.php(28): App\Models\Info\ModelAuth->AllData()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Info\Auth->Register()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 08:34:03 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Debug\Exceptions.php on line 170.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-14 08:34:03 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Debug\Exceptions.php on line 170.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-14 09:09:55 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Debug\Exceptions.php on line 170.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-14 12:51:27 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Debug\Exceptions.php on line 170.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-14 12:51:27 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Debug\Exceptions.php on line 170.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

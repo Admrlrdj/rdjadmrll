@@ -23,6 +23,7 @@ class User extends BaseController
             'menu' => 'user',
             'submenu1' => 'user',
             'submenu2' => 'user',
+            'submenu3' => 'user',
             'page' => 'user/user',
             'profile' => $this->ModelUser->AllData(),
             'user' => $this->ModelUser->AllData(),

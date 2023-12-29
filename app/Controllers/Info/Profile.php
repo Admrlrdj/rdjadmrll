@@ -23,6 +23,7 @@ class Profile extends BaseController
             'menu' => 'profile',
             'submenu1' => 'profile',
             'submenu2' => 'profile',
+            'submenu3' => 'profile',
             'page' => 'profile/profile',
             'profile' => $this->ModelUser->AllData(),
         ];

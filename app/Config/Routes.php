@@ -29,7 +29,7 @@ $routes->set404Override();
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Home::index');
+$routes->get('/', 'Info\Auth::Login');
 
 // * Auth
 $routes->get('/login', 'Info\Auth::Login');
@@ -59,29 +59,41 @@ $routes->get('/club', 'Database\Club::index');
 // * Confederation
 $routes->get('/confederation', 'Database\Confederation::index');
 
-//* Champions League
-$routes->get('/cl2324', 'ChampionsLeague\CL2324::index');
+//* Champions League 2023/2024
+$routes->get('/cl2324standings', 'ChampionsLeague\CL2324\Standings::index');
+$routes->get('/cl2324stats', 'ChampionsLeague\CL2324\Statistics::index');
+
+//* Champions League 2022/2023
+$routes->get('/cl2223standings', 'ChampionsLeague\CL2223\Standings::index');
+$routes->get('/cl2223stats', 'ChampionsLeague\CL2223\Statistics::index');
 
 //* Premier League
-$routes->get('/premierleague', 'PremierLeague\PremierLeague::index');
+$routes->get('/plstandings', 'PremierLeague\Standings::index');
+$routes->get('/plstats', 'PremierLeague\Statistics::index');
 
 //* La Liga
-$routes->get('/laliga', 'LaLiga\LaLiga::index');
+$routes->get('/llstandings', 'LaLiga\Standings::index');
+$routes->get('/llstats', 'LaLiga\Statistics::index');
 
 //* Serie A
-$routes->get('/seriea', 'SerieA\SerieA::index');
+$routes->get('/sastandings', 'SerieA\Standings::index');
+$routes->get('/sastats', 'SerieA\Statistics::index');
 
 //* Bundesliga
-$routes->get('/bundesliga', 'Bundesliga\Bundesliga::index');
+$routes->get('/blstandings', 'Bundesliga\Standings::index');
+$routes->get('/blstats', 'Bundesliga\Statistics::index');
 
 //* Ligue 1
-$routes->get('/ligue1', 'Ligue1\Ligue1::index');
+$routes->get('/lg1standings', 'Ligue1\Standings::index');
+$routes->get('/lg1stats', 'Ligue1\Statistics::index');
 
 //* BRI League 1
-$routes->get('/liga1', 'Liga1\Liga1::index');
+$routes->get('/l1standings', 'Liga1\Standings::index');
+$routes->get('/l1stats', 'Liga1\Statistics::index');
 
 //* Saudi Pro League
-$routes->get('/roshn', 'ROSHN\ROSHN::index');
+$routes->get('/splstandings', 'ROSHN\Standings::index');
+$routes->get('/splstats', 'ROSHN\Statistics::index');
 
 /*
  * --------------------------------------------------------------------
