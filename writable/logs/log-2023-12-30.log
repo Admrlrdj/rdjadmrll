@@ -1,0 +1,42 @@
+WARNING - 2023-12-30 15:57:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Info\Auth::$ModelAuth is deprecated in APPPATH\Controllers\Info\Auth.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Info\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-30 15:57:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-30 15:57:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Info\Auth::$ModelAuth is deprecated in APPPATH\Controllers\Info\Auth.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Info\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-30 15:57:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-30 15:57:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Info\Profile::$ModelUser is deprecated in APPPATH\Controllers\Info\Profile.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Info\Profile->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-30 15:57:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-30 15:57:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\ChampionsLeague\CL2324\Standings::$ModelUser is deprecated in APPPATH\Controllers\ChampionsLeague\CL2324\Standings.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ChampionsLeague\CL2324\Standings->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-30 15:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-30 15:57:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\ChampionsLeague\CL2324\Statistics::$ModelUser is deprecated in APPPATH\Controllers\ChampionsLeague\CL2324\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ChampionsLeague\CL2324\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-30 15:57:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-30 15:58:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\ChampionsLeague\CL2223\Standings::$ModelUser is deprecated in APPPATH\Controllers\ChampionsLeague\CL2223\Standings.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ChampionsLeague\CL2223\Standings->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-30 15:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-30 15:58:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\ChampionsLeague\CL2223\Statistics::$ModelUser is deprecated in APPPATH\Controllers\ChampionsLeague\CL2223\Statistics.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ChampionsLeague\CL2223\Statistics->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-30 15:58:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

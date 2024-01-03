@@ -1,0 +1,54 @@
+WARNING - 2024-01-03 03:17:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Info\Auth::$ModelAuth is deprecated in APPPATH\Controllers\Info\Auth.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Info\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-03 03:17:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-03 03:17:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Info\Auth::$ModelAuth is deprecated in APPPATH\Controllers\Info\Auth.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Info\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-03 03:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-03 03:17:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Info\Profile::$ModelUser is deprecated in APPPATH\Controllers\Info\Profile.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Info\Profile->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-03 03:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-03 03:21:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Info\Profile::$ModelUser is deprecated in APPPATH\Controllers\Info\Profile.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Info\Profile->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-03 03:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-03 03:21:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Info\Profile::$ModelUser is deprecated in APPPATH\Controllers\Info\Profile.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Info\Profile->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-03 03:21:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-03 04:04:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Info\Auth::$ModelAuth is deprecated in APPPATH\Controllers\Info\Auth.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Info\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-03 04:04:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-03 04:04:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Info\Auth::$ModelAuth is deprecated in APPPATH\Controllers\Info\Auth.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Info\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-03 04:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-03 04:04:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Info\Profile::$ModelUser is deprecated in APPPATH\Controllers\Info\Profile.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Info\Profile->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-03 04:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-03 04:05:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Info\Profile::$ModelUser is deprecated in APPPATH\Controllers\Info\Profile.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Info\Profile->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-03 04:05:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
