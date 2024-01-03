@@ -182,42 +182,6 @@
         $(tableId).html(tbodyContent);
     }
 
-
-    // function RO16(ro16) {
-    //     $.ajax({
-    //         url: 'https://api.football-data.org/v4/competitions/CL/matches?stage=LAST_16',
-    //         method: 'GET',
-    //         dataType: 'JSON',
-    //         headers: {
-    //             "X-Auth-Token": "a5dfda30456c43b4b0ab0cd28a442b16"
-    //         },
-    //         success: function(result) {
-    //             console.log(result.matches);
-    //             if (result && result.matches) {
-    //                 let matches = result.matches;
-
-    //                 let tbodyContent = '';
-
-    //                 matches.forEach(function(match) {
-    //                     tbodyContent += `
-    //                         <tr class="text-center">
-    //                             <td>${match.homeTeam.name}</td>
-    //                             <td>${match.score.fullTime.home !== null ? match.score.fullTime.home : '0'}</td>
-    //                             <td>-</td>
-    //                             <td>${match.score.fullTime.away !== null ? match.score.fullTime.away : '0'}</td>
-    //                             <td>${match.awayTeam.name}</td>
-    //                         </tr>
-    //                     `;
-    //                 });
-
-    //                 let ro16Id = "#custom-tabs-one-ro16 tbody";
-    //                 $(ro16Id).html(tbodyContent);
-    //             }
-    //         }
-    //     });
-    // }
-
-
     $(document).ready(function() {
         ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'].forEach(function(group) {
             Group(group);

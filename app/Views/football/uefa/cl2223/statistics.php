@@ -35,7 +35,7 @@
                 "X-Auth-Token": "a5dfda30456c43b4b0ab0cd28a442b16"
             },
             "data": {
-                "season": "2023",
+                "season": "2022",
                 "limit": "20"
             },
             success: function(result) {
